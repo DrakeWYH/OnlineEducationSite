@@ -1,0 +1,10 @@
+ul{
+    list-style-type: none;
+}
+li{
+    /*height: 30px;*/
+    /*line-height: 30px;*/
+    margin-left: 10px;
+    float: left;
+    /*text-align: left;*/
+}

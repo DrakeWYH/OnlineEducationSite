@@ -1,0 +1,54 @@
+1、2步仅针对使用SQL Server数据库的配置操作，如果使用默认的sqlite可跳过。
+
+1、pip 安装 django-mssql、django-pyodbc-azure；
+
+2、配置setting.py：
+DATABASES = {
+    'default':{
+        'ENGINE':'sql_server.pyodbc',	#不能改
+        'HOST':'127.0.0.1',
+        'USER':'',     			#数据库登陆用户名
+        'PASSWORD':'', 			#登录密码
+        'NAME':'blog', 			#数据库名称
+        'OPTIONS':{
+            'host_is_server':True
+        }
+    }
+}
+
+3、写models：
+def dataName(models.Model):
+    dataAttribute = models.数据类型对应构造函数(一些参数例如最大范围、是否空、是否主键等)
+详细构造方法和参数请查阅：
+https://docs.djangoproject.com/zh-hans/2.0/ref/models/fields/ 
+
+4、python manager.py makemigrations app名称(可选，不写为对全部app进行操作)
+
+5、python manager.py migrate
+
+6、去数据库处理数据。
+
+-------------------------------------------------------------------------------------------
+数据库操作语句：
+views.py:
+from . import models
+data = models.dataName.objects.get(选择条件)        #获取某一条数据，若不存在会报错。
+dataList = models.dataName.objects.filter(选择条件) #获取符合条件的所有数据，可为空。
+dataList = models.dataName.objects.all()            #获取所有数据
+models.dataName.objects.create(attr1=value1, ...)   #创建新数据
+data.attribute = newValue
+data.save()                                         #更新数据
+orderedData = dataList.order_by('-attributeName')   #排序，逆序在字段名前加'-'
+
+-------------------------------------------------------------------------------------------
+数据库支持异步请求：
+DATABASES = {
+    'default': {
+        ...
+        'OPTIONS':{
+            ...
+            'driver': 'SQL Server Native Client 11.0',
+            'MARS_Connection': True,
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{% extends 'masterPage.html' %}
+{% block title %}家教详情 - 在线教育网站{% endblock %}
+{% block head %}
+    {% load static %}
+{% endblock %}
+{% block content %}
+    <div>
+        <ul>
+            <li><a href="{% url 'index' %}">首页</a>></li>
+            <li><a href="{% url 'tutor_list' %}">家教列表</a>></li>
+            <li>家教详细</li>
+        </ul>
+    </div><br/>
+    <div>
+        <h3>家教详情</h3>
+        <p>联系人：{{ tutor.name }}</p>
+        <p>学生性别：{{ tutor.get_student_gender_display }}</p>
+        <p>年级：{{ tutor.get_grade_display }}</p>
+        <p>科目：{{ tutor.subject }}</p>
+        <p>学生情况：{{ tutor.student_info }}</p>
+        <p>教师性别要求：{{ tutor.get_teacher_gender_display }}</p>
+        <p>教师条件要求：{{ tutor.teacher_require }}</p>
+        <p>手机：{{ tutor.mobile }}</p>
+        <p>地址：{{ tutor.address }}</p>
+        <p>发布者：{{ tutor.publisher.username }}</p>
+    </div>
+{% endblock %}

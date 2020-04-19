@@ -1,0 +1,35 @@
+{% extends 'UserPage/student_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+    <style type="text/css">
+        .pagination li{
+            margin-left: 10px;
+            float: left;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+	<div class="membcont">
+    <h3 class="mem-h3">知识路径</h3>
+    <div class="box demo2" style="width:820px;">
+        <dl class="mulu noo">
+            {% for module in modules %}
+            <div>
+                <dt class="mulu_title"><span class="mulu_img"></span>{{ module.name }}
+                <span class="mulu_zd">+</span></dt>
+                <div class="mulu_con">
+                    {% for category in module.category_set.all %}
+                    <dd class="smalltitle"><strong>{{ category.name }}</strong></dd>
+                        {% for knowledge in category.knowledge_set.all %}
+                        <a href="{% url 'student_knowledge_detail' knowledge.id %}"><dd><strong class="cataloglink">{{ knowledge.name }}</strong><i class="fini nn"></i></dd></a>
+                        {% endfor %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </dl>
+    </div>
+</div>
+{% endblock %}
+

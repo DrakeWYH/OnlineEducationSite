@@ -1,0 +1,176 @@
+{% extends 'UserPage/student_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+    <style type="text/css">
+        .pagination li{
+            margin-left: 10px;
+            float: left;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+	<div class="membcont">
+        <h3 class="mem-h3">题目详细</h3>
+        <div class="box demo2" style="width:620px;float:left;">
+            <a class="question_favorite" href="">{% if is_fav %}已收藏{% else %}收藏{% endif %}</a><br />
+            {{ question.question|safe }}
+            {% if question.type.name == '选择题' %}
+                {% for option in question.get_options %}
+                    <p>{{ option|safe }}</p>
+                {% endfor %}
+            {% endif %}
+            <br/>
+            答案：{{ question.answer|safe }}
+            <br/>
+            分析：{{ question.analysis|safe }}
+            <p><a href="{{ request.META.HTTP_REFERER }}">返回</a></p>
+            <div>
+                <p>相关题目：</p>
+                {% for q in related_question %}
+                    <div style="border:1px dashed black;margin:5px;">
+                        <div>{{ q.question|safe }}</div>
+                        {% if q.type.num == '0' %}
+                            <table style="width: 500px;">
+                                <tr>
+                                    {% for option in q.get_options %}
+                                        <td>{{ option|safe }}</td>
+                                        {% if forloop.counter == 2 %}
+                                            </tr><tr>
+                                        {% endif %}
+                                    {% endfor %}
+                                </tr>
+                            </table>
+                        {% endif %}
+                        <input type="button" onclick="location.href='{% url 'student_question' q.id %}'" value="详细解答"><br/>
+                    </div>
+                {% endfor %}
+            </div>
+            <div>
+                {% for k in knowledge %}
+                    {{ k.name }}
+                {% endfor %}
+            </div>
+            <div id="js-pub-container" class="issques clearfix js-form">
+                <div class="wgt-ipt-wrap pub-editor-wrap " id="js-pl-input-fake">
+                    <textarea id="js-pl-textarea" class="" placeholder="扯淡、吐槽、表扬、鼓励……想说啥就说啥！" ></textarea>
+                </div>
+                <input type="button" id="js-pl-submit" class="pub-btn" value="发表评论">
+                <p class="global-errortip js-global-error"></p>
+            </div>
+            <div id="course_note">
+                <ul class="mod-post" id="comment-list">
+                    {% for comment in comments %}
+                    <li class="post-row">
+                        <div class="media">
+                            <span target="_blank"><img src='{{ MEDIA_URL }}{{ comment.user.image }}' width='40' height='40' /></span>
+                        </div>
+                        <div class="bd">
+                            <div class="tit">
+                                <span target="_blank">{{ comment.user.username }}</span>
+                            </div>
+                            <p class="cnt">{{ comment.comment }}</p>
+                            <div class="footer clearfix">
+                                <span title="创建时间" class="l timeago">时间：{{ comment.add_time }}</span>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div id="entry_div" style="width:200px;float:right;border-left:1px solid black;height:1000px;">
+            <a href="#">词条显示界面</a>
+            <h3 id="entry_name"></h3>
+            <p id="entry_content"></p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        //收藏
+        function add_fav(current_elem, fav_id){
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url:"{% url 'student_add_fav' %}",
+                data:{'fav_id':fav_id},
+                async: true,
+                beforeSend:function(xhr, settings){
+                    xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
+                },
+                success: function(data) {
+                    if(data.status == "fail"){
+                        if(data.msg == "用户未登录"){
+                            window.location.href="{% url 'student_index' %}";
+                        }else{alert(data.msg);}
+                    }else if(data.status == 'success'){
+                        current_elem.text(data.msg);
+                    }else{alert(data.status);}
+                }
+            });
+        }
+        $(".question_favorite").on("click", function(){
+            add_fav($(this), {{ question.id }} );
+        });
+
+        //添加评论
+        $('#js-pl-submit').on('click', function(){
+            var comment = $("#js-pl-textarea").val()
+            if(comment == ""){
+                alert("评论不能为空")
+                return
+            }
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url:"{% url 'student_add_com' %}",
+                data:{'question_id':{{ question.id }}, 'comment':comment},
+                async: true,
+                beforeSend:function(xhr, settings){
+                    xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
+                },
+                success: function(data) {
+                    if(data.status == 'fail'){
+                        if(data.msg == '用户未登录'){
+                            window.location.href="{% url 'login' %}";
+                        }else{
+                            alert(data.msg)
+                        }
+
+                    }else if(data.status == 'success'){
+                        window.location.reload();//刷新当前页面.
+                    }
+                },
+            });
+        });
+
+        //显示词条
+        function show_entry(entry_id) {
+            $.ajax({
+                cache: false,
+                type: "POST",
+                url:"{% url 'student_show_entry' %}",
+                data:{'entry_id': entry_id},
+                async: true,
+                beforeSend:function(xhr, settings){
+                    xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");
+                },
+                success: function(data) {
+                    if(data.status == "fail"){
+                        if(data.msg == "用户未登录"){
+                            window.location.href="{% url 'student_index' %}";
+                        }else{alert(data.msg);}
+                    }else if(data.status == 'success'){
+                        $('#entry_name').html(data.name);
+                        $('#entry_content').html(data.content);
+                        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+                    }else{alert(data.status);}
+                },
+                error:function (XMLHttpRequest, textStatus, errorThrown) {
+                    alert(XMLHttpRequest.status);
+                    alert(XMLHttpRequest.readyState);
+                    alert(textStatus);
+                }
+            });
+        }
+    </script>
+{% endblock %}

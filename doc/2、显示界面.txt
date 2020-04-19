@@ -1,0 +1,31 @@
+1、配置projectName下的urls.py：
+from appName import views
+在urls.py中的urlPatterns添加 url(r'^index/', views.functionName) #index可变成任何合适的路径
+
+还有另一种配置url的方法，在projectName中的urls.py修改：
+from django.conf.urls import include
+urlpatterns = [
+    url(r'^index/', include('appName.urls')),
+]
+在appName里新建urls.py文件，并添加代码：
+from django.conf.urls import url
+from . import views
+urlpatterns = [
+    url(r'^$', views.functionName),
+    					#注意此处的url是继承上一个urls.py的路径，已经是在index/下了
+]
+这样安排的好处是可以分开不同app下的urls.py文件，方便管理。
+
+2、编辑appName下的views.py：
+from django.http import HttpResponse
+def functionName(request):
+	return HttpResponse('Hello world!')
+
+3、在工程根目录打开命令行，输入：
+>> python manage.py runserver 0.0.0.0:8000
+
+4、在浏览器打开 localhost:8000/index/ 
+
+5、显示完成。
+
+注：关闭服务器只需要在命令行中按 Ctrl+C 即可。

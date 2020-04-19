@@ -1,0 +1,36 @@
+1、下载安装Django，并找到django-admin.exe。
+>> pip install django
+
+2、新建工程，在django-admin.exe目录下命令行输入：
+>> python django-admin.exe startproject projectName
+
+3、此时可以把工程文件夹移动到合适的位置。
+
+4、新建app，在工程根目录打开命令行，输入：
+>> python manage.py startapp appName
+
+5、打开projectName下的settings.py，在INSTALLED_APP中添加appName。
+
+6、完成。
+
+工程中含有文件：
+projectName
+--- manage.py 				# 所有对工程的操作。
+--- projectName
+--- --- __init__.py 		# 不动。
+--- --- settings.py 		# 配置文件，数据库、app关联、模版等。
+--- --- urls.py 			# 把url和对应执行函数关联起来。
+--- --- wsgi.py 			# 不动。
+--- appName
+--- --- __init__.py 		# 添加 default_app_config = 'appName.apps.AppNameConfig'。
+--- --- admin.py 			# 注册数据库，使得可以在admin界面显示。
+--- --- apps.py 			# 在配置函数AppNameConfig中添加 verbose_name = '中文名'。
+--- --- models.py 			# 设计数据库中数据类型。
+--- --- tests.py 			# 不动。
+--- --- views.py 			# 设计执行函数。
+--- --- migrations
+--- --- --- __init__.py 	# 不动。
+--- --- --- 0000_xxxx.py    # 每次执行makemigrations后产生的迁移文件，若非重置数据库不动。
+--- --- adminx.py（新增）   # 用以配置后台管理系统，代替admin.py。
+--- --- forms.py（新增）    # 设计表单。
+--- --- urls.py（新增）     # 用以分发url配置，方便管理。

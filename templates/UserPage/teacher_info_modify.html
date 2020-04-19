@@ -1,0 +1,53 @@
+{% extends 'UserPage/teacher_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+{% endblock %}
+
+{% block content %}
+	<div class="membcont">
+    <h3 class="mem-h3">我的主页</h3>
+    <div class="box demo2" style="width:820px;">
+        <div>
+            <form method="post" action="{% url 'info_modi' %}" id="modify_form" enctype="multipart/form-data">
+                {% csrf_token %}
+                </br>
+                <div style="padding-left:25px;"><b>我的头像：</b> &nbsp;<img src="{{ MEDIA_URL }}{{ request.user.image }}" width="80" >
+                </br><input name="image" type="file" value="上传头像"></div>
+                </br>
+                <div style="padding-left:25px;"><b>我的名字：</b> &nbsp; <input type="text" name="username" value="{{ request.user.username }}" placeholder=" 请输入用户昵称"></div>
+                </br>
+                <div style="padding-left:25px;"><b>我的性别：</b> &nbsp;
+                    <label><input type="radio" name="gender" value="male" checked="checked">男</label>
+                    <label><input type="radio" name="gender" value="female" {% if request.user.gender == 'female' or modify_form.gender.value == 'female' %}checked="checked"{% endif %}>女</label></div>
+                </br>
+                <div style="padding-left:25px;"><b>我的生日：</b> &nbsp; <input type="date" name="birthday" value="{% if request.method == 'GET' %}{{ request.user.birthday|date:'Y-m-d' }}{% else %}{{ modify_form.birthday.value|default_if_none:'' }}{% endif %}"></div>
+                </br>
+                <div style="padding-left:25px;"><b>我的手机：</b> &nbsp; <input name="mobile" value="{% if request.method == 'GET' %}{{ request.user.mobile|default_if_none:'' }}{% else %}{{ modify_form.mobile.value|default_if_none:'' }}{% endif %}"></div>
+                </br>
+                <div style="padding-left:25px;"><b>我的所在地：</b> &nbsp;
+                    <select name="province">
+                        <option value="">--请选择--</option>
+                        {% for province in provinces %}
+                        <option value="{{ province.pinyin }}" {% if request.method == 'GET' and request.user.province.pinyin == province.pinyin %}selected="selected"{% elif request.method == 'POST' and modify_form.province.value == province.pinyin %}selected="selected"{% endif %}>{{ province.name }}</option>
+                        {% endfor %}
+                    </select>
+                    <select name="city">
+                        <option value="">--请选择--</option>
+                        {% for city in cities %}
+                        <option value="{{ city.pinyin }}" {% if request.method == 'GET' and request.user.city.pinyin == city.pinyin %}selected="selected"{% elif request.method == 'POST' and modify_form.city.value == city.pinyin %}selected="selected"{% endif %}>{{ city.name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <br />
+                <div style="padding-left:25px;"><b>我的QQ：</b> &nbsp; <input name="QQ" value="{% if request.method == 'GET' %}{{ request.user.QQ|default_if_none:'' }}{% else %}{{ modify_form.QQ.value|default_if_none:'' }}{% endif %}"></div>
+                </br>
+                <div style="padding-left:25px;"><b>我的简介：</b> &nbsp; <input type="text" name="desc" value="{% if request.method == 'GET' %}{{ request.user.desc|default_if_none:'' }}{% else %}{{ modify_form.desc.value|default_if_none:'' }}{% endif %}" placeholder="来说点什么吧！"></div>
+                </br>
+                <div class="memb" style="padding-left:25px;">
+                     <ul><li><a class="mb13" href="" name="submit" onclick="document.getElementById('modify_form').submit();return false;">确认修改</a></li></ul>
+                 </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

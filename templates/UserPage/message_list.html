@@ -1,0 +1,52 @@
+{% extends 'masterPage.html' %}
+{% block title %}用户消息 - 在线教育网站{% endblock %}
+{% block head %}
+    {% load static %}
+{% endblock %}
+{% block content %}
+    <div>
+        <h2>用户消息</h2>
+        <div>
+        <table>
+            <tr>
+                <td>发送时间</td><td>内容</td>
+            </tr>
+            {% if messages.object_list|length == 0 %}
+                <tr><td>(空)</td></tr>
+            {% else %}
+                {% for message in messages.object_list %}
+                <tr>
+                    <td>{{ message.add_time }}</td><td>{{ message.content }}</td>
+                </tr>
+                {% endfor %}
+            {% endif %}
+        </table>
+        </div>
+        <div class="pagination">
+            <ul>
+                {% if messages.has_previous %}
+                    <li><a href="?{{ messages.previous_page_number.querystring }}">前一页</a></li>
+                {% else %}
+                    <li><span>前一页</span></li>
+                {% endif %}
+                {% for page in messages.pages %}
+                    {% if page %}
+                        {% ifequal page messages.number %}
+                            <li><span>{{ page }}</span></li>
+                        {% else %}
+                            <li><a href="?{{ page.querystring }}">{{ page }}</a></li>
+                        {% endifequal %}
+                    {% else %}
+                        ...
+                    {% endif %}
+                {% endfor %}
+                {% if messages.has_next %}
+                    <li><a href="?{{ messages.next_page_number.querystring }}">下一页</a></li>
+                {% else %}
+                    <li><span>下一页</span></li>
+                {% endif %}
+            </ul>
+
+        </div>
+    </div>
+{% endblock %}

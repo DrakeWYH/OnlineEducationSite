@@ -1,0 +1,41 @@
+{% extends 'masterPage.html' %}
+{% block title %}用户 - 在线教育网站{% endblock %}
+{% block head %}
+    {% load static %}
+{% endblock %}
+{% block content %}
+    <div>
+        {% for user in users.object_list %}
+            <div>
+                {{ user.username }}<br/>
+            </div><br/>
+        {% endfor %}
+
+        <div class="pagination">
+            <ul>
+                {% if users.has_previous %}
+                    <li><a href="?{{ users.previous_page_number.querystring }}">前一页</a></li>
+                {% else %}
+                    <li><span>前一页</span></li>
+                {% endif %}
+                {% for page in users.pages %}
+                    {% if page %}
+                        {% ifequal page users.number %}
+                            <li><span>{{ page }}</span></li>
+                        {% else %}
+                            <li><a href="?{{ page.querystring }}">{{ page }}</a></li>
+                        {% endifequal %}
+                    {% else %}
+                        ...
+                    {% endif %}
+                {% endfor %}
+                {% if users.has_next %}
+                    <li><a href="?{{ users.next_page_number.querystring }}">下一页</a></li>
+                {% else %}
+                    <li><span>下一页</span></li>
+                {% endif %}
+            </ul>
+
+        </div>
+    </div>
+{% endblock %}

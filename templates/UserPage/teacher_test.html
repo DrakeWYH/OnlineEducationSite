@@ -1,0 +1,47 @@
+{% extends 'UserPage/teacher_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+{% endblock %}
+
+{% block content %}
+	<div class="membcont">
+        <h3 class="mem-h3">组卷</h3>
+
+        <div class="box demo2" style="width:820px;">
+			<ul class="tab_menu" style="margin-left:30px;">
+				<li class="current">试卷仓库</li>
+				<li>创建试卷</li>
+			</ul>
+			<div class="tab_box">
+				<div>
+			    </br>
+				    <div style="padding-left:40px;">恭喜您，到目前为止，创建了2份试卷。</div>
+					</br>	
+					</br>
+					<div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+						<span style="font-size:24px;">高中必修一单元检测题</span> &nbsp;&nbsp; 
+						<span><a class="blue" href="#" style="font-size:8px;">2018年8月1日</a></span>  
+						<a href="#"><span class="star_zy" style="font-size:12px;">编辑</span></a>
+						<a href="#"><span class="star_zy" style="font-size:12px;">删除</span></a>
+					</div> 
+					</br>
+					
+					 <div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+						<span style="font-size:24px;">高中必修二单元检测题</span> &nbsp;&nbsp; 
+						<span><a class="blue" href="#" style="font-size:8px;">2018年8月1日</a></span>  
+						<a href="#"><span class="star_zy" style="font-size:12px;">编辑</span></a>
+						<a href="#"><span class="star_zy" style="font-size:12px;">删除</span></a>
+					</div>
+				</div>
+				<div class="hide">
+					<div>
+                         </br>
+                         <div style="padding-left:40px;">还在建设中。</div>
+                         </br>
+				    </div>
+				</div>
+			</div>
+		</div>
+    </div>
+
+{% endblock %}

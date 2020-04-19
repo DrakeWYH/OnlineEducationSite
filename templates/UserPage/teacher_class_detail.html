@@ -1,0 +1,101 @@
+{% extends 'UserPage/teacher_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+    <style>
+        .white_content {
+            display: none;
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            padding: 20px;
+            border: 1px solid grey;
+            background-color: white;
+            z-index:1002;
+            overflow: auto;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div class="membcont">
+        <h3 class="mem-h3">我的班级>>>学生管理</h3>
+        <div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+            <span style="font-size:18px;">新加入人数:</span>&nbsp;<span style="font-size:18px;color:red;"> 1人</span> &nbsp;
+            <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><span>
+                查看
+            </span></a>
+            <a href = "javascript:void(0)" onclick = "document.getElementById('light1').style.display='block';document.getElementById('fade').style.display='block'">
+                <span class="star_zy" style="font-size:12px;">添加学生名单</span>
+            </a>&nbsp;
+            <a href="#"><span class="star_zy" style="font-size:12px;">下载学生名单</span></a>
+        </div>
+        </br>
+        <hr />
+        <div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+            <table align="center" width="600"  border=1 bordercolor="grey">
+                <tbody>
+                <tr>
+                    <td align="center" width="100"><span style="font-size:18px;">学生姓名</span></td>
+                    <td align="center" width="200"><span style="font-size:18px;">学生账号</span></td>
+                    <td align="center" width="300"><span style="font-size:18px;">操作（重置密码/编辑/删除）</span></td>
+                </tr>
+                {% for student in class.students.all %}
+                <tr>
+                    <td align="center" width="100"><span style="font-size:18px;">{{ student.username }}</span></td>
+                    <td align="center" width="200"><span style="font-size:18px;">{{ student.email }}</span></td>
+                    <td align="center" width="300">&nbsp;&nbsp;
+                        <a href = "javascript:void(0)" onclick = "document.getElementById('light3').style.display='block';document.getElementById('fade').style.display='block'">
+                            <span style="font-size:18px;">
+                            编辑&nbsp;&nbsp;
+                            </span>
+                        </a>
+                        <span><a class="blue" href="#" style="font-size:18px;">删除</a></span>
+                    </td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div id="light" class="white_content">
+            <table align="center" width="300"  border=1 bordercolor="grey">
+                <tbody>
+                <tr>
+                    <td align="center" width="100"><span style="font-size:18px;">学生姓名</span></td>
+                    <td align="center" width="200"><span style="font-size:18px;">学生账号</span></td>
+                </tr>
+                {% for student in class.students.all %}
+                <tr>
+                    <td align="center" width="100"><span style="font-size:18px;">{{ student.username }}</span></td>
+                    <td align="center" width="200"><span style="font-size:18px;">{{ student.email }}</span></td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            </br>
+			<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">
+				关闭窗口
+			</a>
+		</div>
+        <div id="light1" class="white_content">
+			<span style="font-size:18px;">学生姓名:</span>&nbsp;&nbsp;<input type="text" name="txtNo" size="20">
+			</br>
+			<span style="font-size:18px;">学生账号:</span>&nbsp;&nbsp;<input type="text" name="txtNo" size="20">
+			</br>
+			</br>
+			<span><a class="blue" href="#" style="font-size:18px;">确定添加</a></span>&nbsp;&nbsp;
+			<a href = "javascript:void(0)" onclick = "document.getElementById('light1').style.display='none';document.getElementById('fade').style.display='none'">
+				取消
+			</a>
+		</div>
+        <div id="light3" class="white_content">
+			<span style="font-size:18px;">学生姓名:</span>&nbsp;&nbsp;<input type="text" name="txtNo" value="张小小" size="20">
+			</br>
+			<span style="font-size:18px;">学生账号:</span>&nbsp;&nbsp;<input type="text" name="txtNo" value="20062201139" size="20">
+			</br>
+			<span><a class="blue" href="#" style="font-size:18px;">确定修改</a></span>&nbsp;&nbsp;
+			<a href = "javascript:void(0)" onclick = "document.getElementById('light3').style.display='none';document.getElementById('fade').style.display='none'">
+				取消
+			</a>
+		</div>
+    </div>
+{% endblock %}

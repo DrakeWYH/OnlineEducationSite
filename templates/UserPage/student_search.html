@@ -1,0 +1,109 @@
+{% extends 'UserPage/student_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+    <style type="text/css">
+        .pagination li{
+            margin-left: 10px;
+            float: left;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+	<div class="membcont">
+        <h3 class="mem-h3">习题查找</h3>
+        <div class="box demo2" style="width:820px;">
+            <div>
+                <table>
+                    <tr>
+                        <td>科目：</td>
+                        <td>
+                            {% for subject in subject_list %}
+                                <a {% if subject.num != request.GET.s %}href="{% url 'student_search' %}?s={{ subject.num }}&e=1"{% endif %}>{{ subject.name }}</a>
+                            {% endfor %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>教材版本：</td>
+                        <td>
+                            {% for edition in edition_list %}
+                                <a {% if edition.id|stringformat:"i" != request.GET.e %}href="{% url 'student_search' %}?s={{ subject_search }}&e={{ edition.id }}"{% endif %}>{{ edition.name }}</a>
+                            {% endfor %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>课本：</td>
+                        <td>
+                            <a {% if cur_book != '-1' %}href="{% url 'student_search' %}?s={{ subject_search }}&e={{ cur_edition }}"{% endif %}>全部</a>
+                            {% for book in book_list %}
+                                <a {% if book.id|stringformat:"i" != request.GET.b %}href="{% url 'student_search' %}?s={{ subject_search }}&e={{ cur_edition }}&b={{ book.id }}"{% endif %}>{{ book.name }}</a>
+                                {% if forloop.counter == 12 %}<br/>{% endif %}
+                            {% endfor %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>题型：</td>
+                        <td>
+                            <a {% if request.GET.t != '-1' and request.GET.t != None %}href="{% url 'student_search' %}?s={{ subject_search }}&e={{ cur_edition }}&b={{ cur_book }}"{% endif %}>全部</a>
+                            {% for type in type_list %}
+                                <a {% if type.num != request.GET.t %}href="{% url 'student_search' %}?s={{ subject_search }}&e={{ cur_edition }}&b={{ cur_book }}&ch={{ cur_chapter }}&se={{ cur_section }}&le={{ cur_lesson }}&t={{ type.num }}"{% endif %}>{{ type.name }}</a>
+                            {% endfor %}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <form method="get" action="{% url 'student_search' %}">
+                <input type="search" placeholder="题目.." name="c" value="{{ request.GET.c }}">
+                <input type="submit" value="查找" />
+            </form>
+            <div>
+            {% for question in questions.object_list %}
+                <div style="border:1px dashed black;margin:5px;">
+                    <div>{{ question.question|safe }}</div>
+                    {% if question.type.num == '0' %}
+                        <table style="width: 500px;">
+                            <tr>
+                                {% for option in question.get_options %}
+                                    <td>{{ option|safe }}</td>
+                                    {% if forloop.counter == 2 %}
+                                        </tr><tr>
+                                    {% endif %}
+                                {% endfor %}
+                            </tr>
+                        </table>
+                    {% endif %}
+                    <div>题型：{{ question.type.name }}</div>
+                    <div>答案：{{ question.answer|safe }}</div>
+                    <div>分析：{{ question.analysis|safe }}</div>
+                    <input type="button" onclick="location.href='{% url 'student_question' question.id %}'" value="详细解答"><br/>
+                </div>
+            {% endfor %}
+            </div>
+            <div class="pagination">
+                <ul>
+                    {% if questions.has_previous %}
+                        <li><a href="?{{ questions.previous_page_number.querystring }}">前一页</a></li>
+                    {% else %}
+                        <li><span>前一页</span></li>
+                    {% endif %}
+                    {% for page in questions.pages %}
+                        {% if page %}
+                            {% ifequal page questions.number %}
+                                <li><span>{{ page }}</span></li>
+                            {% else %}
+                                <li><a href="?{{ page.querystring }}">{{ page }}</a></li>
+                            {% endifequal %}
+                        {% else %}
+                            <li>...</li>
+                        {% endif %}
+                    {% endfor %}
+                    {% if questions.has_next %}
+                        <li><a href="?{{ questions.next_page_number.querystring }}">下一页</a></li>
+                    {% else %}
+                        <li><span>下一页</span></li>
+                    {% endif %}
+                </ul>
+            </div>
+		</div>
+    </div>
+{% endblock %}

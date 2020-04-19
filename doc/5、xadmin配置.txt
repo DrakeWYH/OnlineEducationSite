@@ -1,0 +1,50 @@
+后台管理系统xadmin是Django自带管理系统admin的拓展。
+
+xadmin安装：
+1、pip install xadmin （安装xadmin以及依赖包）
+
+2、pip uninstall xadmin （为了方便改造xadmin，我们采用手动安装的方式）
+
+3、在工程根目录新建extra_apps文件夹，并在setting.py中添加搜索
+路径。
+import sys
+sys.path.insert(0,os.path.join(BASE_DIR,'extra_apps'))
+
+4、把下载的xadmin文件夹直接复制到extra_apps中，并在setting.py中注册app'xadmin'和'crispy_forms'。
+
+5、修改urls.py中网址：
+import xadmin
+urlpatterns = [
+	path('xadmin/', xadmin.site.urls),
+]
+
+6、在每个app中新建adminx.py文件配置后台显示：
+import xadmin
+from .models import App
+class AppAdmin(object):
+	list_display = []
+	search_fields = []
+	list_filter = []
+xadmin.site.register(App, AppAdmin)
+
+7、若想显示中文，在setting.py中设置LANGUAGE_CODE='zh-Hans'
+
+8、在models.py中每个model下的Meta类中和每个字段中都有一个参数verbose_name，表示在后台显示的名称：
+class Model1(models.Model):
+    name = models.CharField(verbose_name='名称', ...)
+
+    class Meta:
+        verbose_name = 'Model名称'
+        verbose_name_plural = verbose_name
+
+9、xadmin中也有数据库表需要迁移：
+>> python manage.py makemigrations xadmin
+>> python manage.py migrate xadmin
+
+10、第一次进入后台管理系统需要创建一个超级用户（缺省拥有后台所有权限）：
+>> python manage.py createsuperuser
+按顺序填写Username、Email、Password。
+完成创建即可用次用户登陆后台管理系统。
+
+
+

@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>页面找不到了(×_×)</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body{background:#faf9f5;margin:0;}
+#box404{margin:0 auto;width:980px;height:596px;background: url(http://static.7wenta.com/qa/style/img_s/404_bg2.png) 0 0 no-repeat;position: relative;}
+#box404-home,#box404-qa,#box404-tiku,#box404-map{width: 60px;text-align: center;font-size: 14px;color: #fff;position:absolute;top:190px;display: block;text-decoration: none;cursor: pointer;outline: none;}
+#box404-home{left:466px;}
+#box404-qa{left: 542px;}
+#box404-tiku{left: 618px;}
+#box404-map{left: 694px;}
+#box404-home .box_img,#box404-qa .box_img,#box404-tiku .box_img,#box404-map .box_img{width: 60px;height: 36px;background: url(http://static.7wenta.com/qa/style/img_d/404_icon1.png) no-repeat;}
+#box404-home .box_img{background-position: 0 0;}
+#box404-qa .box_img{background-position: -60px 0;}
+#box404-tiku .box_img{background-position: -120px 0;}
+#box404-map .box_img{background-position: -180px 0;}
+#box404-home:hover,#box404-map:hover{color:#fdc035;}
+#box404-qa:hover{color:#3ac1a0;}
+#box404-tiku:hover{color:#6699ff;}
+#box404-home:hover .box_img{background-position: 0 -36px;}
+#box404-qa:hover .box_img{background-position: -60px -36px;}
+#box404-tiku:hover .box_img{background-position: -120px -36px;}
+#box404-map:hover .box_img{background-position: -180px -36px;}
+#box404 span{line-height: 26px;}
+#footer{height:100px;width:100%;color:#999;font-size:12px;font-family:"宋体,Tahoma";}
+#footer .footer-cnt{width:980px;margin:auto;text-align:center;padding-top:40px;}
+#footer a{color:#999;}
+html,body,.wrapper{height:100%;min-width:980px;} 
+body > .wrapper{height:auto;min-height:100%;}
+#box404{position:relative;padding-bottom:100px;}
+#footer{position:relative;margin-top:-100px;_float:left;}
+</style>
+</head>
+<body>
+	<div class="wrapper">
+		 <div id="box404">
+		 	<a id="box404-home" href="http://www.7wenta.com/" target="_self"><div class="box_img"></div><span>问他首页</span></a>
+			<a id="box404-qa" href="http://www.7wenta.com/subject/cainihuida.html" target="_self"><div class="box_img"></div><span>问答中心</span></a>
+			<a id="box404-tiku" href="http://www.7wenta.com/tiku/g201.html" target="_self"><div class="box_img"></div><span>试题部落</span></a>
+			<a id="box404-map" href="http://www.7wenta.com/sitemap/HTML_siteMap.html" target="_self"><div class="box_img"></div><span>网站地图</span></a>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="footer-cnt">增值电信业务经营许可证粤ICP备10205516号-11<br />广州百田信息科技有限公司 Copyright © 2009 - 2013 BaitianInfo Ltd.All Rights Reserved  <a rel="nofollow" target="_blank" class="footerlink-text" href="http://www.7wenta.com/jst/help">使用帮助</a></div>
+	</div>
+</body>
+</html>

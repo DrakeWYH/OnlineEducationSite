@@ -1,0 +1,36 @@
+{% extends 'masterPage.html' %}
+{% block title %}{{ article.title }} - 在线教育网站{% endblock %}
+{% block head %}
+    {% load static %}
+    <link type="text/css" rel="stylesheet" href="" />
+{% endblock %}
+{% block content %}
+    <div>
+        <ul>
+            <li><a href="{% url 'index' %}">首页</a>></li>
+            <li><a href="{% url 'article_list' %}">文章列表</a>></li>
+            <li>文章详细</li>
+        </ul>
+    </div><br/>
+    <div style="margin: 0 auto;width:1400px;">
+        <div id="left" style="width:800px; height:1000px; padding: 10px;float:left;border:1px solid black;">
+            <div style="height:75px;">
+                <h3 style="text-align: center;">{{ article.title }}</h3>
+                <ul style="list-style-type: none;">
+                    <li><span style="font-size:16px;">作者:{{ article.author }}&nbsp;&nbsp;{{ article.add_time }}&nbsp; 点击（0） 赞（0） 转（0）</span></li>
+
+                </ul>
+            </div>
+            <div>
+                {% autoescape off %}
+                {{ article.content }}
+                {% endautoescape %}
+            </div>
+        </div>
+        <div id="right" style="width:450px; height:1000px; padding: 10px;float:left; border:1px solid black;">
+            {% autoescape off %}
+            {{ quote.content }}
+            {% endautoescape %}
+        </div>
+    </div>
+{% endblock %}

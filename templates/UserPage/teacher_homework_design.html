@@ -1,0 +1,254 @@
+{% extends 'UserPage/teacher_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+    <style type="text/css">
+        .pagination li{
+            margin-left: 10px;
+            float: left;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <div class="membcont">
+        <h3 class="mem-h3">布置作业</h3>
+        <div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+{#            班级：#}
+{#            <form action="" method="get">#}
+{#                <input type="checkbox" name="vehicle" value="" checked="checked"/> 全选#}
+{#                <input type="checkbox" name="vehicle" value="" /> 高一4班#}
+{#                <input type="checkbox" name="vehicle" value="" /> 高一5班#}
+{#            </form>#}
+{#            </br>#}
+{#            教材：#}
+{#            <select>#}
+{#                <option value="">必修1</option>#}
+{#                <option value="">必修2</option>#}
+{#                <option value="">必修3</option>#}
+{#                <option value="">必修4</option>#}
+{#            </select>#}
+{#            &nbsp;&nbsp;单元：#}
+{#            <select>#}
+{#                <option value="">第一单元 集合</option>#}
+{#                <option value="">第二单元 函数</option>#}
+{#            </select>#}
+{#            </br>#}
+{#            </br>#}
+{#            <form action="" method="get">#}
+{#                <span style="font-size:14px;color:red;"><input type="checkbox" name="vehicle" value="" checked="checked" /> 知识点名称1</span>&nbsp;&nbsp;#}
+{#                <span style="font-size:14px;color:red;"><input type="checkbox" name="vehicle" value="" /> 知识点名称2</span>&nbsp;&nbsp;#}
+{#                <span style="font-size:14px;color:red;"><input type="checkbox" name="vehicle" value="" /> 知识点名称3</span>&nbsp;&nbsp;#}
+{#            </form>#}
+{#            <div class="tab_box">#}
+{#                <div>#}
+{#                    <div style="padding-left:40px;">#}
+{#                        <form action="" method="get">#}
+{#                            <input type="checkbox" name="vehicle" value="" /> 基础巩固#}
+{#                            <input type="checkbox" name="vehicle" value="" /> 素养提升#}
+{#                            <input type="checkbox" name="vehicle" value="" checked="checked" /> 能力拔高#}
+{#                        </form>#}
+{#                        <form action="" method="get">#}
+{#                            <input type="checkbox" name="vehicle" value="" /> 选择题#}
+{#                            <input type="checkbox" name="vehicle" value="" /> 填空题#}
+{#                            <input type="checkbox" name="vehicle" value="" checked="checked" /> 解答题#}
+{#                        </form>#}
+{#                    </div>#}
+{#                    </br>#}
+{#                    <div style="padding-left:40px;">#}
+{#                        共选9道题 / 已选2道题 <span class="star_zy" style="font-size:10px;">确定布置</span>#}
+{#                        </br>#}
+{#                        </br>#}
+{##}
+{#                        <div style="border:1px solid #000 ">#}
+{#                            <span style="font-size:10px;margin-left:10px;color:blue;">选择题</span>#}
+{#                            <span style="font-size:10px;margin-left:10px;color:blue;">基础巩固</span>#}
+{#                            <span style="font-size:10px;margin-left:10px;color:red;">共被点击3493次</span>#}
+{#                           </br>#}
+{#                           </br>#}
+{#                           题目内容 题目内容 题目内容 题目内容 题目内容 题目内容#}
+{#                           </br>#}
+{#                           </br>#}
+{#                            <span  style="font-size:10px;color:pink;">查看答案解析</span>#}
+{#                            <span  style="font-size:10px;color:pink;">反馈</span>#}
+{#                            <span class="star_zy" style="font-size:10px;">入选</span>#}
+{#                           </br></br>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#                <div class="hide">#}
+{#                    <div>#}
+{#                         </br>#}
+{#                         <div style="padding-left:25px;">还在建设中。</div>#}
+{#                         </br>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{##}
+{##}
+{##}
+            <table>
+                <tr>
+                    <td align="center" width="100">
+                        <span style="font-size:16px;">{{ homework.title }}</span> &nbsp;&nbsp;
+                    </td>
+                    <td align="center" width="200">
+                        <span><a class="blue" style="font-size:8px;">{{ homework.add_time }}</a></span> &nbsp;&nbsp;
+                    </td>
+                    <td align="center" width="200">
+                        <span style="font-size:12px;color:red;">{{ homework.get_status_display }}</span> &nbsp;&nbsp;
+                    </td>
+                    <td align="center" width="200">
+                        <form method="post" action="{% url 'teacher_design_homework' homework.id %}" id="homework_design_form">
+                            {% csrf_token %}
+                            <a onclick="document.getElementById('homework_design_form').submit();" href="#"><span class="star_zy" style="font-size:12px;">确定</span></a>
+                        </form>
+                    </td>
+                    <td align="center" width="200">
+                        <a href="{{ request.META.HTTP_REFERER }}"><span class="star_zy" style="font-size:12px;">返回</span></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br/>
+        <hr />
+        <div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+            {% for question in questions.object_list %}
+            <div style="border:1px solid #000 ">
+                <span style="font-size:10px;margin-left:10px;color:blue;">{{ question.type.name }}</span>
+                <span style="font-size:10px;margin-left:10px;color:blue;">{{ question.get_difficulty_display }}</span>
+                <span style="font-size:10px;margin-left:10px;color:blue;"><label>添加<input type="checkbox" onclick="select_question({{ question.id }})" class="question_checkbox" id="checkbox{{ question.id }}"/></label></span>
+                <br/>
+                    {{ question.question|safe }}
+                <br/>
+                {% if question.type.name == '选择题' %}
+                    {% for option in question.get_options %}
+                        <p>{{ option|safe }}</p>
+                    {% endfor %}
+                {% endif %}
+                ------------------------------------------------------------------------------
+                <br/>
+                答案：{{ question.answer|safe }}
+                <br/>
+                分析：{{ question.analysis|safe }}
+                <br/>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="pagination">
+            <ul>
+                {% if questions.has_previous %}
+                    <li><a href="?{{ questions.previous_page_number.querystring }}">前一页</a></li>
+                {% else %}
+                    <li><span>前一页</span></li>
+                {% endif %}
+                {% for page in questions.pages %}
+                    {% if page %}
+                        {% ifequal page questions.number %}
+                            <li><span>{{ page }}</span></li>
+                        {% else %}
+                            <li><a href="?{{ page.querystring }}">{{ page }}</a></li>
+                        {% endifequal %}
+                    {% else %}
+                        <li>...</li>
+                    {% endif %}
+                {% endfor %}
+                {% if questions.has_next %}
+                    <li><a href="?{{ questions.next_page_number.querystring }}">下一页</a></li>
+                {% else %}
+                    <li><span>下一页</span></li>
+                {% endif %}
+            </ul>
+        </div>
+
+
+
+
+        <div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+            {% for question in homework.questions.all %}
+            <div style="border:1px solid #000 ">
+                <span style="font-size:10px;margin-left:10px;color:blue;">{{ question.type.name }}</span>
+                <span style="font-size:10px;margin-left:10px;color:blue;">{{ question.get_difficulty_display }}</span>
+                <br/>
+                    {{ question.question|safe }}
+                <br/>
+                {% if question.type.name == '选择题' %}
+                    {% for option in question.get_options %}
+                        <p>{{ option|safe }}</p>
+                    {% endfor %}
+                {% endif %}
+                ------------------------------------------------------------------------------
+                <br/>
+                答案：{{ question.answer|safe }}
+                <br/>
+                分析：{{ question.analysis|safe }}
+                <br/>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        //设置cookie
+        function setCookie(c_name,value,expiredays){
+            var exdate=new Date();
+            exdate.setDate(exdate.getDate()+expiredays);
+            document.cookie=c_name+ "=" +value+
+            ((expiredays==null) ? "" : ";expires="+exdate.toGMTString())
+        }
+        //获取cookie
+        function getCookie(c_name){
+            if (document.cookie.length>0)
+              {
+              c_start=document.cookie.indexOf(c_name + "=");
+              if (c_start!=-1)
+                {
+                c_start=c_start + c_name.length+1;
+                c_end=document.cookie.indexOf(";",c_start);
+                if (c_end==-1) c_end=document.cookie.length;
+                return document.cookie.substring(c_start,c_end)
+                }
+              }
+            return ""
+        }
+        //清除cookie
+        function clearCookie(name) {
+            setCookie(name, "", -1);
+        }
+
+
+        $(document).ready(function(){
+{#            clearCookie('questionId');#}
+{#            alert(document.cookie);#}
+            var question_list = getCookie('questionId').slice(1,-1).split('\\054');
+            var checkboxes = document.getElementsByClassName('question_checkbox');
+            for(var i=0;i<checkboxes.length;i++){
+                var id = checkboxes[i].id.slice(8);
+                if(question_list.indexOf(id) >= 0){
+                    checkboxes[i].checked = true;
+                }
+            }
+        });
+        function select_question(question_id) {
+            var question_list = getCookie('questionId').slice(1,-1).split('\\054');
+            if(question_list.indexOf(question_id.toString()) >= 0){
+                question_list.splice(question_list.indexOf(question_id.toString()),1);
+            }else{
+                question_list.push(question_id.toString());
+            }
+            var questionId = '"'+question_list.join('\\054')+'"';
+            clearCookie('questionId');
+            setCookie('questionId',questionId);
+{#            alert(document.cookie);#}
+
+
+{#            var question_list = sessionStorage.question.split(',');#}
+{#            if(question_list.indexOf(question_id.toString()) == -1){#}
+{#                question_list.push(question_id.toString());#}
+{#            }else{#}
+{#                question_list.splice(question_list.indexOf(question_id.toString()),1);#}
+{#            }#}
+{#            sessionStorage.question = question_list.join();#}
+        }
+    </script>
+{% endblock %}

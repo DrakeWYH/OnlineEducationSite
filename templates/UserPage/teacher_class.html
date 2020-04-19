@@ -1,0 +1,56 @@
+{% extends 'UserPage/teacher_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+{% endblock %}
+
+{% block content %}
+	<div class="membcont">
+        <h3 class="mem-h3">我的班级</h3>
+        <div class="box demo2" style="width:820px;">
+			<ul class="tab_menu" style="margin-left:30px;">
+				<li class="current">班级管理</li>
+				<li>创建班级</li>
+			</ul>
+			<div class="tab_box">
+				<div>
+			        </br>
+				    <div style="padding-left:40px;">恭喜您，到目前为止，创建了{{ classes.count }}个班级。</div>
+					</br>	
+					</br>
+                    {% for class in classes %}
+					<div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+						<span style="font-size:24px;">{{ class.school }} {{ class.grade.name }}{{ class.class_name }}</span> &nbsp;&nbsp;
+						<span><a class="blue" href="student-1.html" style="font-size:8px;">班级学生：{{ class.students.count }}人</a></span>
+						<a href="{% url 'teacher_class_detail' class.id %}"><span class="star_zy" style="font-size:12px;">学生管理</span></a>&nbsp;&nbsp;
+						<a style="font-size:12px;color:red;" href="{% url 'teacher_del_class' class.id %}">删除班级</a>
+					</div> 
+					{% endfor %}
+                </div>
+                <div class="hide">
+                    <div>
+                         </br>
+                         <div style="padding-left:40px;">创建一个班级吧。</div>
+                         </br>
+                        <div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+                            <form method="post" action="{% url 'teacher_add_class' %}" id="add_class_form">
+                                {% csrf_token %}
+                                <span style="font-size:18px;">学校/机构:</span>&nbsp;&nbsp;<input type="text" name="school" size="20" placeholder="例如：北京大学" value="{{ add_class_form.school.value }}">
+                                </br></br>
+                                <span style="font-size:18px;">所在年级:</span>&nbsp;&nbsp;
+                                <select name="grade">
+                                    {% for grade in grades %}
+                                    <option value="{{ grade.num }}" {% if grade.num == add_class_form.grade.value %}selected="selected"{% endif %}>{{ grade.name }}</option>
+                                    {% endfor %}
+                                </select>
+                                </br></br>
+                                <span style="font-size:18px;">班级名称:</span>&nbsp;&nbsp;<input type="text" name="class_name" size="20" placeholder="例如：1班" value="{{ add_class_form.class_name.value }}">
+                                <a onclick="document.getElementById('add_class_form').submit();"><span class="star_zy" style="font-size:12px;">确定</span></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

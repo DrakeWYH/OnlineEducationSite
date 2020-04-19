@@ -1,0 +1,40 @@
+{% extends 'UserPage/teacher_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+{% endblock %}
+
+{% block content %}
+	<div class="membcont1">
+		<div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+			<span style="font-size:20px;">任务中心</span> 
+			</br></br>
+			 <div style="width:230px;float:left;display:inline-block;padding:10px;"> 
+				<img src="{% static 'images/ico5.jpg' %}" width="230" height="160">
+				</br>
+				亲，您已经有4天没有给学生留作业了哦！
+			</div>
+			 <div style="width:230px;float:left;display:inline-block;padding:10px;"> 
+				<img src="{% static 'images/ico6.jpg' %}" width="230" height="160">
+				</br>
+				题库更新，快快去使用吧！
+			</div>
+			 <div style="width:230px;float:left;display:inline-block;padding:10px;"> 
+				<img src="{% static 'images/ico7.png' %}" width="230" height="160">
+				</br>
+				点击快速去创建你的试题！
+			</div>
+		</div> 
+		</br>
+	</div>
+	<div class="membcont1" style="margin-top:10px;">
+		<div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+			<span style="font-size:20px;">动态</span> 			
+		</div> 
+		<div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+			{% for message in class_messages %}
+			<span style="font-size:10px;color:blue;">{{ message.title }}&nbsp;{{ message.add_time }}</span>
+			</br>
+			{% endfor %}
+        </div>
+	</div>
+{% endblock %}

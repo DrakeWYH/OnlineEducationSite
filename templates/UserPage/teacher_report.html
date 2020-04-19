@@ -1,0 +1,48 @@
+{% extends 'UserPage/teacher_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+{% endblock %}
+
+{% block content %}
+	<div class="membcont">
+        <h3 class="mem-h3">作业报告</h3>
+		<div class="box demo2" style="width:820px;padding-left:40px;">
+			<br/>
+			<span style="font-size:16px;color:blue;">恭喜您，到目前为止，有{{ class_reports.count }}份作业报告。</span>
+			<br/>
+			<br/>
+			<span style="font-size:16px;color:blue;">报告查询</span>&nbsp;&nbsp;
+			<span style="font-size:16px;">班级</span>
+			<select>
+				<option value="">选择班级</option>
+                {% for class in classes %}
+				<option value="">{{ class.grade.name }}{{ class.class_name }}</option>
+                {% endfor %}
+			</select>
+
+			<span style="font-size:16px;">&nbsp;&nbsp;时间</span>
+			<select>
+				<option value="">选择时间</option>
+				<option value="">近1个月</option>
+				<option value="">近3个月</option>
+				<option value="">近6个月</option>
+				<option value="">近1年</option>
+				<option value="">近年</option>
+			</select>
+
+			<a><span class="star_zy" style="font-size:12px;">点击查找</span></a>&nbsp;&nbsp;
+			<br/>
+			<br/>
+			<span style="font-size:16px;color:blue;">作业报告列表</span>&nbsp;&nbsp;
+            {% for report in class_reports %}
+                <br/>
+                <br/>
+                <span style="font-size:16px;">{{ report.paper.title }}</span> &nbsp;
+                <span><a class="blue" style="font-size:8px;">{{ report.classes.grade.name }}{{ report.classes.class_name }}</a></span> &nbsp;
+                <span><a class="blue" style="font-size:8px;">{{ report.add_time }}</a></span> &nbsp;
+                <span style="font-size:12px;color:red;"><a href="{% url 'teacher_report_detail' report.id %}">查看报告</a></span> &nbsp;
+                <span style="font-size:12px;color:red;">删除</span>
+            {% endfor %}
+		</div>
+    </div>
+{% endblock %}

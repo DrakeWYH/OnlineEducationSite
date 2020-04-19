@@ -1,0 +1,63 @@
+{% extends 'UserPage/teacher_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+
+{% endblock %}
+
+{% block content %}
+	<div class="membcont">
+        <h3 class="mem-h3">布置作业</h3>
+        <div class="box demo2" style="width:820px;">
+			<ul class="tab_menu" style="margin-left:30px;">
+				<li class="current">作业管理</li>
+				<li>创建作业</li>
+			</ul>
+			<div class="tab_box">
+				<div>
+                    </br>
+                    <div style="padding-left:40px;">恭喜您，到目前为止，创建了{{ homeworks.count }}份作业。</div>
+					</br>
+                    {% for homework in homeworks %}
+					</br>
+					<div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+						<span style="font-size:24px;">{{ homework.title }}</span> &nbsp;&nbsp;
+						<span><a class="blue" style="font-size:8px;">{{ homework.add_time }}</a></span>
+                        {% if homework.status == 'wait' %}
+                        <a href="{% url 'teacher_release_paper' homework.id %}"><span class="star_zy" style="font-size:12px;">发布作业</span></a>
+                        {% else %}
+                        <a href="{% url 'teacher_report_detail' homework.id %}"><span class="star_zy" style="font-size:12px;">查看报告</span></a>
+                        {% endif %}
+						<a href="{% url 'teacher_homework_detail' homework.id %}"><span class="star_zy" style="font-size:12px;">作业查看</span></a>&nbsp;&nbsp;
+						<span style="font-size:12px;color:red;"><a href="{% url 'teacher_del_paper' homework.id %}">删除作业</a></span>&nbsp;&nbsp;
+						<span style="font-size:12px;color:red;">{{ homework.get_status_display }}</span>
+					</div>
+                    {% endfor %}
+				</div>
+				<div class="hide">
+                    <div class="box demo2" style="width:820px;margin-left:40px;">
+                        <form action="{% url 'teacher_add_homework' %}" method="post">
+                            {% csrf_token %}
+                            <label>发布班级：</label>
+                            <input hidden="hidden" name="counter" value="{{ classes.count }}" />
+                            {% for class in classes %}
+                                <label><input type="checkbox" name="class{{ forloop.counter }}" value="{{ class.id }}">{{ class.school }}{{ class.grade.name }}{{ class.class_name }}</label>
+                                {% if forloop.counter|divisibleby:"5" %}
+                                    <br/><br/>
+                                {% endif %}
+                            {% endfor %}
+                            <br/><br/>
+                            <label>作业标题：<input name="title" placeholder="例：20180911 数学作业"/></label><br/><br/>
+                            <label>截止时间：<input type="datetime-local" name="limit_time" min="2018-01-01T00:00"/></label><br/><br/>
+                            <input type="submit" value="创建作业"/>
+                        </form>
+                    </div>
+				</div>
+			</div>
+		</div>
+    </div>
+{#    <script type="text/javascript">#}
+{#        $(document).ready(function(){#}
+{#            alert(document.cookie);#}
+{#        });#}
+{#    </script>#}
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends 'UserPage/student_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+    <style type="text/css">
+        .pagination li{
+            margin-left: 10px;
+            float: left;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+  	<div class="membcont">
+        <h3 class="mem-h3">我的词条</h3>
+        <div class="box demo2" style="width:820px;">
+            {% for entry in entries.object_list %}
+                {{ entry.name|safe }}{{ entry.content|safe }}<br/>
+            {% endfor %}
+            <div class="pagination">
+                <ul>
+                    {% if entries.has_previous %}
+                        <li><a href="?{{ entries.previous_page_number.querystring }}">前一页</a></li>
+                    {% else %}
+                        <li><span>前一页</span></li>
+                    {% endif %}
+                    {% for page in entries.pages %}
+                        {% if page %}
+                            {% ifequal page entries.number %}
+                                <li><span>{{ page }}</span></li>
+                            {% else %}
+                                <li><a href="?{{ page.querystring }}">{{ page }}</a></li>
+                            {% endifequal %}
+                        {% else %}
+                            <li>...</li>
+                        {% endif %}
+                    {% endfor %}
+                    {% if entries.has_next %}
+                        <li><a href="?{{ entries.next_page_number.querystring }}">下一页</a></li>
+                    {% else %}
+                        <li><span>下一页</span></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock %}

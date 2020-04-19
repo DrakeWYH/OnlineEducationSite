@@ -1,0 +1,46 @@
+{% extends 'masterPage.html' %}
+{% block title %}结果分析 - 在线教育网站{% endblock %}
+{% block head %}
+    {% load static %}
+    {% load mathjax %}
+    {% mathjax_scripts %}
+{% endblock %}
+{% block content %}
+    <div>
+        <ul>
+            <li><a href="{% url 'index' %}">首页</a>></li>
+            <li>练习></li>
+            <li>结果分析</li>
+        </ul>
+    </div><br/>
+    <div>
+        <h3>练习结果：{{ sum }}分。</h3>
+    </div>
+    <div>
+        {% for question,answer in results %}
+            <div style="border:1px dashed black;margin:5px;">
+                <table>
+                    <tr><td>{{ question.question|safe }}</td></tr>
+                    {% if question.type.num == '0' %}
+                        {% for option in question.get_options %}
+                            <tr><td>
+                                <label>{{ option|safe }}
+                                {% if option|slice:'1' == question.answer %}
+                                    √
+                                {% elif option|slice:'1' == answer %}
+                                    ×
+                                {% endif %}
+                                </label>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    {% endif %}
+                    {% if answer != question.answer %}
+                        <tr><td>分析：{{ question.analysis|safe }}</td></tr>
+                    {% endif %}
+                    <tr><td>正确率：{{ question.get_user_question_info.correct_rate|floatformat:2 }}% 最多误答：{{ question.get_user_question_info.most_wrong }}</td></tr>
+                </table>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

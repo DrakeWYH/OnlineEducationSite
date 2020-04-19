@@ -1,0 +1,143 @@
+{% extends 'OnlineEducationSite/masterPage.html' %}
+    {% block head %}
+        {% load mathjax %}
+        {% mathjax_scripts %}
+        {% load static %}
+        <link type="text/css" rel="stylesheet" href="{% static 'OnlineEducationSite/css/questions.css' %}" />
+    {% endblock %}
+    {% block title %}数据查询{% endblock %}
+    {% block content %}
+        <input type="button" onclick="location.href='{% url 'OES:Begin' %}'" value="进入测试" style="float: left;width:70px;height:70px;"/>
+        <div id="search">
+            <form action="{% url 'OES:search'  %}" method="post">
+                {% csrf_token %}
+                <label>题目id：
+                    <input type="text" name="id" id="idTextBox" value="{{ curId }}">
+                </label>
+                <label>知识点：
+                    <select name="knowledge" class="selector">
+                        <option value="-1">全部</option>
+                        {% for knowledge in knowledgeList %}
+                        {% if knowledge.knowledge == curKnowledge %}
+                        <option value="{{ knowledge.knowledge }}" selected="selected">
+                            {{ knowledge.knowledge }}
+                            {{ knowledge.knowledgeName }}
+                        </option>
+                        {% else %}
+                        <option value="{{ knowledge.knowledge }}">
+                            {{ knowledge.knowledge }}
+                            {{ knowledge.knowledgeName }}
+                        </option>
+                        {% endif %}
+                        {% endfor %}
+                    </select>
+                </label><br /><br />
+                <label>年级：
+                    <select name="grade" class="selector">
+                        <option value="-1">全部</option>
+                        {% for grade in gradeList %}
+                        {% if grade.grade == curGrade %}
+                        <option value="{{grade.grade}}" selected="selected">{{grade.gradeName}}</option>
+                        {% else %}
+                        <option value="{{grade.grade}}">{{grade.gradeName}}</option>
+                        {% endif %}
+                        {% endfor %}
+                    </select>
+                </label>
+                <label>科目：
+                    <select name="subject" class="selector">
+                        <option value="-1">全部</option>
+                        {% for subject in subjectList %}
+                        {% if subject.subject == curSubject %}
+                        <option value="{{subject.subject}}" selected="selected">{{subject.subjectName}}</option>
+                        {% else %}
+                        <option value="{{subject.subject}}">{{subject.subjectName}}</option>
+                        {% endif %}
+                        {% endfor %}
+                    </select>
+                </label>
+                <label>类型：
+                    <select name="type" class="selector">
+                        <option value="-1">全部</option>
+                        {% for type in typeList %}
+                        {% if type.type == curType %}
+                        <option value="{{type.type}}" selected="selected">{{type.typeName}}</option>
+                        {% else %}
+                        <option value="{{type.type}}">{{type.typeName}}</option>
+                        {% endif %}
+                        {% endfor %}
+                    </select>
+                </label>
+                <input type="submit" value="查找" />
+            </form>
+        </div>
+        <hr width="98%" />
+        <div id="questionList">
+            <div class="pageController">
+                {% if page == 1 %}
+                <input type="button" value="首页"  disabled="disabled" class="pageBtn"/>
+                <input type="button" value="上一页"  disabled="disabled" class="pageBtn"/>
+                {% else %}
+                <input type="button" value="首页" onclick="location.href='{% url 'OES:changePage' 1 %}'" class="pageBtn"/>
+                <input type="button" value="上一页" onclick="location.href='{% url 'OES:changePage' page|add:-1 %}'" class="pageBtn"/>
+                {% endif %}
+                <label>第 {{page}} 页，共 {{ pageCount }} 页</label>
+                {% if page == pageCount %}
+                <input type="button" value="下一页" disabled="disabled" class="pageBtn"/>
+                <input type="button" value="尾页" disabled="disabled" class="pageBtn"/>
+                {% else %}
+                <input type="button" value="下一页" onclick="location.href='{% url 'OES:changePage' page|add:1 %}'" class="pageBtn"/>
+                <input type="button" value="尾页" onclick="location.href='{% url 'OES:changePage' pageCount %}'" class="pageBtn"/>
+                {% endif %}
+            </div>
+
+            {% autoescape off %}
+            <div id="pageDiv">
+                {% for question in showList %}
+                <div class="questionDiv">
+                    <p>ID：{{ question.id }}</p>
+                    <h4>问题: {{question.question}} </h4>
+                    {% if question.type == 0 %}
+                        {% if question.optionA != '' %}
+                            <p>A：{{ question.optionA }}</p>
+                        {% endif %}
+                        {% if question.optionB != '' %}
+                            <p>B：{{ question.optionB }}</p>
+                        {% endif %}
+                        {% if question.optionC != '' %}
+                            <p>C：{{ question.optionC }}</p>
+                        {% endif %}
+                        {% if question.optionD != '' %}
+                            <p>D：{{ question.optionD }}</p>
+                        {% endif %}
+                        {% if question.optionE != '' %}
+                            <p>E：{{ question.optionE }}</p>
+                        {% endif %}
+                    {% endif %}
+                    <p>知识点: {{question.knowledge}}</p>
+                    <p>分析: {{question.analysis}}</p>
+                    <p>答案: {{question.answer}}</p>
+                </div>
+                {% endfor %}
+            </div>
+            {% endautoescape %}
+
+            <div class="pageController">
+                {% if page == 1 %}
+                <input type="button" value="首页" disabled="disabled" class="pageBtn"/>
+                <input type="button" value="上一页" disabled="disabled" class="pageBtn"/>
+                {% else %}
+                <input type="button" value="首页" onclick="location.href='{% url 'OES:changePage' 1 %}'" class="pageBtn"/>
+                <input type="button" value="上一页" onclick="location.href='{% url 'OES:changePage' page|add:-1 %}'" class="pageBtn"/>
+                {% endif %}
+                <label>第 {{page}} 页，共 {{ pageCount }} 页</label>
+                {% if page == pageCount %}
+                <input type="button" value="下一页" disabled="disabled" class="pageBtn"/>
+                <input type="button" value="尾页" disabled="disabled" class="pageBtn"/>
+                {% else %}
+                <input type="button" value="下一页" onclick="location.href='{% url 'OES:changePage' page|add:1 %}'" class="pageBtn"/>
+                <input type="button" value="尾页" onclick="location.href='{% url 'OES:changePage' pageCount %}'" class="pageBtn"/>
+                {% endif %}
+            </div>
+        </div>
+    {% endblock %}

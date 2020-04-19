@@ -1,0 +1,53 @@
+{% extends 'UserPage/student_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+    <style type="text/css">
+        .pagination li{
+            margin-left: 10px;
+            float: left;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+	<div class="membcont">
+        <h3 class="mem-h3">知识路径</h3>
+        </br>
+        <div style="float:right; solid:black; border:2px;  width:150px;">
+			<ul class="tab_menu vmulu">
+				<li class="current">知识导航</li>
+            </ul>
+            <div style="padding-bottom:30px;">
+                <dl class="mulu noo1">
+                    <dt></dt>
+                    {% for category in module.category_set.all %}
+                    <dd class="smalltitle"><strong>{{ category.name }}</strong></dd>
+                        {% for knowledge in category.knowledge_set.all %}
+                            <a href="{% url 'student_knowledge_detail' knowledge.id %}"><dd>{{ knowledge.name }}</dd></a>
+                        {% endfor %}
+                    {% endfor %}
+               </dl>
+            </div>
+		</div>
+        <div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+            <span style="font-size:24px;">{{ knowledge.name }}</span> &nbsp;&nbsp;
+            <span><a class="blue" href="{{ request.META.HTTP_REFERER }}" style="font-size:8px;">返回</a></span>
+            <div style="width:80%;margin-top:20px;">
+                {{ knowledge.content|safe }}
+            </div>
+        </div>
+        </br>
+        <hr />
+        <div>
+            <div style="margin-top:15px;margin-left:35px;width:400px;">
+                <p>&nbsp;&nbsp;暂无练习 / 共4道练习</p>
+                </br>
+                <a href="#" target="_blank"><span class="star_zy">开始练习</span></a>
+                <a href="#" target="_blank"><span class="star_zy">继续做题</span></a>
+                <a href="#" target="_blank"><span class="star_zy">查看解析</span></a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+

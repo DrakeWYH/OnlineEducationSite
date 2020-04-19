@@ -1,0 +1,56 @@
+{% extends 'UserPage/student_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+{% endblock %}
+
+{% block content %}
+  	<div class="membcont">
+		<h3 class="mem-h3">我的作业</h3>
+        <div class="box demo2" style="width:820px;">
+            <div>
+                <br/>
+                <div style="padding-left:40px;">您还有{{ homeworks.count }}份作业待完成，赶紧完成吧。
+                    <br/>
+                    <br/>
+                    <span style="font-size:16px;color:blue;">作业查询</span>&nbsp;&nbsp;
+                    <span style="font-size:16px;">&nbsp;&nbsp;时间</span>
+                    <select>
+                        <option value="">全部</option>
+                        <option value="">近1个月</option>
+                        <option value="">近3个月</option>
+                        <option value="">近6个月</option>
+                        <option value="">近1年</option>
+                        <option value="">近年</option>
+                    </select>
+
+                    <span style="font-size:16px;">&nbsp;&nbsp;状态</span>
+                    <select name="status">
+                        <option value="">全部</option>
+                        <option value="finish">进行中</option>
+                        <option value="timeout">已完成</option>
+                    </select>
+
+                    <a><span class="star_zy" style="font-size:12px;">点击查找</span></a>&nbsp;&nbsp;
+                    <br/>
+                    <br/>
+                    <span style="font-size:16px;color:blue;">作业列表</span>&nbsp;&nbsp;
+                    <br/>
+                    <br/>
+                </div>
+                {% for homework in homeworks %}
+                    <div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+                        <span style="font-size:24px;">{{ homework.title }}</span> &nbsp;&nbsp;
+                        <span><a class="blue" style="font-size:8px;">{{ homework.limit_time }}</a></span>
+                        {% if homework.status == 'finish' %}
+                            <a href="{% url 'student_homework' homework.id %}"><span class="star_zy" style="font-size:12px;">完成作业</span></a>&nbsp;&nbsp;
+                        {% else %}
+                            <a href="{% url 'student_report' %}"><span class="star_zy" style="font-size:12px;">查看报告</span></a>
+                        {% endif %}
+                        <span style="font-size:12px;color:red;">{{ homework.get_status_display }}</span>
+                    </div>
+                    <br/>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

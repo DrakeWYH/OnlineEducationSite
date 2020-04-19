@@ -1,0 +1,27 @@
+{% extends 'UserPage/teacher_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+{% endblock %}
+
+{% block content %}
+	<div class="membcont">
+    <h3 class="mem-h3">修改密码（验证码已发至邮箱，请注意查看）</h3>
+    <div class="box demo2" style="width:820px;">
+        <form method="post" action="{% url 'password_change' %}" name="change_form" id="change_form">
+            {% csrf_token %}
+            <br />
+            <div style="padding-left:25px;"><b>旧密码：</b> &nbsp; <input type="password" name="old_password" placeholder="请输入旧密码">{{ change_form.errors.old_password }}{{ errors.old_password }}</div>
+            <br />
+            <div style="padding-left:25px;"><b>新密码：</b> &nbsp; <input type="password" name="new_password" placeholder="请输入6-12位密码">{{ change_form.errors.new_password }}{{ errors.new_password }}</div>
+            <br />
+            <div style="padding-left:25px;"><b>重复密码：</b> &nbsp; <input type="password" name="re_password" placeholder="请再次输入密码">{{ change_form.errors.re_password }}{{ errors.re_password }}</div>
+            <br />
+            <div style="padding-left:25px;"><b>验证码：</b> &nbsp; <input name="verify_code" value="{{ verify_code }}" placeholder="请输入4位邮箱验证码">{{ change_form.errors.verify_code }}{{ errors.verify_code }}</div>
+            <br />
+            <div class="memb" style="padding-left:25px;">
+                <ul><li><a class="mb13" name="submit" href="" onclick="document.getElementById('change_form').submit();return false;">确认修改</a></li></ul>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

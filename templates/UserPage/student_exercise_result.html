@@ -1,0 +1,42 @@
+{% extends 'UserPage/student_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+{% endblock %}
+
+{% block content %}
+	<div class="membcont">
+        <h3 class="mem-h3">训练结果</h3>
+        <div class="box demo2" style="width:820px;">
+			<div>
+                <h3>练习结果：{{ report.score }}分。</h3>
+            </div>
+            <div>
+                {% for uq in report.userquestion_set.all %}
+                    <div style="border:1px dashed black;margin:5px;">
+                        <table>
+                            <tr><td>{{ uq.question.question|safe }}</td></tr>
+                            {% if uq.question.type.num == '0' %}
+                                {% for option in uq.question.get_options %}
+                                    <tr><td>
+                                        <label>{{ option|safe }}
+                                        {% if option|slice:'1' == uq.question.answer %}
+                                            √
+                                        {% elif option|slice:'1' == uq.answer %}
+                                            ×
+                                        {% endif %}
+                                        </label>
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            {% endif %}
+                            {% if uq.answer != uq.question.answer %}
+                                <tr><td>分析：{{ uq.question.analysis|safe }}</td></tr>
+                            {% endif %}
+                            <tr><td>正确率：{{ uq.question.get_user_question_info.correct_rate|floatformat:2 }}% 最多误答：{{ question.get_user_question_info.most_wrong }}</td></tr>
+                        </table>
+                    </div>
+                {% endfor %}
+            </div>
+		</div>
+    </div>
+{% endblock %}

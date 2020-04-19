@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+    {% block head %}{% endblock %}
+    <meta charset="utf-8">
+    {% load staticfiles %}
+    <title>智能化学习平台</title>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true
+        }
+    });
+    </script>
+    {% load mathjax %}
+    {% mathjax_scripts %}
+    <link rel="stylesheet" href="{% static 'css/course.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/member.css' %}"/>
+    <script src="{% static 'js/jquery-1.8.0.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/tab.css' %}" media="screen">
+    <script src="{% static 'js/jquery.tabs.js' %}"></script>
+    <script src="{% static 'js/mine.js' %}"></script>
+    <script type="text/javascript">
+    $(function(){
+        $('.demo2').Tabs({
+            event:'click'
+        });
+    });
+    </script>
+</head>
+
+<body>
+<div class="head" id="fixed">
+	<div class="nav">
+    	<span class="navimg"><a href="{% url 'student_index' %}"><img border="0" src="{% static 'images/logo.png' %}"></a></span>
+        <ul class="nag">
+            <li><a href="{% url 'student_index' %}" class="link1">首页</a></li>
+        </ul>
+        <span class="massage">
+            <div class="logined">
+                <a onMouseOver="logmine()" style="width:70px" class="link2 he ico" target="_blank">{{ request.user.username }}</a>
+                <span id="lne" style="display:none" onMouseOut="logclose()" onMouseOver="logmine()">
+                    <span style="background:#fff;">
+                        <a style="width:70px; display:block;" class="link2 he ico" target="_blank">{{ request.user.username }}</a>
+                    </span>
+                    <div class="clearh"></div>
+                    <ul class="logmine" >
+                        <li><a class="link1" href="{% url 'student_knowledge' %}">知识路径</a></li>
+                        <li><a class="link1" href="{% url 'student_search' %}">习题查找</a></li>
+                        <li><a class="link1" href="{% url 'student_favorite' %}">好题收藏</a></li>
+						<li><a class="link1" href="{% url 'student_report' %}">学习报告</a></li>
+						<li><a class="link1" href="{% url 'student_homework_list' %}">我的作业</a></li>
+                        <li><a class="link1" href="{% url 'logout' %}">退出</a></li>
+                    </ul>
+                </span>
+            </div>
+        </span>
+    </div>
+</div>
+<div class="clearh"></div>
+<div class="membertab">
+<div class="memblist">
+	<div class="membhead">
+    <div style="text-align:center;"><img src="{{ MEDIA_URL }}{{ request.user.image }}" width="80" ></div>
+    <div style="width:220px;text-align:center;">
+    <p class="membUpdate mine">{{ request.user.username }}</p>
+    <p class="membUpdate mine"><a href="{% url 'student_index' %}">我的主页</a></p>
+    <div class="clearh"></div>
+    </div>
+    </div>
+    <div class="memb">
+    <ul>
+    	<li {% if request.path == '/student_knowledge/' %}class="currnav"{% endif %}><a class="mb1" href="{% url 'student_knowledge' %}">知识路径</a></li>
+		<li {% if request.path == '/student_search/' %}class="currnav"{% endif %}><a class="mb3" href="{% url 'student_search' %}">习题查找</a></li>
+		<li {% if request.path == '/student_exercise/' %}class="currnav"{% endif %}><a class="mb4" href="{% url 'student_exercise' %}">知识训练</a></li>
+		<li {% if request.path == '/student_favorite/' %}class="currnav"{% endif %}><a class="mb12" href="{% url 'student_favorite' %}">好题收藏</a></li>
+        <li {% if request.path == '/student_report/' %}class="currnav"{% endif %}><a class="mb7" href="{% url 'student_report' %}">学习报告</a></li>
+		<li {% if request.path == '/student_homework_list/' %}class="currnav"{% endif %}><a class="mb2" href="{% url 'student_homework_list' %}">我的作业</a></li>
+        <li {% if request.path == '/student_entry/' %}class="currnav"{% endif %}><a class="mb2" href="{% url 'student_entry' %}">词条</a></li>
+   </ul>
+    </div>
+  </div>
+
+
+
+{% block content %}{% endblock %}
+
+
+
+
+<div class="clearh"></div>
+</div>
+
+<div class="clearh"></div>
+<div class="foot">
+<div class="fcontainer">
+
+      <div class="fmenu">
+	     <p><a href="#">关于我们</a> | <a href="#">联系我们</a> | <a href="#">帮助中心</a> | <a href="#">意见反馈</a> | <a href="#">加入我们</a></p>
+      </div>
+      <div class="copyright">
+        <div><a href="/">智能化学习平台</a>所有&nbsp;粤ICP备XXXX号</div>
+      </div>
+    </div>
+</div>
+</div>
+<!--右侧浮动-->
+<div class="rmbar">
+	<span class="barico qq" style="position:relative">
+	<div  class="showqq">
+	   <p>官方客服QQ:<br>2860603805</p>
+	</div>
+	</span>
+	<span class="barico top" id="top">置顶</span>
+</div>
+</body>
+
+</html>

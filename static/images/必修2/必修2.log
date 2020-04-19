@@ -1,0 +1,4290 @@
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2016.7.28)  18 AUG 2018 09:45
+entering extended mode
+**必修2.tex
+("F:\必修二 选修四\必修2\必修2.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(D:\CTEX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(D:\CTEX\MiKTeX\tex\latex\base\size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(D:\CTEX\MiKTeX\tex\generic\babel\babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\CTEX\MiKTeX\tex\latex\00miktex\bblopts.cfg
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+(D:\CTEX\MiKTeX\tex\generic\babel\english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+(D:\CTEX\MiKTeX\tex\generic\babel\babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@british = a dialect from \language0
+\l@UKenglish = a dialect from \language0
+\l@american = a dialect from \language0
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen104
+))
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen105
+)
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks16
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks17
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(D:\CTEX\MiKTeX\tex\latex\txfonts\txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Info: Redefining \not on input line 1043.
+)
+(D:\CTEX\MiKTeX\tex\generic\genmisc\mathdots.sty
+Package: mathdots 2004/07/02 version 0.6.
+\MD@unit=\dimen113
+LaTeX Info: Redefining \ddots on input line 120.
+LaTeX Info: Redefining \vdots on input line 122.
+
+
+Package Mathdots Warning: Redefining amsmath commands \dddot and \ddddot.
+
+LaTeX Info: Redefining \dddot on input line 145.
+LaTeX Info: Redefining \ddddot on input line 145.
+) (D:\CTEX\MiKTeX\tex\latex\kpfonts\kpfonts.sty
+Package: kpfonts  2010/08/20 v3.31
+
+(D:\CTEX\MiKTeX\tex\latex\base\textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+Package textcomp Info: Changing ? sub-encoding to TS1/0 on input line 72.
+
+(D:\CTEX\MiKTeX\tex\latex\base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+Invalid UTF-8 byte or sequence at line 157 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 157 replaced by U+FFFD.
+\c@mv@rm=\count101
+\c@mv@boldrm=\count102
+\c@mv@sf=\count103
+\c@mv@boldsf=\count104
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/txr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/bx/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `rm'
+(Font)                  OT1/txr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldrm'
+(Font)                  OT1/txr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `sf'
+(Font)                  OT1/txr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldsf'
+(Font)                  OT1/txr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 355.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `rm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/m/n on input line 357.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldrm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 358.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `sf'
+(Font)                  OT1/jkp/m/n --> OT1/jkpss/m/n on input line 359.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldsf'
+(Font)                  OT1/jkp/m/n --> OT1/jkpss/b/n on input line 360.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 364.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 365.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `rm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/m/n on input line 366.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `boldrm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 367.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `sf'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/m/n on input line 368.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `boldsf'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 369.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/txr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/txr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `rm'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldrm'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `sf'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldsf'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/jkp/b/n --> OT1/jkp/b/n on input line 379.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `rm'
+(Font)                  OT1/jkp/b/n --> OT1/jkp/b/n on input line 381.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldrm'
+(Font)                  OT1/jkp/b/n --> OT1/jkp/b/n on input line 382.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `sf'
+(Font)                  OT1/jkp/b/n --> OT1/jkpss/b/n on input line 383.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldsf'
+(Font)                  OT1/jkp/b/n --> OT1/jkpss/b/n on input line 384.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/txr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/bx/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `rm'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldrm'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `sf'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldsf'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/jkp/m/it --> OT1/jkp/b/it on input line 391.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `rm'
+(Font)                  OT1/jkp/m/it --> OT1/jkp/m/it on input line 393.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldrm'
+(Font)                  OT1/jkp/m/it --> OT1/jkp/b/it on input line 394.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `sf'
+(Font)                  OT1/jkp/m/it --> OT1/jkpss/m/it on input line 395.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldsf'
+(Font)                  OT1/jkp/m/it --> OT1/jkpss/b/it on input line 396.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/txss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/b/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `rm'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldrm'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `sf'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldsf'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/b/n on input line 402.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `rm'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/m/n on input line 403.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldrm'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/b/n on input line 404.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `sf'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/m/n on input line 405.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldsf'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/b/n on input line 406.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/txtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/b/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `rm'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldrm'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `sf'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldsf'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/b/n on input line 411.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `rm'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/m/n on input line 412.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldrm'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/b/n on input line 413.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `sf'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/m/n on input line 414.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldsf'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/b/n on input line 415.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/txmi/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/bx/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `rm'
+(Font)                  OML/txmi/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldrm'
+(Font)                  OML/txmi/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `sf'
+(Font)                  OML/txmi/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldsf'
+(Font)                  OML/txmi/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/jkp/m/it --> OML/jkp/bx/it on input line 424.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `rm'
+(Font)                  OML/jkp/m/it --> OML/jkp/m/it on input line 426.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldrm'
+(Font)                  OML/jkp/m/it --> OML/jkp/bx/it on input line 427.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `sf'
+(Font)                  OML/jkp/m/it --> OML/jkpss/m/it on input line 428.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldsf'
+(Font)                  OML/jkp/m/it --> OML/jkpss/bx/it on input line 429.
+LaTeX Font Info:    Redeclaring symbol font `lettersA' on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `normal'
+(Font)                  U/txmia/m/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/bx/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `rm'
+(Font)                  U/txmia/m/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `boldrm'
+(Font)                  U/txmia/m/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `sf'
+(Font)                  U/txmia/m/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `boldsf'
+(Font)                  U/txmia/m/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/jkpmia/m/it --> U/jkpmia/bx/it on input line 439.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `rm'
+(Font)                  U/jkpmia/m/it --> U/jkpmia/m/it on input line 441.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `boldrm'
+(Font)                  U/jkpmia/m/it --> U/jkpmia/bx/it on input line 442.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `sf'
+(Font)                  U/jkpmia/m/it --> U/jkpssmia/m/it on input line 443.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `boldsf'
+(Font)                  U/jkpmia/m/it --> U/jkpssmia/bx/it on input line 444.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/txsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/bx/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `rm'
+(Font)                  OMS/txsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldrm'
+(Font)                  OMS/txsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `sf'
+(Font)                  OMS/txsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldsf'
+(Font)                  OMS/txsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/bx/n on input line 457.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `rm'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/m/n on input line 459.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldrm'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/bx/n on input line 460.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `sf'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/m/n on input line 461.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldsf'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/bx/n on input line 462.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/txsya/m/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/bx/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `rm'
+(Font)                  U/txsya/m/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldrm'
+(Font)                  U/txsya/m/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `sf'
+(Font)                  U/txsya/m/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldsf'
+(Font)                  U/txsya/m/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/bx/n on input line 476.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `rm'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/m/n on input line 477.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldrm'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/bx/n on input line 478.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `sf'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/m/n on input line 479.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldsf'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/bx/n on input line 480.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/txsyb/m/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/bx/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `rm'
+(Font)                  U/txsyb/m/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldrm'
+(Font)                  U/txsyb/m/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `sf'
+(Font)                  U/txsyb/m/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldsf'
+(Font)                  U/txsyb/m/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/jkpsyb/m/n --> U/jkpsyb/bx/n on input line 529.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `rm'
+(Font)                  U/jkpsyb/m/n --> U/jkpsyb/m/n on input line 530.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldrm'
+(Font)                  U/jkpsyb/m/n --> U/jkpsyb/bx/n on input line 531.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `sf'
+(Font)                  U/jkpsyb/m/n --> U/jkpsssyb/m/n on input line 532.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldsf'
+(Font)                  U/jkpsyb/m/n --> U/jkpsssyb/bx/n on input line 533.
+LaTeX Font Info:    Redeclaring symbol font `symbolsC' on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `normal'
+(Font)                  U/txsyc/m/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/bx/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `rm'
+(Font)                  U/txsyc/m/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `boldrm'
+(Font)                  U/txsyc/m/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `sf'
+(Font)                  U/txsyc/m/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `boldsf'
+(Font)                  U/txsyc/m/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/bx/n on input line 549.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `rm'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/m/n on input line 551.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `boldrm'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/bx/n on input line 552.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `sf'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/m/n on input line 553.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `boldsf'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/bx/n on input line 554.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `bold'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/bx/n on input line 583.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `rm'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/m/n on input line 585.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `boldrm'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/bx/n on input line 586.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `sf'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/m/n on input line 587.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `boldsf'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/bx/n on input line 588.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/txex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/bx/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `rm'
+(Font)                  OMX/txex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldrm'
+(Font)                  OMX/txex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `sf'
+(Font)                  OMX/txex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldsf'
+(Font)                  OMX/txex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/jkp/m/n --> OMX/jkp/bx/n on input line 599.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `rm'
+(Font)                  OMX/jkp/m/n --> OMX/jkp/m/n on input line 601.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldrm'
+(Font)                  OMX/jkp/m/n --> OMX/jkp/bx/n on input line 602.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `sf'
+(Font)                  OMX/jkp/m/n --> OMX/jkpss/m/n on input line 603.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldsf'
+(Font)                  OMX/jkp/m/n --> OMX/jkpss/bx/n on input line 604.
+LaTeX Font Info:    Redeclaring symbol font `largesymbolsA' on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `normal'
+
+(Font)                  U/txexa/m/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/bx/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `rm'
+(Font)                  U/txexa/m/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldrm'
+
+(Font)                  U/txexa/m/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `sf'
+(Font)                  U/txexa/m/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldsf'
+
+(Font)                  U/txexa/m/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 615.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `rm'
+(Font)                  U/jkpexa/m/n --> U/jkpexa/m/n on input line 617.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldrm'
+
+(Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 618.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `sf'
+(Font)                  U/jkpexa/m/n --> U/jkpexa/m/n on input line 619.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldsf'
+
+(Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 620.
+LaTeX Font Info:    Redeclaring math symbol \n@tch@r on input line 1578.
+LaTeX Info: Redefining \not on input line 1580.
+)
+(D:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(D:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(D:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+(D:\CTEX\MiKTeX\tex\latex\ctex\ctex.sty
+Package: ctex 2011/03/11 v1.02c ctex macros package
+
+(D:\CTEX\MiKTeX\tex\latex\ctex\opt\ctex-common-opts.def)
+(D:\CTEX\CTeX\tex\latex\ctex\cfg\ctexopts.cfg)
+(D:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-common.def
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\expl3.sty
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3names.sty
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3bootstrap.sty
+Package: l3bootstrap 2011/12/29 v3110 L3 Experimental bootstrap code
+)
+Package: l3names 2011/12/30 v3113 L3 Experimental namespace for primitives
+)
+(D:\CTEX\MiKTeX\tex\latex\misc\etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count105
+)
+Package: expl3 2012/02/26 v3471 L3 Experimental code bundle wrapper
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(D:\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: xetex.def on input line 130.
+
+(D:\CTEX\MiKTeX\tex\xelatex\xetex-def\xetex.def
+File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
+))
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3basics.sty
+Package: l3basics 2012/02/26 v3460 L3 Experimental basic definitions
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3expan.sty
+Package: l3expan 2012/02/26 v3460 L3 Experimental argument expansion
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3tl.sty
+Package: l3tl 2012/02/26 v3460 L3 Experimental token lists
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3seq.sty
+Package: l3seq 2012/01/09 v3158 L3 Experimental sequences and stacks
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3int.sty
+Package: l3int 2012/02/26 v3460 L3 Experimental integers
+\c_max_int=\count106
+\l_tmpa_int=\count107
+\l_tmpb_int=\count108
+\l_tmpc_int=\count109
+\g_tmpa_int=\count110
+\g_tmpb_int=\count111
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3quark.sty
+Package: l3quark 2012/02/12 v3384 L3 Experimental quarks
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3prg.sty
+Package: l3prg 2012/02/26 v3464 L3 Experimental control structures
+\g_prg_map_int=\count112
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3clist.sty
+Package: l3clist 2012/02/26 v3460 L3 Experimental comma separated lists
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3token.sty
+Package: l3token 2012/02/26 v3460 L3 Experimental token manipulation
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3prop.sty
+Package: l3prop 2012/02/26 v3460 L3 Experimental property lists
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3msg.sty
+Package: l3msg 2012/02/26 v3470 L3 Experimental messages
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3file.sty
+Package: l3file 2012/02/26 v3464 L3 Experimental file and I/O operations
+\l_iow_stream_int=\count113
+\l_iow_line_length_int=\count114
+\l_iow_target_length_int=\count115
+\l_iow_current_line_int=\count116
+\l_iow_current_word_int=\count117
+\l_iow_current_indentation_int=\count118
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3skip.sty
+Package: l3skip 2012/02/26 v3460 L3 Experimental dimensions and skips
+\l_tmpa_dim=\dimen116
+\l_tmpb_dim=\dimen117
+\l_tmpc_dim=\dimen118
+\g_tmpa_dim=\dimen119
+\g_tmpb_dim=\dimen120
+\l_tmpa_skip=\skip46
+\l_tmpb_skip=\skip47
+\l_tmpc_skip=\skip48
+\g_tmpa_skip=\skip49
+\g_tmpb_skip=\skip50
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3keys.sty
+Package: l3keys 2011/12/22 v3086 L3 Experimental key-value interfaces
+\g_keyval_level_int=\count119
+\l_keys_choice_int=\count120
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3fp.sty
+Package: l3fp 2012/02/06 v3315 L3 Experimental floating-point operations
+\c_one_hundred_million=\count121
+\c_five_hundred_million=\count122
+\c_one_thousand_million=\count123
+\c_fp_pi_by_four_decimal_int=\count124
+\c_fp_pi_by_four_extended_int=\count125
+\c_fp_pi_decimal_int=\count126
+\c_fp_pi_extended_int=\count127
+\c_fp_two_pi_decimal_int=\count128
+\c_fp_two_pi_extended_int=\count129
+\l_fp_count_int=\count130
+\l_fp_div_offset_int=\count131
+\l_fp_exp_integer_int=\count132
+\l_fp_exp_decimal_int=\count133
+\l_fp_exp_extended_int=\count134
+\l_fp_exp_exponent_int=\count135
+\l_fp_input_a_sign_int=\count136
+\l_fp_input_a_integer_int=\count137
+\l_fp_input_a_decimal_int=\count138
+\l_fp_input_a_exponent_int=\count139
+\l_fp_input_b_sign_int=\count140
+\l_fp_input_b_integer_int=\count141
+\l_fp_input_b_decimal_int=\count142
+\l_fp_input_b_exponent_int=\count143
+\l_fp_input_a_extended_int=\count144
+\l_fp_input_b_extended_int=\count145
+\l_fp_mul_a_i_int=\count146
+\l_fp_mul_a_ii_int=\count147
+\l_fp_mul_a_iii_int=\count148
+\l_fp_mul_a_iv_int=\count149
+\l_fp_mul_a_v_int=\count150
+\l_fp_mul_a_vi_int=\count151
+\l_fp_mul_b_i_int=\count152
+\l_fp_mul_b_ii_int=\count153
+\l_fp_mul_b_iii_int=\count154
+\l_fp_mul_b_iv_int=\count155
+\l_fp_mul_b_v_int=\count156
+\l_fp_mul_b_vi_int=\count157
+\l_fp_mul_output_int=\count158
+\l_fp_output_sign_int=\count159
+\l_fp_output_integer_int=\count160
+\l_fp_output_decimal_int=\count161
+\l_fp_output_exponent_int=\count162
+\l_fp_output_extended_int=\count163
+\l_fp_round_position_int=\count164
+\l_fp_round_target_int=\count165
+\l_fp_split_sign_int=\count166
+\l_fp_internal_int=\count167
+\l_fp_trig_octant_int=\count168
+\l_fp_trig_sign_int=\count169
+\l_fp_trig_decimal_int=\count170
+\l_fp_trig_extended_int=\count171
+\l_fp_internal_dim=\dimen121
+\l_fp_internal_skip=\skip51
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3box.sty
+Package: l3box 2012/02/18 v3432 L3 Experimental boxes
+\l_tmpb_box=\box28
+\l_box_top_dim=\dimen122
+\l_box_bottom_dim=\dimen123
+\l_box_left_dim=\dimen124
+\l_box_right_dim=\dimen125
+\l_box_top_new_dim=\dimen126
+\l_box_bottom_new_dim=\dimen127
+\l_box_left_new_dim=\dimen128
+\l_box_right_new_dim=\dimen129
+\l_box_internal_box=\box29
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3coffins.sty
+Package: l3coffins 2012/02/26 v3460 L3 Experimental coffin code layer
+\l_coffin_internal_box=\box30
+\l_coffin_internal_dim=\dimen130
+\l_coffin_offset_x_dim=\dimen131
+\l_coffin_offset_y_dim=\dimen132
+\l_coffin_x_dim=\dimen133
+\l_coffin_y_dim=\dimen134
+\l_coffin_x_prime_dim=\dimen135
+\l_coffin_y_prime_dim=\dimen136
+\l_coffin_Depth_dim=\dimen137
+\l_coffin_Height_dim=\dimen138
+\l_coffin_TotalHeight_dim=\dimen139
+\l_coffin_Width_dim=\dimen140
+\c_empty_coffin=\box31
+\l_coffin_aligned_coffin=\box32
+\l_coffin_aligned_internal_coffin=\box33
+\l_coffin_bounding_shift_dim=\dimen141
+\l_coffin_left_corner_dim=\dimen142
+\l_coffin_right_corner_dim=\dimen143
+\l_coffin_bottom_corner_dim=\dimen144
+\l_coffin_top_corner_dim=\dimen145
+\l_coffin_scaled_total_height_dim=\dimen146
+\l_coffin_scaled_width_dim=\dimen147
+\l_coffin_display_coffin=\box34
+\l_coffin_display_coord_coffin=\box35
+\l_coffin_display_pole_coffin=\box36
+\l_coffin_display_offset_dim=\dimen148
+\l_coffin_display_x_dim=\dimen149
+\l_coffin_display_y_dim=\dimen150
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3color.sty
+Package: l3color 2011/09/07 v2776 L3 Experimental colour support
+)
+(D:\CTEX\MiKTeX\tex\latex\l3kernel\l3luatex.sty
+Package: l3luatex 2012/02/09 v3355 L3 Experimental LuaTeX-specific functions
+\g_cctab_allocate_int=\count172
+\g_cctab_stack_int=\count173
+))
+(D:\CTEX\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+\etb@tempcnta=\count174
+)
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+(D:\CTEX\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(D:\CTEX\MiKTeX\tex\latex\tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(D:\CTEX\MiKTeX\tex\latex\base\fix-cm.sty
+Package: fix-cm 2006/09/13 v1.1m fixes to LaTeX
+
+(D:\CTEX\MiKTeX\tex\latex\base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 42.
+))
+(D:\CTEX\MiKTeX\tex\latex\ctex\engine\ctex-xecjk-engine.def
+(D:\CTEX\MiKTeX\tex\latex\savesym\savesym.sty
+
+LaTeX Warning: You have requested package `savesym',
+               but the package provides `savesymbol'.
+
+Package: savesymbol 2003/06/01 v1.1 Saves and restores symbols
+) (D:\CTEX\MiKTeX\tex\xelatex\xecjk\xeCJK.sty
+Package: xeCJK 2012/01/31 2.4.5 package for typesetting CJK scripts with XeLaTe
+X
+
+(D:\CTEX\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(D:\CTEX\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
+\XKV@depth=\count175
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+))
+(D:\CTEX\MiKTeX\tex\latex\fontspec\fontspec.sty
+Package: fontspec 2011/09/18 v2.2a Advanced font selection for XeLaTeX/LuaLaTeX
+
+
+(D:\CTEX\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+Package: xparse 2012/02/26 v3471 L3 Experimental document command parser
+\l_xparse_current_arg_int=\count176
+\l_xparse_m_args_int=\count177
+\l_xparse_mandatory_args_int=\count178
+\l_xparse_processor_int=\count179
+\l_xparse_v_nesting_int=\count180
+)
+\l_fontspec_script_int=\count181
+\l_fontspec_language_int=\count182
+\l_fontspec_strnum_int=\count183
+\l_fontspec_tmpa_dim=\dimen151
+\l_fontspec_tmpb_dim=\dimen152
+\l_fontspec_tmpc_dim=\dimen153
+Variant \tl_gset:cV already defined; not changing it on line 66
+
+(D:\CTEX\MiKTeX\tex\latex\fontspec\fontspec-patches.sty
+Package: fontspec-patches 2011/09/18 v2.2a Advanced font selection for XeLaTeX/
+LuaLaTeX
+
+(D:\CTEX\MiKTeX\tex\latex\base\fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: The control sequence `\[' is already robust on input line 471.
+LaTeX Info: The control sequence `\]' is already robust on input line 472.
+)
+LaTeX Info: Redefining \em on input line 22.
+LaTeX Info: Redefining \emph on input line 29.
+LaTeX Info: Redefining \- on input line 32.
+
+*************************************************
+* LaTeX warning: "xparse/redefine-command"
+* 
+* Redefining document command \oldstylenums with arg. spec. 'm' on line 107.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \liningnums with arg. spec. 'm' on line 111.
+.................................................
+) (D:\CTEX\MiKTeX\tex\latex\fontspec\fontspec-xetex.sty
+Package: fontspec-xetex 2011/09/18 v2.2a Advanced font selection for XeLaTeX/Lu
+aLaTeX
+
+(D:\CTEX\MiKTeX\tex\latex\base\fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(D:\CTEX\MiKTeX\tex\latex\euenc\eu1enc.def
+File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
+
+
+(D:\CTEX\MiKTeX\tex\latex\euenc\eu1lmr.fd
+File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Requested font "[lmroman10-regular]:mapping=tex-text" at 10.0pt
+ -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-regular.otf
+)
+(D:\CTEX\MiKTeX\tex\xelatex\xunicode\xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+(D:\CTEX\MiKTeX\tex\latex\tipa\t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+Requested font "[lmromanslant10-regular]:mapping=tex-text" at 10.0pt
+ -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmromanslant10-regular.otf
+Requested font "[lmroman10-italic]:mapping=tex-text" at 10.0pt
+ -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman10-italic.otf
+Requested font "[lmromandemi10-regular]:mapping=tex-text" at 10.0pt
+ -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmromandemi10-regular.otf
+LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
+.
+
+(D:\CTEX\MiKTeX\tex\latex\euenc\eu1lmss.fd
+File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Requested font "[lmsans10-regular]:mapping=tex-text" at 10.0pt
+ -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmsans10-regular.otf
+)
+\tipaTiiicode=\count184
+\tipasavetokens=\toks23
+\tipachecktokens=\toks24
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \fontspec with arg. spec. 'O{}m' on line 39.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmainfont with arg. spec. 'O{}m' on line 43.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setsansfont with arg. spec. 'O{}m' on line 47.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmonofont with arg. spec. 'O{}m' on line 51.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathrm with arg. spec. 'O{}m' on line 59.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setboldmathrm with arg. spec. 'O{}m' on line 62.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathsf with arg. spec. 'O{}m' on line 65.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \setmathtt with arg. spec. 'O{}m' on line 68.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfamily with arg. spec. 'mO{}m' on line 84.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontface with arg. spec. 'mO{}m' on line 87.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \defaultfontfeatures with arg. spec. 'm' on line
+. 91.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \addfontfeatures with arg. spec. 'm' on line 107.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontfeature with arg. spec. 'mm' on line 118.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newAATfeature with arg. spec. 'mmmm' on line 125.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newICUfeature with arg. spec. 'mmm' on line 132.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeature with arg. spec. 'mm' on line
+. 159.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \aliasfontfeatureoption with arg. spec. 'mmm' on
+. line 164.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontscript with arg. spec. 'mm' on line 169.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \newfontlanguage with arg. spec. 'mm' on line 192.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining document command \DeclareFontsExtensions with arg. spec. 'm' on
+. line 211.
+.................................................
+Variant \prop_gput:cnV already defined; not changing it on line 485
+Variant \prop_gput:cnx already defined; not changing it on line 486
+Variant \keys_set:nx already defined; not changing it on line 963
+\c@fontspec_tmp_int=\count185
+LaTeX Info: Redefining \itshape on input line 1881.
+LaTeX Info: Redefining \slshape on input line 1885.
+LaTeX Info: Redefining \scshape on input line 1889.
+LaTeX Info: Redefining \upshape on input line 1893.
+
+(D:\CTEX\MiKTeX\tex\latex\fontspec\fontspec.cfg)))
+\xeCJK@cnta=\count186
+\xeCJK@cntb=\count187
+\xeCJK@cntc=\count188
+\xeCJK@cntd=\count189
+\xeCJK@cnte=\count190
+\xeCJK@dima=\dimen154
+LaTeX Info: Redefining \normalfont on input line 886.
+LaTeX Info: Redefining \rmfamily on input line 895.
+LaTeX Info: Redefining \sffamily on input line 899.
+LaTeX Info: Redefining \ttfamily on input line 903.
+\xeCJK@featureadded=\count191
+\g_xecjk_exspace_dim=\dimen155
+)
+(D:\CTEX\MiKTeX\tex\latex\ctex\engine\ctex-cjk-common.def
+\ccwd=\dimen156
+)
+(D:\CTEX\MiKTeX\tex\latex\ctex\fontset\ctex-xecjk-winfonts.def))
+\CTEX@q=\count192
+\CTEX@r=\count193
+))
+(D:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-utf8.def)
+(D:\CTEX\MiKTeX\tex\latex\ctex\cfg\ctex.cfg)
+(D:\CTEX\MiKTeX\tex\latex\comment\comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment')
+("F:\必修二 选修四\必修2\必修2.aux")
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 16.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 16.
+
+(D:\CTEX\MiKTeX\tex\latex\kpfonts\omljkp.fd
+File: omljkp.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 16.
+
+(D:\CTEX\MiKTeX\tex\latex\kpfonts\omsjkp.fd
+File: omsjkp.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 16.
+
+(D:\CTEX\MiKTeX\tex\latex\kpfonts\omxjkp.fd
+File: omxjkp.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 16.
+
+
+(D:\CTEX\MiKTeX\tex\latex\kpfonts\ujkpexa.fd
+File: ujkpexa.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 16.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 16.
+
+(D:\CTEX\MiKTeX\tex\latex\tipa\t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 16.
+Requested font "SimSun" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "SimSun/ICU" at 10.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+\g_fontspec_family_SimSun_int=\count194
+Requested font "SimHei/ICU" at 10.0pt
+ -> C:/WINDOWS/Fonts/simhei.ttf
+Requested font "[SIMKAI.TTF]/ICU" at 10.0pt
+ -> C:/WINDOWS/Fonts/SIMKAI.TTF
+Requested font "SimHei/I/ICU" at 10.0pt
+ -> C:/WINDOWS/Fonts/simhei.ttf
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font SimHei/I (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SimSun(0)' created for font 'SimSun' with options
+. [Ligatures=TeX,BoldFont={SimHei},ItalicFont={[SIMKAI.TTF]}].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"SimSun/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"SimHei/ICU:script=latn;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"[SIMKAI.TTF]/ICU:script=latn;language=DFLT;mapping=tex-text;"
+.................................................
+Requested font "SimSun/ICU:script=latn;language=DFLT;mapping=tex-text;" at 10.0
+pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+File: image3.png Graphic file (type QTm)
+ <use  "image3.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 26.
+
+File: image4.png Graphic file (type QTm)
+<use  "image4.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 50.
+
+[1
+
+]
+File: image5.png Graphic file (type QTm)
+ <use  "image5.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 74.
+
+File: image6.png Graphic file (type QTm)
+<use  "image6.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 87.
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+[2]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+File: image7.png Graphic file (type QTm)
+ <use  "image7.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 107.
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image8.png Graphic file (type QTm)
+<use  "image8.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 146.
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+[3]
+LaTeX Font Info:    Try loading font information for OT1+jkp on input line 178.
+
+ (D:\CTEX\MiKTeX\tex\latex\kpfonts\ot1jkp.fd
+File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
+)
+Requested font "jkpmn7t" at 10.0pt
+ -> jkpmn7t
+Requested font "jkpmn7t" at 7.6pt
+ -> jkpmn7t
+Requested font "jkpmn7t" at 6.0pt
+ -> jkpmn7t
+Requested font "jkpmi" at 10.0pt
+ -> jkpmi
+Requested font "jkpmi" at 7.6pt
+ -> jkpmi
+Requested font "jkpmi" at 6.0pt
+ -> jkpmi
+Requested font "jkpsy" at 10.0pt
+ -> jkpsy
+Requested font "jkpsy" at 7.6pt
+ -> jkpsy
+Requested font "jkpsy" at 6.0pt
+ -> jkpsy
+Requested font "jkpex" at 10.0pt
+ -> jkpex
+Requested font "jkpex" at 7.6pt
+ -> jkpex
+Requested font "jkpex" at 6.0pt
+ -> jkpex
+LaTeX Font Info:    Try loading font information for U+jkpsya on input line 178
+.
+
+(D:\CTEX\MiKTeX\tex\latex\kpfonts\ujkpsya.fd
+File: ujkpsya.fd 2006/08/15 v1.0
+)
+Requested font "jkpsya" at 10.0pt
+ -> jkpsya
+Requested font "jkpsya" at 7.6pt
+ -> jkpsya
+Requested font "jkpsya" at 6.0pt
+ -> jkpsya
+LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 178
+.
+
+(D:\CTEX\MiKTeX\tex\latex\kpfonts\ujkpsyb.fd
+File: ujkpsyb.fd 2006/08/15 v1.0
+)
+Requested font "jkpsyb" at 10.0pt
+ -> jkpsyb
+Requested font "jkpsyb" at 7.6pt
+ -> jkpsyb
+Requested font "jkpsyb" at 6.0pt
+ -> jkpsyb
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 178.
+
+
+(D:\CTEX\MiKTeX\tex\latex\txfonts\ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+Requested font "txi" at 10.0pt
+ -> txi
+Requested font "txi" at 7.6pt
+ -> txi
+Requested font "txi" at 6.0pt
+ -> txi
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 178
+.
+
+(D:\CTEX\MiKTeX\tex\latex\kpfonts\ujkpmia.fd
+File: ujkpmia.fd 2006/08/15 v1.0
+)
+Requested font "jkpmia" at 10.0pt
+ -> jkpmia
+Requested font "jkpmia" at 7.6pt
+ -> jkpmia
+Requested font "jkpmia" at 6.0pt
+ -> jkpmia
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 178
+.
+
+(D:\CTEX\MiKTeX\tex\latex\kpfonts\ujkpsyc.fd
+File: ujkpsyc.fd 2006/08/15 v1.0
+)
+Requested font "jkpsyc" at 10.0pt
+ -> jkpsyc
+Requested font "jkpsyc" at 7.6pt
+ -> jkpsyc
+Requested font "jkpsyc" at 6.0pt
+ -> jkpsyc
+Requested font "jkpexa" at 10.0pt
+ -> jkpexa
+Requested font "jkpexa" at 7.6pt
+ -> jkpexa
+Requested font "jkpexa" at 6.0pt
+ -> jkpexa
+File: image9.png Graphic file (type QTm)
+ <use  "image9.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 180.
+
+File: image10.png Graphic file (type QTm)
+<use  "image10.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 190.
+
+[4]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image11.png Graphic file (type QTm)
+ <use  "image11.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 221.
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image12.png Graphic file (type QTm)
+<use  "image12.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 239.
+
+[5]
+File: image13.png Graphic file (type QTm)
+ <use  "image13.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 252.
+
+File: image14.png Graphic file (type QTm)
+<use  "image14.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 270.
+
+[6]
+File: image15.png Graphic file (type QTm)
+ <use  "image15.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 280.
+
+File: image16.png Graphic file (type QTm)
+<use  "image16.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 288.
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+[7]
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image17.png Graphic file (type QTm)
+ <use  "image17.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 343.
+
+File: image18.png Graphic file (type QTm)
+<use  "image18.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 355.
+
+[8]
+File: image19.png Graphic file (type QTm)
+ <use  "image19.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 379.
+
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+[9]
+File: image20.png Graphic file (type QTm)
+ <use  "image20.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 391.
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+File: image21.png Graphic file (type QTm)
+<use  "image21.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 405.
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+[10]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image22.png Graphic file (type QTm)
+ <use  "image22.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 465.
+
+[11]
+File: image23.png Graphic file (type QTm)
+ <use  "image23.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 485.
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image24.png Graphic file (type QTm)
+<use  "image24.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 505.
+
+File: image25.png Graphic file (type QTm)
+<use  "image25.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 511.
+
+[12]
+File: image26.png Graphic file (type QTm)
+ <use  "image26.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 519.
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image27.png Graphic file (type QTm)
+<use  "image27.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 525.
+
+[13]
+File: image28.png Graphic file (type QTm)
+ <use  "image28.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 560.
+
+File: image29.png Graphic file (type QTm)
+<use  "image29.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 572.
+
+[14]
+File: image30.png Graphic file (type QTm)
+ <use  "image30.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 598.
+
+File: image31.png Graphic file (type QTm)
+<use  "image31.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 610.
+
+File: image32.png Graphic file (type QTm)
+<use  "image32.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 624.
+
+[15]
+File: image33.png Graphic file (type QTm)
+ <use  "image33.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 636.
+
+File: image34.png Graphic file (type QTm)
+<use  "image34.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 650.
+
+File: image35.png Graphic file (type QTm)
+<use  "image35.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 656.
+
+[16]
+File: image36.png Graphic file (type QTm)
+ <use  "image36.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 683.
+
+File: image37.png Graphic file (type QTm)
+<use  "image37.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 687.
+
+[17]
+Overfull \hbox (7.59879pt too wide) in paragraph at lines 695--696
+[]\xeCJK@rm/m/n/10 题 目：| 如 图 所 示，| 画 出 四 面 体 \EU1/lmr
+/m/it/10 AB$[][]$CD$[][]$ \xeCJK@rm/m/n/10 三 视 图 中 的 正 视 图，| 
+以 面 \EU1/lmr/m/it/10 AA$[][]$D$[][]$D\xeCJK@rm/m/n/10 为
+ []
+
+File: image38.png Graphic file (type QTm)
+<use  "image38.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 697.
+
+File: image39.png Graphic file (type QTm)
+<use  "image39.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 699.
+
+File: image40.png Graphic file (type QTm)
+<use  "image40.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 712.
+
+File: image41.png Graphic file (type QTm)
+<use  "image41.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 712.
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+[18]
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image42.png Graphic file (type QTm)
+ <use  "image42.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 734.
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image43.png Graphic file (type QTm)
+<use  "image43.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 746.
+
+File: image44.png Graphic file (type QTm)
+<use  "image44.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 752.
+
+[19]
+File: image45.png Graphic file (type QTm)
+ <use  "image45.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 760.
+
+File: image46.png Graphic file (type QTm)
+<use  "image46.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 766.
+
+[20]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image47.png Graphic file (type QTm)
+ <use  "image47.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 830.
+
+[21]
+File: image48.png Graphic file (type QTm)
+ <use  "image48.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 861.
+
+[22]
+File: image49.png Graphic file (type QTm)
+ <use  "image49.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 887.
+
+Requested font "[lmroman8-regular]:mapping=tex-text" at 7.6pt
+ -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman8-regular.otf
+Requested font "[lmroman6-regular]:mapping=tex-text" at 6.0pt
+ -> D:/CTEX/MiKTeX/fonts/opentype/public/lm/lmroman6-regular.otf
+File: image50.png Graphic file (type QTm)
+<use  "image50.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 899.
+
+[23]
+File: image51.png Graphic file (type QTm)
+ <use  "image51.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 920.
+
+File: image52.png Graphic file (type QTm)
+<use  "image52.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 928.
+
+File: image53.png Graphic file (type QTm)
+<use  "image53.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 938.
+
+File: image54.png Graphic file (type QTm)
+<use  "image54.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 948.
+
+[24]
+File: image55.png Graphic file (type QTm)
+ <use  "image55.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 962.
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+File: image56.png Graphic file (type QTm)
+<use  "image56.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 978.
+
+[25]
+File: image57.png Graphic file (type QTm)
+ <use  "image57.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 992.
+
+File: image58.png Graphic file (type QTm)
+<use  "image58.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1010.
+
+
+File: image59.png Graphic file (type QTm)
+<use  "image59.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1014.
+
+
+[26]
+File: image60.png Graphic file (type QTm)
+ <use  "image60.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1024.
+
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image61.png Graphic file (type QTm)
+<use  "image61.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1030.
+
+
+File: image62.png Graphic file (type QTm)
+<use  "image62.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1039.
+
+
+[27]
+File: image63.png Graphic file (type QTm)
+ <use  "image63.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1051.
+
+
+Requested font "SimSun" at 7.6pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "SimSun/ICU" at 7.6pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SimSun(0)' created for font 'SimSun' with options
+. [Ligatures=TeX,BoldFont={SimHei},ItalicFont={[SIMKAI.TTF]}].
+. 
+. This font family consists of the following shapes:
+.................................................
+Requested font "SimSun/ICU:script=latn;language=DFLT;mapping=tex-text;" at 7.6p
+t
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "SimSun" at 6.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+Requested font "SimSun/ICU" at 6.0pt
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SimSun(0)' created for font 'SimSun' with options
+. [Ligatures=TeX,BoldFont={SimHei},ItalicFont={[SIMKAI.TTF]}].
+. 
+. This font family consists of the following shapes:
+.................................................
+Requested font "SimSun/ICU:script=latn;language=DFLT;mapping=tex-text;" at 6.0p
+t
+ -> D:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf
+[28]
+File: image64.png Graphic file (type QTm)
+ <use  "image64.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1134.
+
+
+[29]
+File: image65.png Graphic file (type QTm)
+ <use  "image65.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1144.
+
+
+File: image66.png Graphic file (type QTm)
+<use  "image66.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1166.
+
+
+[30]
+File: image67.png Graphic file (type QTm)
+ <use  "image67.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1182.
+
+
+File: image68.png Graphic file (type QTm)
+<use  "image68.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1202.
+
+
+[31]
+Missing character: There is no Ⅱ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image69.png Graphic file (type QTm)
+ <use  "image69.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1216.
+
+
+Missing character: There is no Ⅰ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image70.png Graphic file (type QTm)
+<use  "image70.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1228.
+
+
+File: image71.png Graphic file (type QTm)
+<use  "image71.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1234.
+
+
+[32]
+File: image72.png Graphic file (type QTm)
+ <use  "image72.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1259.
+
+
+File: image73.png Graphic file (type QTm)
+<use  "image73.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1273.
+
+
+[33]
+File: image74.png Graphic file (type QTm)
+ <use  "image74.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1277.
+
+
+File: image75.png Graphic file (type QTm)
+<use  "image75.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1299.
+
+
+[34]
+Overfull \hbox (8.48192pt too wide) in paragraph at lines 1333--1344
+[]\xeCJK@rm/m/n/10 解 析：| 设 两 球 的 半 径 分 别 为 \EU1/lmr/m/i
+t/10 R\xeCJK@rm/m/n/10 、| \EU1/lmr/m/it/10 r\EU1/lmr/m/n/10 (\EU1/lmr/m/it/10
+ R$[]$r\EU1/lmr/m/n/10 )\xeCJK@rm/m/n/10 ，| 则 由 题 意 得 $[]$，|
+ []
+
+[35]
+File: image76.png Graphic file (type QTm)
+ <use  "image76.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1395.
+
+
+[36]
+File: image77.png Graphic file (type QTm)
+ <use  "image77.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1463.
+
+
+File: image78.png Graphic file (type QTm)
+<use  "image78.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1477.
+
+
+File: image79.png Graphic file (type QTm)
+<use  "image79.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1477.
+
+
+[37]
+File: image80.png Graphic file (type QTm)
+ <use  "image80.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1519.
+
+
+[38]
+File: image81.png Graphic file (type QTm)
+ <use  "image81.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1537.
+
+
+File: image82.png Graphic file (type QTm)
+<use  "image82.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1549.
+
+
+[39]
+File: image83.png Graphic file (type QTm)
+ <use  "image83.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1583.
+
+
+[40]
+File: image84.png Graphic file (type QTm)
+ <use  "image84.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1614.
+
+
+File: image85.png Graphic file (type QTm)
+<use  "image85.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1626.
+
+
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 1640
+.
+(D:\CTEX\MiKTeX\tex\latex\lm\ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Requested font "ts1-lmr10" at 10.0pt
+ -> ts1-lmr10
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+ [41]
+File: image86.png Graphic file (type QTm)
+ <use  "image86.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1698.
+
+
+[42]
+File: image87.png Graphic file (type QTm)
+ <use  "image87.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1715.
+
+
+File: image88.png Graphic file (type QTm)
+<use  "image88.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1740.
+
+
+File: image89.png Graphic file (type QTm)
+<use  "image89.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1746.
+
+
+[43]
+File: image90.png Graphic file (type QTm)
+ <use  "image90.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1754.
+
+
+File: image91.png Graphic file (type QTm)
+<use  "image91.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1766.
+
+
+File: image92.png Graphic file (type QTm)
+<use  "image92.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1777.
+
+
+[44]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+ [45]
+File: image93.png Graphic file (type QTm)
+ <use  "image93.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1846.
+
+
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image94.png Graphic file (type QTm)
+<use  "image94.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1858.
+
+
+File: image95.png Graphic file (type QTm)
+<use  "image95.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1875.
+
+
+[46]
+File: image96.png Graphic file (type QTm)
+ <use  "image96.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1888.
+
+
+File: image97.png Graphic file (type QTm)
+<use  "image97.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1920.
+
+
+[47]
+File: image98.png Graphic file (type QTm)
+ <use  "image98.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1945.
+
+
+File: image99.png Graphic file (type QTm)
+<use  "image99.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1956.
+
+
+[48]
+File: image101.png Graphic file (type QTm)
+ <use  "image101.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 1993.
+
+
+[49]
+File: image102.png Graphic file (type QTm)
+ <use  "image102.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2033.
+
+
+File: image103.png Graphic file (type QTm)
+<use  "image103.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2049.
+
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+[50]
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image104.png Graphic file (type QTm)
+ <use  "image104.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2083.
+
+
+File: image105.png Graphic file (type QTm)
+<use  "image105.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2105.
+
+
+[51]
+File: image106.png Graphic file (type QTm)
+ <use  "image106.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2119.
+
+
+File: image107.png Graphic file (type QTm)
+<use  "image107.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2127.
+
+
+File: image108.png Graphic file (type QTm)
+<use  "image108.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2161.
+
+
+[52]
+File: image109.png Graphic file (type QTm)
+ <use  "image109.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2177.
+
+
+File: image110.png Graphic file (type QTm)
+<use  "image110.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2199.
+
+
+[53]
+File: image111.png Graphic file (type QTm)
+ <use  "image111.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2211.
+
+
+File: image112.png Graphic file (type QTm)
+<use  "image112.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2217.
+
+
+File: image113.png Graphic file (type QTm)
+<use  "image113.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2227.
+
+
+[54]
+File: image114.png Graphic file (type QTm)
+ <use  "image114.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2239.
+
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+File: image115.png Graphic file (type QTm)
+<use  "image115.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2251.
+
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+[55]
+File: image116.png Graphic file (type QTm)
+ <use  "image116.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2290.
+
+
+File: image118.png Graphic file (type QTm)
+<use  "image118.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2306.
+
+
+[56]
+Overfull \hbox (13.4667pt too wide) in paragraph at lines 2334--2335
+[]\xeCJK@rm/m/n/10 解 析：| 如 图 所 示，| 长 方 体 \EU1/lmr/m/it/10
+ ABCD\EU1/lmr/m/n/10 -\EU1/lmr/m/it/10 A$[][]$B$[][]$C$[][]$D$[][]$ \xeCJK@rm/m
+/n/10 中，| \EU1/lmr/m/it/10 A$[][]$B$[][]$\EU1/lmr/m/n/10 //\xeCJK@rm/m/n/10
+ 平 面 \EU1/lmr/m/it/10 AC\xeCJK@rm/m/n/10 ，| \EU1/lmr/m/it/10 A$[][]$D$[][
+]$\EU1/lmr/m/n/10 //\xeCJK@rm/m/n/10 平
+ []
+
+File: image119.png Graphic file (type QTm)
+<use  "image119.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2336.
+
+
+[57]
+File: image120.png Graphic file (type QTm)
+ <use  "image120.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2366.
+
+
+File: image121.png Graphic file (type QTm)
+<use  "image121.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2388.
+
+
+[58]
+File: image122.png Graphic file (type QTm)
+ <use  "image122.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2414.
+
+
+File: image123.png Graphic file (type QTm)
+<use  "image123.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2444.
+
+
+[59]
+File: image124.png Graphic file (type QTm)
+ <use  "image124.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2508.
+
+
+File: image125.png Graphic file (type QTm)
+<use  "image125.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2518.
+
+
+[60]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑥ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑥ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑥ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+ [61]
+File: image126.png Graphic file (type QTm)
+ <use  "image126.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2578.
+
+
+File: image127.png Graphic file (type QTm)
+<use  "image127.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2584.
+
+
+[62]
+File: image129.png Graphic file (type QTm)
+ <use  "image129.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2647.
+
+
+File: image130.png Graphic file (type QTm)
+<use  "image130.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2665.
+
+
+[63]
+File: image131.png Graphic file (type QTm)
+ <use  "image131.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2695.
+
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image132.png Graphic file (type QTm)
+<use  "image132.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2719.
+
+
+[64]
+File: image133.png Graphic file (type QTm)
+ <use  "image133.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2739.
+
+
+File: image134.png Graphic file (type QTm)
+<use  "image134.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2745.
+
+
+[65]
+File: image135.png Graphic file (type QTm)
+ <use  "image135.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2763.
+
+
+File: image136.png Graphic file (type QTm)
+<use  "image136.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2803.
+
+
+[66]
+Overfull \hbox (10.65764pt too wide) in paragraph at lines 2805--2806
+\EU1/lmr/m/it/10 BCC$[][]$B$[][]$\xeCJK@rm/m/n/10 ，| 而 \EU1/lmr/m/it/10 BC$
+[]$ \xeCJK@rm/m/n/10 平 面 \EU1/lmr/m/it/10 BCC$[][]$B$[][]$\xeCJK@rm/m/n/10 
+；| \EU1/lmr/m/it/10 A$[][]$A\xeCJK@rm/m/n/10 与 \EU1/lmr/m/it/10 CD\xeCJK@rm
+/m/n/10 是 异 面 直 线，| \EU1/lmr/m/it/10 A$[][]$A\EU1/lmr/m/n/10 //\xeC
+JK@rm/m/n/10 平 面 \EU1/lmr/m/it/10 BCC$[][]$B$[][]$\xeCJK@rm/m/n/10 ，|
+ []
+
+File: image137.png Graphic file (type QTm)
+<use  "image137.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2815.
+
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+
+Overfull \hbox (19.57623pt too wide) in paragraph at lines 2817--2818
+[]\EU1/lmr/m/n/10 ①\EU1/lmr/m/it/10 OM\EU1/lmr/m/n/10 //\EU1/lmr/m/it/10 PD\x
+eCJK@rm/m/n/10 ；| \EU1/lmr/m/n/10 ②\EU1/lmr/m/it/10 OM\EU1/lmr/m/n/10 //\xe
+CJK@rm/m/n/10 平 面 \EU1/lmr/m/it/10 PCD\xeCJK@rm/m/n/10 ；| \EU1/lmr/m/n/10
+ ③\EU1/lmr/m/it/10 OM\EU1/lmr/m/n/10 //\xeCJK@rm/m/n/10 平 面 \EU1/lmr/m/it
+/10 PDA\xeCJK@rm/m/n/10 ；| \EU1/lmr/m/n/10 ④\EU1/lmr/m/it/10 OM\EU1/lmr/m/n
+/10 //\xeCJK@rm/m/n/10 平 面 \EU1/lmr/m/it/10 PBA\xeCJK@rm/m/n/10 ；| \EU1/l
+mr/m/n/10 ⑤\EU1/lmr/m/it/10 OM\EU1/lmr/m/n/10 //\xeCJK@rm/m/n/10 平
+ []
+
+File: image138.png Graphic file (type QTm)
+<use  "image138.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2831.
+
+
+[67]
+File: image139.png Graphic file (type QTm)
+ <use  "image139.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2847.
+
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+[68]
+Overfull \hbox (8.47629pt too wide) in paragraph at lines 2877--2878
+[]\xeCJK@rm/m/n/10 题 目：| 在 五 面 体 \EU1/lmr/m/it/10 ABCDEF\xeCJK@rm
+/m/n/10 中，| 点 \EU1/lmr/m/it/10 O\xeCJK@rm/m/n/10 是 矩 形 \EU1/lmr/m/i
+t/10 ABCD\xeCJK@rm/m/n/10 的 对 角 线 的 交 点，| $[]$\EU1/lmr/m/it/10 
+CDE\xeCJK@rm/m/n/10 是
+ []
+
+File: image140.png Graphic file (type QTm)
+<use  "image140.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2879.
+
+
+File: image141.png Graphic file (type QTm)
+<use  "image141.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2885.
+
+
+File: image142.png Graphic file (type QTm)
+<use  "image142.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2903.
+
+
+File: image143.png Graphic file (type QTm)
+<use  "image143.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2912.
+
+
+[69]
+File: image144.png Graphic file (type QTm)
+ <use  "image144.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 2924.
+
+
+[70]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image146.png Graphic file (type QTm)
+ <use  "image146.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3009.
+
+
+[71]
+File: image147.png Graphic file (type QTm)
+ <use  "image147.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3033.
+
+
+[72]
+File: image148.png Graphic file (type QTm)
+ <use  "image148.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3075.
+
+
+[73]
+File: image149.png Graphic file (type QTm)
+ <use  "image149.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3101.
+
+
+File: image150.png Graphic file (type QTm)
+<use  "image150.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3119.
+
+
+File: image151.png Graphic file (type QTm)
+<use  "image151.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3137.
+
+
+[74]
+Overfull \hbox (8.35124pt too wide) in paragraph at lines 3153--3154
+[]\xeCJK@rm/m/n/10 因 为 \EU1/lmr/m/it/10 PN$[]$ \xeCJK@rm/m/n/10 平 面 \EU
+1/lmr/m/it/10 CC$[][]$D$[][]$D\xeCJK@rm/m/n/10 ，| \EU1/lmr/m/it/10 C$[][]$D$[
+]$ \xeCJK@rm/m/n/10 平 面 \EU1/lmr/m/it/10 CC$[][]$D$[][]$D\xeCJK@rm/m/n/10 �
+��| 所 以 \EU1/lmr/m/it/10 PN\EU1/lmr/m/n/10 //\xeCJK@rm/m/n/10 平 面 \EU1/
+lmr/m/it/10 CC$[][]$D$[][]$D\xeCJK@rm/m/n/10 ，| 
+ []
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑥ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑥ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+[75]
+File: image152.png Graphic file (type QTm)
+ <use  "image152.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3251.
+
+
+[76]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image153.png Graphic file (type QTm)
+ <use  "image153.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3265.
+
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image154.png Graphic file (type QTm)
+<use  "image154.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3275.
+
+
+[77]
+File: image155.png Graphic file (type QTm)
+ <use  "image155.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3295.
+
+
+File: image156.png Graphic file (type QTm)
+<use  "image156.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3336.
+
+
+[78]
+File: image157.png Graphic file (type QTm)
+ <use  "image157.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3343.
+
+
+File: image159.png Graphic file (type QTm)
+<use  "image159.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3381.
+
+
+[79]
+File: image160.png Graphic file (type QTm)
+ <use  "image160.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3399.
+
+
+
+Overfull \hbox (0.20322pt too wide) in paragraph at lines 3409--3410
+[]\xeCJK@rm/m/n/10 又 \EU1/lmr/m/it/10 A$[][]$B$[][]$$[]$ \xeCJK@rm/m/n/10 平
+ 面 \EU1/lmr/m/it/10 A$[][]$B$[][]$ED\xeCJK@rm/m/n/10 ，| 平 面 \EU1/lmr/m/
+it/10 A$[][]$B$[][]$ED$[]$ \xeCJK@rm/m/n/10 平 面 \EU1/lmr/m/it/10 ABC\xeCJK@
+rm/m/n/10 ＝ \EU1/lmr/m/it/10 DE\xeCJK@rm/m/n/10 ，| $[]$\EU1/lmr/m/it/10 DE\
+EU1/lmr/m/n/10 //\EU1/lmr/m/it/10 A$[][]$B$[][]$\EU1/lmr/m/n/10 . 
+ []
+
+[80]
+File: image161.png Graphic file (type QTm)
+ <use  "image161.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3439.
+
+
+Missing character: There is no ▱ in font [lmroman10-regular]:mapping=tex-text
+!
+
+Overfull \hbox (17.13765pt too wide) in paragraph at lines 3449--3450
+[]\xeCJK@rm/m/n/10 解 析：| $[]$ 在 \EU1/lmr/m/n/10 ▱\EU1/lmr/m/it/10 AA$
+[][]$B$[][]$B\xeCJK@rm/m/n/10 中，| \EU1/lmr/m/it/10 AM\xeCJK@rm/m/n/10 ＝ \
+EU1/lmr/m/n/10 2\EU1/lmr/m/it/10 MA$[][]$\xeCJK@rm/m/n/10 ，| \EU1/lmr/m/it/10
+ BN\xeCJK@rm/m/n/10 ＝ \EU1/lmr/m/n/10 2\EU1/lmr/m/it/10 NB$[][]$\xeCJK@rm/m/n
+/10 ，| $[]$\EU1/lmr/m/it/10 AM\EU1/lmr/m/n/10 =\EU1/lmr/m/it/10 BN\xeCJK@rm/m
+/n/10 ，| $[]$\EU1/lmr/m/it/10 MN\EU1/lmr/m/n/10 =\EU1/lmr/m/it/10 AB\EU1/lmr/
+m/n/10 .
+ []
+
+File: image162.png Graphic file (type QTm)
+<use  "image162.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3459.
+
+
+[81]
+File: image164.png Graphic file (type QTm)
+ <use  "image164.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3493.
+
+
+File: image165.png Graphic file (type QTm)
+<use  "image165.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3509.
+
+
+[82]
+File: image166.png Graphic file (type QTm)
+ <use  "image166.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3531.
+
+
+[83]
+File: image167.png Graphic file (type QTm)
+ <use  "image167.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3603.
+
+
+[84]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image168.png Graphic file (type QTm)
+ <use  "image168.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3641.
+
+
+[85]
+File: image169.png Graphic file (type QTm)
+ <use  "image169.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3655.
+
+
+File: image170.png Graphic file (type QTm)
+<use  "image170.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3661.
+
+
+File: image171.png Graphic file (type QTm)
+<use  "image171.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3671.
+
+
+[86]
+File: image172.png Graphic file (type QTm)
+ <use  "image172.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3715.
+
+
+[87]
+File: image173.png Graphic file (type QTm)
+ <use  "image173.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3721.
+
+
+[88]
+File: image175.png Graphic file (type QTm)
+ <use  "image175.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3778.
+
+
+[89]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image176.png Graphic file (type QTm)
+ <use  "image176.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3848.
+
+
+File: image177.png Graphic file (type QTm)
+<use  "image177.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3856.
+
+
+[90]
+File: image178.png Graphic file (type QTm)
+ <use  "image178.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3870.
+
+
+File: image179.png Graphic file (type QTm)
+<use  "image179.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3892.
+
+
+File: image180.png Graphic file (type QTm)
+<use  "image180.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3901.
+
+
+[91]
+File: image181.png Graphic file (type QTm)
+ <use  "image181.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3921.
+
+
+File: image182.png Graphic file (type QTm)
+<use  "image182.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3947.
+
+
+[92]
+File: image183.png Graphic file (type QTm)
+ <use  "image183.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3955.
+
+
+
+Overfull \hbox (5.10428pt too wide) in paragraph at lines 3965--3966
+[]$[]$\EU1/lmr/m/it/10 PD$[][]$\EU1/lmr/m/n/10 =\EU1/lmr/m/it/10 CQ\xeCJK@rm/m/
+n/10 ，| $[]$\EU1/lmr/m/it/10 D$[][]$Q\EU1/lmr/m/n/10 //\EU1/lmr/m/it/10 PC\EU
+1/lmr/m/n/10 . \xeCJK@rm/m/n/10 又 \EU1/lmr/m/it/10 PC$[]$ \xeCJK@rm/m/n/10 �
+� 面 \EU1/lmr/m/it/10 PAO\xeCJK@rm/m/n/10 ，| \EU1/lmr/m/it/10 D$[][]$Q$[]$ \
+xeCJK@rm/m/n/10 平 面 \EU1/lmr/m/it/10 PAO\xeCJK@rm/m/n/10 ，| $[]$\EU1/lmr/
+m/it/10 D$[][]$Q\EU1/lmr/m/n/10 //\xeCJK@rm/m/n/10 平
+ []
+
+
+Overfull \hbox (8.18616pt too wide) in paragraph at lines 3987--3988
+[]\xeCJK@rm/m/n/10 题 目：| 如 图，| 在 多 面 体 \EU1/lmr/m/it/10 ABC
+\EU1/lmr/m/n/10 -\EU1/lmr/m/it/10 DEFG\xeCJK@rm/m/n/10 中，| 平 面 \EU1/lmr
+/m/it/10 ABC\EU1/lmr/m/n/10 //\xeCJK@rm/m/n/10 平 面 \EU1/lmr/m/it/10 DEFG\xe
+CJK@rm/m/n/10 ，| \EU1/lmr/m/it/10 EF\EU1/lmr/m/n/10 //\EU1/lmr/m/it/10 DG\xeC
+JK@rm/m/n/10 ，|
+ []
+
+File: image184.png Graphic file (type QTm)
+<use  "image184.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3989.
+
+
+[93]
+File: image185.png Graphic file (type QTm)
+ <use  "image185.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 3997.
+
+
+File: image186.png Graphic file (type QTm)
+<use  "image186.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4029.
+
+
+[94]
+File: image187.png Graphic file (type QTm)
+ <use  "image187.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4045.
+
+
+File: image188.png Graphic file (type QTm)
+<use  "image188.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4056.
+
+
+[95]
+File: image189.png Graphic file (type QTm)
+ <use  "image189.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4068.
+
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+
+Overfull \hbox (2.12163pt too wide) in paragraph at lines 4078--4079
+[]$\EU1/lmr/m/it/10 PQ\EU1/lmr/m/n/10 //\EU1/lmr/m/it/10 AC\xeCJK@rm/m/n/10 ，
+| 从 而 \EU1/lmr/m/it/10 AC\EU1/lmr/m/n/10 //\xeCJK@rm/m/n/10 截 面 \EU1/lm
+r/m/it/10 PQMN\xeCJK@rm/m/n/10 ，| \EU1/lmr/m/n/10 ② \xeCJK@rm/m/n/10 正 �
+�；| 同 理 可 得 \EU1/lmr/m/it/10 MQ\EU1/lmr/m/n/10 //\EU1/lmr/m/it/10 BD\
+xeCJK@rm/m/n/10 ，| 故 \EU1/lmr/m/it/10 AC$\OMS/jkp/m/n/10 ?$\EU1/lmr/m/it/10
+ BD\xeCJK@rm/m/n/10 ，|
+ []
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image190.png Graphic file (type QTm)
+<use  "image190.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4088.
+
+
+[96]
+File: image191.png Graphic file (type QTm)
+ <use  "image191.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4119.
+
+
+
+Overfull \hbox (13.92865pt too wide) in paragraph at lines 4139--4140
+[]\xeCJK@rm/m/n/10 题 目：| 如 图，| 在 四 棱 柱 \EU1/lmr/m/it/10 ABC
+D\EU1/lmr/m/n/10 -\EU1/lmr/m/it/10 A$[][]$B$[][]$C$[][]$D$[][]$ \xeCJK@rm/m/n/1
+0 中，| 底 面 \EU1/lmr/m/it/10 ABCD\xeCJK@rm/m/n/10 为 梯 形，| \EU1/lm
+r/m/it/10 AD\EU1/lmr/m/n/10 //\EU1/lmr/m/it/10 BC\xeCJK@rm/m/n/10 ，|
+ []
+
+File: image192.png Graphic file (type QTm)
+<use  "image192.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4141.
+
+
+[97]
+File: image194.png Graphic file (type QTm)
+ <use  "image194.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4194.
+
+
+[98]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image195.png Graphic file (type QTm)
+ <use  "image195.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4256.
+
+
+[99]
+File: image196.png Graphic file (type QTm)
+ <use  "image196.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4297.
+
+
+File: image197.png Graphic file (type QTm)
+<use  "image197.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4321.
+
+
+[100]
+File: image198.png Graphic file (type QTm)
+ <use  "image198.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4329.
+
+
+File: image199.png Graphic file (type QTm)
+<use  "image199.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4347.
+
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ＝ in font jkpmn7t!
+Missing character: There is no ＝ in font jkpmn7t!
+[101]
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+File: image200.png Graphic file (type QTm)
+ <use  "image200.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4388.
+
+
+File: image201.png Graphic file (type QTm)
+<use  "image201.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4413.
+
+
+[102]
+Missing character: There is no △ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image203.png Graphic file (type QTm)
+ <use  "image203.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4453.
+
+
+
+Overfull \hbox (6.62677pt too wide) in paragraph at lines 4459--4461
+[]\xeCJK@rm/m/n/10 解 析：| $[]$\EU1/lmr/m/it/10 AD\EU1/lmr/m/n/10 //\EU1/lm
+r/m/it/10 BC\xeCJK@rm/m/n/10 ，| $[]$$\U/jkpsya/m/n/10 \$\EU1/lmr/m/it/10 BCB$
+[][]$ \xeCJK@rm/m/n/10 为 异 面 直 线 \EU1/lmr/m/it/10 AD\xeCJK@rm/m/n/10 
+与 \EU1/lmr/m/it/10 CB$[][]$ \xeCJK@rm/m/n/10 所 成 的 角．| 又 $[]$\EU1
+/lmr/m/it/10 B$[][]$BC\xeCJK@rm/m/n/10 为
+ []
+
+[103]
+File: image204.png Graphic file (type QTm)
+ <use  "image204.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4488.
+
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image205.png Graphic file (type QTm)
+<use  "image205.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4510.
+
+
+[104]
+File: image206.png Graphic file (type QTm)
+ <use  "image206.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4516.
+
+
+
+Overfull \hbox (12.53552pt too wide) in paragraph at lines 4518--4519
+[]\xeCJK@rm/m/n/10 连 接 \EU1/lmr/m/it/10 A$[][]$B\xeCJK@rm/m/n/10 、| \EU1/
+lmr/m/it/10 CD$[][]$\xeCJK@rm/m/n/10 ，| 则 \EU1/lmr/m/it/10 A$[][]$B$\OMS/jk
+p/m/n/10 ?$\EU1/lmr/m/it/10 AB$[][]$\xeCJK@rm/m/n/10 ，| \EU1/lmr/m/it/10 A$[]
+[]$D$[][]$$\OMS/jkp/m/n/10 ?$\EU1/lmr/m/it/10 AB$[][]$\xeCJK@rm/m/n/10 ，| 又
+ \EU1/lmr/m/it/10 A$[][]$D$[][]$$[]$A$[][]$B\xeCJK@rm/m/n/10 ＝ \EU1/lmr/m/it/
+10 A$[][]$\xeCJK@rm/m/n/10 ，| $[]$\EU1/lmr/m/it/10 AB$[][]$$\OMS/jkp/m/n/10 ?
+$
+ []
+
+File: image207.png Graphic file (type QTm)
+<use  "image207.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4546.
+
+
+[105]
+File: image208.png Graphic file (type QTm)
+ <use  "image208.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4552.
+
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+[106]
+File: image210.png Graphic file (type QTm)
+ <use  "image210.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4614.
+
+
+File: image211.png Graphic file (type QTm)
+<use  "image211.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4640.
+
+
+File: image212.png Graphic file (type QTm)
+<use  "image212.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4650.
+
+
+[107]
+File: image213.png Graphic file (type QTm)
+ <use  "image213.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4677.
+
+
+File: image214.png Graphic file (type QTm)
+<use  "image214.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4695.
+
+
+[108]
+File: image215.png Graphic file (type QTm)
+ <use  "image215.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4713.
+
+
+Missing character: There is no ≌ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image216.png Graphic file (type QTm)
+<use  "image216.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4737.
+
+
+[109]
+File: image217.png Graphic file (type QTm)
+ <use  "image217.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4755.
+
+
+[110]
+File: image218.png Graphic file (type QTm)
+ <use  "image218.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4789.
+
+
+File: image219.png Graphic file (type QTm)
+<use  "image219.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4813.
+
+
+File: image220.png Graphic file (type QTm)
+<use  "image220.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4827.
+
+
+[111]
+File: image221.png Graphic file (type QTm)
+ <use  "image221.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4843.
+
+
+File: image222.png Graphic file (type QTm)
+<use  "image222.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4867.
+
+
+[112]
+File: image223.png Graphic file (type QTm)
+ <use  "image223.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4883.
+
+
+
+Overfull \hbox (11.5716pt too wide) in paragraph at lines 4885--4886
+[]\xeCJK@rm/m/n/10 解 析：| 　 取 \EU1/lmr/m/it/10 AB\xeCJK@rm/m/n/10 中 
+点 \EU1/lmr/m/it/10 M\xeCJK@rm/m/n/10 ，| 连 接 \EU1/lmr/m/it/10 PM\xeCJK@r
+m/m/n/10 ，| \EU1/lmr/m/it/10 MC\xeCJK@rm/m/n/10 ，| 则 \EU1/lmr/m/it/10 PM$
+\OMS/jkp/m/n/10 ?$\EU1/lmr/m/it/10 AB\xeCJK@rm/m/n/10 ，| \EU1/lmr/m/it/10 CM$
+\OMS/jkp/m/n/10 ?$\EU1/lmr/m/it/10 AB\xeCJK@rm/m/n/10 ，| $[]$$\U/jkpsya/m/n/1
+0 \$\EU1/lmr/m/it/10 PMC\xeCJK@rm/m/n/10 就
+ []
+
+File: image224.png Graphic file (type QTm)
+<use  "image224.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4887.
+
+
+File: image225.png Graphic file (type QTm)
+<use  "image225.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4899.
+
+
+[113]
+File: image226.png Graphic file (type QTm)
+ <use  "image226.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4927.
+
+
+File: image227.png Graphic file (type QTm)
+<use  "image227.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4939.
+
+
+[114]
+File: image228.png Graphic file (type QTm)
+ <use  "image228.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4959.
+
+
+File: image229.png Graphic file (type QTm)
+<use  "image229.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 4969.
+
+
+[115] [116]
+File: image231.png Graphic file (type QTm)
+ <use  "image231.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5027.
+
+
+File: image232.png Graphic file (type QTm)
+<use  "image232.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5049.
+
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+[117]
+File: image233.png Graphic file (type QTm)
+ <use  "image233.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5091.
+
+
+File: image234.png Graphic file (type QTm)
+<use  "image234.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5109.
+
+
+[118]
+File: image235.png Graphic file (type QTm)
+ <use  "image235.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5129.
+
+
+File: image236.png Graphic file (type QTm)
+<use  "image236.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5147.
+
+
+File: image237.png Graphic file (type QTm)
+<use  "image237.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5168.
+
+
+[119]
+File: image238.png Graphic file (type QTm)
+ <use  "image238.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5190.
+
+
+File: image239.png Graphic file (type QTm)
+<use  "image239.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5211.
+
+
+[120]
+Missing character: There is no ≌ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image240.png Graphic file (type QTm)
+ <use  "image240.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5253.
+
+
+[121]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image241.png Graphic file (type QTm)
+ <use  "image241.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5281.
+
+
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+
+Overfull \hbox (21.99971pt too wide) in paragraph at lines 5285--5286
+[]\xeCJK@rm/m/n/10 解 析：| 　 $[]$\EU1/lmr/m/it/10 AB\xeCJK@rm/m/n/10 是 
+$[]$\EU1/lmr/m/it/10 O\xeCJK@rm/m/n/10 的 直 径，| $[]$\EU1/lmr/m/it/10 AC$
+\OMS/jkp/m/n/10 ?$\EU1/lmr/m/it/10 BC\EU1/lmr/m/n/10 .$[]$\EU1/lmr/m/it/10 PA\x
+eCJK@rm/m/n/10 垂 直 于 $[]$\EU1/lmr/m/it/10 O\xeCJK@rm/m/n/10 所 在 的 �
+�� 面，| $[]$\EU1/lmr/m/it/10 PA$\OMS/jkp/m/n/10 ?$\EU1/lmr/m/it/10 AB\xeCJK@
+rm/m/n/10 ，|
+ []
+
+
+Overfull \hbox (3.4406pt too wide) in paragraph at lines 5285--5286
+\EU1/lmr/m/it/10 PA$\OMS/jkp/m/n/10 ?$\EU1/lmr/m/it/10 AC\xeCJK@rm/m/n/10 ，| 
+\EU1/lmr/m/it/10 PA$\OMS/jkp/m/n/10 ?$\EU1/lmr/m/it/10 BC\xeCJK@rm/m/n/10 ，| 
+\EU1/lmr/m/it/10 BC$\OMS/jkp/m/n/10 ?$ \xeCJK@rm/m/n/10 平 面 \EU1/lmr/m/it/1
+0 PAC\xeCJK@rm/m/n/10 ，| $[]$\EU1/lmr/m/it/10 BC$\OMS/jkp/m/n/10 ?$\EU1/lmr/m
+/it/10 AF\xeCJK@rm/m/n/10 ，| $[]$\EU1/lmr/m/n/10 ③ \xeCJK@rm/m/n/10 正 确
+．| 又 \EU1/lmr/m/it/10 AF$\OMS/jkp/m/n/10 ?$\EU1/lmr/m/it/10 PC\xeCJK@rm/m/n
+/10 ，| $[]$\EU1/lmr/m/it/10 AF$\OMS/jkp/m/n/10 ?$
+ []
+
+File: image242.png Graphic file (type QTm)
+<use  "image242.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5297.
+
+
+[122]
+File: image243.png Graphic file (type QTm)
+ <use  "image243.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5301.
+
+
+File: image244.png Graphic file (type QTm)
+<use  "image244.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5327.
+
+
+[123]
+File: image245.png Graphic file (type QTm)
+ <use  "image245.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5343.
+
+
+File: image246.png Graphic file (type QTm)
+<use  "image246.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5353.
+
+
+[124]
+File: image247.png Graphic file (type QTm)
+ <use  "image247.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5387.
+
+
+[125]
+File: image248.png Graphic file (type QTm)
+ <use  "image248.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5419.
+
+
+Missing character: There is no 母 in font jkpmn7t!
+File: image250.png Graphic file (type QTm)
+<use  "image250.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5454.
+
+
+[126]
+File: image251.png Graphic file (type QTm)
+ <use  "image251.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5510.
+
+
+[127]
+File: image252.png Graphic file (type QTm)
+ <use  "image252.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5542.
+
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+[128]
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+
+Overfull \hbox (6.67152pt too wide) in paragraph at lines 5602--5603
+\EU1/lmr/m/it/10 AB$\OMS/jkp/m/n/10 ?$\EU1/lmr/m/it/10 PC\xeCJK@rm/m/n/10 ，| 
+\EU1/lmr/m/it/10 CA$\OMS/jkp/m/n/10 ?$\EU1/lmr/m/it/10 PB\xeCJK@rm/m/n/10 ，| 
+又 由 \EU1/lmr/m/it/10 BC$\OMS/jkp/m/n/10 ?$\EU1/lmr/m/it/10 PA\xeCJK@rm/m/n/
+10 ，| \EU1/lmr/m/it/10 PH$\OMS/jkp/m/n/10 ?$\EU1/lmr/m/it/10 BC\xeCJK@rm/m/n/
+10 ，| 得 \EU1/lmr/m/it/10 BC$\OMS/jkp/m/n/10 ?$ \xeCJK@rm/m/n/10 平 面 \EU
+1/lmr/m/it/10 PAH\xeCJK@rm/m/n/10 ，| 则 \EU1/lmr/m/it/10 BC$\OMS/jkp/m/n/10 
+?$\EU1/lmr/m/it/10 AH\xeCJK@rm/m/n/10 ，|
+ []
+
+
+Overfull \hbox (3.75546pt too wide) in paragraph at lines 5610--5611
+[]\xeCJK@rm/m/n/10 题 目：| 把 一 副 三 角 板 如 图 拼 接，| 设 
+\EU1/lmr/m/it/10 BC\xeCJK@rm/m/n/10 ＝ \EU1/lmr/m/n/10 6\xeCJK@rm/m/n/10 ，| 
+$\U/jkpsya/m/n/10 \$\EU1/lmr/m/it/10 A\xeCJK@rm/m/n/10 ＝ \EU1/lmr/m/n/10 90$[
+]$\xeCJK@rm/m/n/10 ，| \EU1/lmr/m/it/10 AB\xeCJK@rm/m/n/10 ＝ \EU1/lmr/m/it/1
+0 AC\xeCJK@rm/m/n/10 ，| $\U/jkpsya/m/n/10 \$\EU1/lmr/m/it/10 BCD\xeCJK@rm/m/n
+/10 ＝
+ []
+
+File: image253.png Graphic file (type QTm)
+<use  "image253.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5612.
+
+
+[129]
+File: image254.png Graphic file (type QTm)
+ <use  "image254.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5638.
+
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+[130]
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image255.png Graphic file (type QTm)
+ <use  "image255.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5716.
+
+
+[131]
+File: image256.png Graphic file (type QTm)
+ <use  "image256.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5732.
+
+
+File: image257.png Graphic file (type QTm)
+<use  "image257.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5736.
+
+
+File: image258.png Graphic file (type QTm)
+<use  "image258.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5756.
+
+
+[132]
+File: image259.png Graphic file (type QTm)
+ <use  "image259.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5766.
+
+
+[133]
+File: image260.png Graphic file (type QTm)
+ <use  "image260.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5816.
+
+
+File: image261.png Graphic file (type QTm)
+<use  "image261.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5822.
+
+
+
+Overfull \hbox (16.11165pt too wide) in paragraph at lines 5840--5841
+[]\xeCJK@rm/m/n/10 在 菱 形 \EU1/lmr/m/it/10 ABCD\xeCJK@rm/m/n/10 中，| \E
+U1/lmr/m/it/10 GB\EU1/lmr/m/n/10 //\EU1/lmr/m/it/10 DE\xeCJK@rm/m/n/10 ，| 而
+ \EU1/lmr/m/it/10 FE$[]$ \xeCJK@rm/m/n/10 平 面 \EU1/lmr/m/it/10 DEF\xeCJK@rm
+/m/n/10 ，| \EU1/lmr/m/it/10 DE$[]$ \xeCJK@rm/m/n/10 平 面 \EU1/lmr/m/it/10 
+DEF\xeCJK@rm/m/n/10 ，| \EU1/lmr/m/it/10 EF$[]$DE\xeCJK@rm/m/n/10 ＝
+ []
+
+File: image262.png Graphic file (type QTm)
+<use  "image262.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5854.
+
+
+[134]
+File: image263.png Graphic file (type QTm)
+ <use  "image263.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5878.
+
+
+[135]
+File: image265.png Graphic file (type QTm)
+ <use  "image265.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5955.
+
+
+[136]
+File: image266.png Graphic file (type QTm)
+ <use  "image266.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 5981.
+
+
+[137]
+File: image267.png Graphic file (type QTm)
+ <use  "image267.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 6023.
+
+
+File: image269.png Graphic file (type QTm)
+<use  "image269.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 6049.
+
+
+[138]
+File: image270.png Graphic file (type QTm)
+ <use  "image270.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 6071.
+
+
+File: image271.png Graphic file (type QTm)
+<use  "image271.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 6087.
+
+
+[139]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+ [140]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+ [141]
+Missing character: There is no ▱ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ▱ in font [lmroman10-regular]:mapping=tex-text
+!
+ [142]
+Missing character: There is no ▱ in font [lmroman10-regular]:mapping=tex-text
+!
+File: image273.png Graphic file (type QTm)
+ <use  "image273.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 6330.
+
+
+[143]
+File: image274.png Graphic file (type QTm)
+ <use  "image274.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 6340.
+
+
+[144]
+File: image276.png Graphic file (type QTm)
+ <use  "image276.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 6413.
+
+
+File: image277.png Graphic file (type QTm)
+<use  "image277.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 6429.
+
+
+File: image278.png Graphic file (type QTm)
+<use  "image278.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 6441.
+
+
+[145]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+ [146] [147]
+File: image280.png Graphic file (type QTm)
+ <use  "image280.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 6601.
+
+
+[148]
+File: image281.png Graphic file (type QTm)
+ <use  "image281.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 6641.
+
+
+[149] [150] [151]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+ [152] [153] [154]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman6-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman6-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman6-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman6-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text
+!
+ [155] [156] [157] [158] [159]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman6-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman8-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman6-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+ [160]
+File: image284.png Graphic file (type QTm)
+
+<use  "image284.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 7323.
+
+
+[161] [162]
+File: image285.png Graphic file (type QTm)
+ <use  "image285.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 7420.
+
+
+File: image286.png Graphic file (type QTm)
+<use  "image286.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 7426.
+
+
+[163]
+Overfull \hbox (19.2729pt too wide) in paragraph at lines 7507--7508
+[]\xeCJK@rm/m/n/10 解 析：| 设 \EU1/lmr/m/it/10 AB\xeCJK@rm/m/n/10 边 上 
+的 高 为 \EU1/lmr/m/it/10 h\xeCJK@rm/m/n/10 ，| 则 \EU1/lmr/m/it/10 S$[][]
+$$[][]$ \xeCJK@rm/m/n/10 ＝ $[]$\EU1/lmr/m/n/10 |\EU1/lmr/m/it/10 AB\EU1/lmr/m
+/n/10 | \xeCJK@rm/m/n/10 · \EU1/lmr/m/it/10 h\EU1/lmr/m/n/10 .|\EU1/lmr/m/it/1
+0 AB\EU1/lmr/m/n/10 | \xeCJK@rm/m/n/10 ＝ $[]$
+ []
+
+[164] [165] [166] [167] [168] [169] [170]
+Missing character: There is no Ⅱ in font [lmroman10-regular]:mapping=tex-text
+!
+ [171] [172] [173]
+File: image289.png Graphic file (type QTm)
+
+<use  "image289.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 8061.
+
+
+[174]
+Overfull \hbox (58.33247pt too wide) in paragraph at lines 8077--8078
+[]\xeCJK@rm/m/n/10 答 案：| 　 设 圆 的 标 准 方 程 为 \EU1/lmr/m/n
+/10 (\EU1/lmr/m/it/10 x\EU1/lmr/m/n/10 -\EU1/lmr/m/it/10 a\EU1/lmr/m/n/10 )$[][
+]$ \xeCJK@rm/m/n/10 ＋ \EU1/lmr/m/n/10 (\EU1/lmr/m/it/10 y\EU1/lmr/m/n/10 -\EU
+1/lmr/m/it/10 b\EU1/lmr/m/n/10 )$[][]$ \xeCJK@rm/m/n/10 ＝ \EU1/lmr/m/it/10 r$
+[][]$\xeCJK@rm/m/n/10 ，| 由 题 意 有 $[]$，|
+ []
+
+[175] [176] [177] [178]
+File: image291.png Graphic file (type QTm)
+ <use  "image291.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 8307.
+
+
+[179]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+ [180] [181] [182] [183]
+File: image293.png Graphic file (type QTm)
+ <use  "image293.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 8591.
+
+
+[184]
+Overfull \hbox (0.8346pt too wide) in paragraph at lines 8597--8598
+[]\xeCJK@rm/m/n/10 解 法 二：| 设 直 线 \EU1/lmr/m/it/10 l\xeCJK@rm/m/n/
+10 方 程 为 \EU1/lmr/m/it/10 y\xeCJK@rm/m/n/10 ＝ \EU1/lmr/m/it/10 k\EU1/lm
+r/m/n/10 (\EU1/lmr/m/it/10 x\EU1/lmr/m/n/10 -4)\xeCJK@rm/m/n/10 ，| 则 由 �
+� 意 知 $[]$$[]$\EU1/lmr/m/n/10 1\xeCJK@rm/m/n/10 ，| $[]$\EU1/lmr/m/n/10 -$
+[]$$[]$\EU1/lmr/m/it/10 k$[]$$[]$\EU1/lmr/m/n/10 . 
+ []
+
+
+Overfull \hbox (12.08841pt too wide) in paragraph at lines 8642--8643
+[]\xeCJK@rm/m/n/10 解 析：| 　 圆 心 \EU1/lmr/m/it/10 C\EU1/lmr/m/n/10 (1
+,1)\xeCJK@rm/m/n/10 ，| 半 径 \EU1/lmr/m/it/10 r\xeCJK@rm/m/n/10 ＝ \EU1/lm
+r/m/n/10 1\xeCJK@rm/m/n/10 ，| 弦 长 为 $[]$\EU1/lmr/m/n/10 .$[]$\EU1/lmr/m
+/it/10 C\xeCJK@rm/m/n/10 到 \EU1/lmr/m/it/10 l\xeCJK@rm/m/n/10 的 距 离 \EU
+1/lmr/m/it/10 d\xeCJK@rm/m/n/10 ＝ $[]$
+ []
+
+[185]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+ [186]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text
+!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text
+!
+ [187] [188] [189] [190] [191] [192]
+File: image295.png Graphic file (type QTm)
+ <use  "image295.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9055.
+
+
+File: image297.png Graphic file (type QTm)
+<use  "image297.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9093.
+
+
+[193]
+File: image298.png Graphic file (type QTm)
+ <use  "image298.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9115.
+
+
+File: image299.png Graphic file (type QTm)
+<use  "image299.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9131.
+
+
+[194]
+File: image300.png Graphic file (type QTm)
+ <use  "image300.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9170.
+
+
+File: image301.png Graphic file (type QTm)
+<use  "image301.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9182.
+
+
+[195]
+File: image302.png Graphic file (type QTm)
+ <use  "image302.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9195.
+
+
+File: image303.png Graphic file (type QTm)
+<use  "image303.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9209.
+
+
+[196]
+File: image304.png Graphic file (type QTm)
+ <use  "image304.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9215.
+
+
+[197] [198]
+Requested font "jkpmit7t" at 10.0pt
+ -> jkpmit7t
+Requested font "jkpmit7t" at 7.6pt
+ -> jkpmit7t
+Requested font "jkpmit7t" at 6.0pt
+ -> jkpmit7t
+File: image305.png Graphic file (type QTm)
+ <use  "image305.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9306.
+
+
+File: image306.png Graphic file (type QTm)
+<use  "image306.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9314.
+
+
+[199]
+File: image307.png Graphic file (type QTm)
+ <use  "image307.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9332.
+
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SimSun(0)' created for font 'SimSun' with options
+. [Ligatures=TeX,BoldFont={SimHei},ItalicFont={[SIMKAI.TTF]}].
+. 
+. This font family consists of the following shapes:
+.................................................
+Requested font "[SIMKAI.TTF]/ICU:script=latn;language=DFLT;mapping=tex-text;" a
+t 10.0pt
+ -> C:/WINDOWS/Fonts/SIMKAI.TTF
+[200] [201]
+File: image309.png Graphic file (type QTm)
+ <use  "image309.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9434.
+
+
+
+Overfull \hbox (12.43742pt too wide) in paragraph at lines 9462--9463
+[]$[]$ \xeCJK@rm/m/n/10 ＝ $[]$ ＝ $[]$$[]$$[]$，| 
+ []
+
+File: image310.png Graphic file (type QTm)
+<use  "image310.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9472.
+
+
+[202] [203] [204]
+File: image311.png Graphic file (type QTm)
+ <use  "image311.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9589.
+
+
+File: image312.png Graphic file (type QTm)
+<use  "image312.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9621.
+
+
+[205]
+Overfull \hbox (26.20299pt too wide) in paragraph at lines 9671--9672
+[]\xeCJK@rm/m/n/10 解 析：| 　 圆 \EU1/lmr/m/it/10 O$[][]$\EU1/lmr/m/n/10 
+(1,0)\xeCJK@rm/m/n/10 ，| \EU1/lmr/m/it/10 r$[][]$ \xeCJK@rm/m/n/10 ＝ \EU1/l
+mr/m/n/10 1\xeCJK@rm/m/n/10 ，| 圆 \EU1/lmr/m/it/10 O$[][]$\EU1/lmr/m/n/10 (0
+,2)\xeCJK@rm/m/n/10 ，| \EU1/lmr/m/it/10 r$[][]$ \xeCJK@rm/m/n/10 ＝ \EU1/lmr
+/m/n/10 2\xeCJK@rm/m/n/10 ，| \EU1/lmr/m/n/10 |\EU1/lmr/m/it/10 O$[][]$O$[][]$
+\EU1/lmr/m/n/10 | \xeCJK@rm/m/n/10 ＝ $[]$
+ []
+
+[206] [207] [208]
+File: image313.png Graphic file (type QTm)
+ <use  "image313.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9809.
+
+
+[209] [210] [211]
+File: image314.png Graphic file (type QTm)
+ <use  "image314.png" >
+
+Package xetex.def Warning: No clipping support in XeTeX yet on input line 9988.
+
+
+[212] [213] ("F:\必修二 选修四\必修2\必修2.aux") ) 
+Here is how much of TeX's memory you used:
+ 17483 strings out of 430478
+ 342322 string characters out of 3191502
+ 339698 words of memory out of 3000000
+ 20095 multiletter control sequences out of 15000+200000
+ 19676 words of font info for 67 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 54i,14n,36p,1032b,263s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on 必修2.pdf (213 pages).

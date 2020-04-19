@@ -1,0 +1,60 @@
+{% extends 'masterPage.html' %}
+{% block title %}修改个人信息 - 在线教育网站{% endblock %}
+{% block head %}
+    {% load static %}
+{% endblock %}
+{% block content %}
+    <div>
+        <h2>用户个人信息</h2>
+        <form method="post" action="{% url 'user_modify' %}" enctype="multipart/form-data">
+        {% csrf_token %}
+            <table>
+                <tr>
+                    <td>头像：</td><td><img width="100" height="100" src="{{ MEDIA_URL }}{{ request.user.image }}"></td><td><input name="image" type="file" value="上传头像"></td>
+                    <td>{{ modify_form.errors.image }}</td>
+                </tr>
+                <tr>
+                    <td>用户名：</td><td><input name="username" value="{% if request.method == 'GET' %}{{ request.user.username|default_if_none:'' }}{% else %}{{ modify_form.username.value|default_if_none:'' }}{% endif %}" placeholder="请输入10位以内用户名"></td>
+                    <td>{{ modify_form.errors.username }}</td>
+                </tr>
+                <tr>
+                    <td>性别：</td><td><label><input type="radio" name="gender" value="male" checked="checked">男</label><label><input type="radio" name="gender" value="female" {% if request.user.gender == 'female' or modify_form.gender.value == 'female' %}checked="checked"{% endif %}>女</label></td>
+                </tr>
+                <tr>
+                    <td>生日：</td><td><input type="date" name="birthday" value="{% if request.method == 'GET' %}{{ request.user.birthday|date:'Y-m-d' }}{% else %}{{ modify_form.birthday.value|default_if_none:'' }}{% endif %}"></td>
+                </tr>
+                <tr>
+                    <td>手机：</td><td><input name="mobile" value="{% if request.method == 'GET' %}{{ request.user.mobile|default_if_none:'' }}{% else %}{{ modify_form.mobile.value|default_if_none:'' }}{% endif %}"></td>
+                    <td>{{ modify_form.errors.mobile }}</td>
+                </tr>
+                <tr>
+                    <td>所在地：</td>
+                    <td>
+                        <select name="province">
+                            <option value="">--请选择--</option>
+                            {% for province in provinces %}
+                            <option value="{{ province.pinyin }}" {% if request.method == 'GET' and request.user.province.pinyin == province.pinyin %}selected="selected"{% elif request.method == 'POST' and modify_form.province.value == province.pinyin %}selected="selected"{% endif %}>{{ province.name }}</option>
+                            {% endfor %}
+                        </select>
+                        <select name="city">
+                            <option value="">--请选择--</option>
+                            {% for city in cities %}
+                            <option value="{{ city.pinyin }}" {% if request.method == 'GET' and request.user.city.pinyin == city.pinyin %}selected="selected"{% elif request.method == 'POST' and modify_form.city.value == city.pinyin %}selected="selected"{% endif %}>{{ city.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                    <td>{{ modify_form.errors.province }}</td>
+                </tr>
+                <tr>
+                    <td>QQ：</td><td><input name="QQ" value="{% if request.method == 'GET' %}{{ request.user.QQ|default_if_none:'' }}{% else %}{{ modify_form.QQ.value|default_if_none:'' }}{% endif %}"></td>
+                    <td>{{ modify_form.errors.QQ }}</td>
+                </tr>
+                <tr>
+                    <td>自我介绍：</td><td><input type="text" name="desc" value="{% if request.method == 'GET' %}{{ request.user.desc|default_if_none:'' }}{% else %}{{ modify_form.desc.value|default_if_none:'' }}{% endif %}" placeholder="来说点什么吧！"></td>
+                </tr>
+            </table>
+            <input type="submit" value="修改">
+            <input type="button" value="取消" onclick="location.href='{% url 'user_info' %}'">
+        </form>
+    </div>
+{% endblock %}

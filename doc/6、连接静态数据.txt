@@ -1,0 +1,66 @@
+静态数据是指在模版html文件中，需要添加css、javascript和其他media文件，这时不能用普通的<link>标签去链接这些文件，必须要在setting.py里配置。
+
+1、在工程根目录新建static文件夹，并把各种静态文件放进去。
+
+2、在setting.py中添加：
+STATICFILES_DIRS =  [
+    os.path.join(BASE_DIR, "static"),
+]
+
+3、在模版中引用：
+<head>
+    {% load static %}
+    <link type="text/css" rel="stylesheet" href="{% static 'cssFile.css' %}" />
+</head>
+
+4、在工程的urls.py中添加：
+from django.conf.urls.static import static
+from django.conf import settings
+
+5、完成。
+
+注：静态文件在static文件夹中注意分类，相对的在模版中引用时也要记得修改路径。
+
+
+链接图片的一般方法：
+1、在setting.py中添加：
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(os.path.dirname(__file__),'static')
+STATICFILES_DIRS = (
+    ('css',os.path.join(STATIC_ROOT,'css').replace('\\','/') ),
+    ('js',os.path.join(STATIC_ROOT,'js').replace('\\','/') ),
+    ('images',os.path.join(STATIC_ROOT,'images').replace('\\','/') ),
+    ('upload',os.path.join(STATIC_ROOT,'upload').replace('\\','/') ),
+)
+
+2、在urls.py中添加：
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.contrib import staticfiles
+在最后添加：
+urlpatterns += staticfiles_urlpatterns()
+
+3、确保静态文件夹static和模版文件夹templates放在同一级。
+
+4、调用：
+<img src="/static/images/imageName.jpg">
+注意路径开头'/'不能缺。
+
+
+-------------------------------------------------------------------------------------------
+媒体文件是指用户上传的图片、视频等多媒体文件，需要服务器保存下来。
+1、在工程根目录下新建media文件夹，预先创建各类文件的文件夹。
+
+2、在settings.py中添加：
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+3、在urls.py中添加：
+from django.conf.urls.static import static
+from django.conf import settings
+urlpatterns = [
+	...
+]
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+4、在模版中引用：
+<img src="{{ MEDIA_URL }}{{ request.user.avatar }}">

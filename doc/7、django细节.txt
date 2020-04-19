@@ -1,0 +1,244 @@
+3、在views.py的函数定义中除了request还可以添加参数，该参数在urls.py中作为url的一部分传入：
+在views.py中设置:
+def functionName(request, parameter):
+	...
+
+在urls.py中配置:
+urlpatterns = [
+	url(r'^(?P<parameter>正则表达式)/$', views.functionName, name='url_name'),	#parameter要对应。
+	]
+
+-------------------------------------------------------------------------------------------
+4、templateName.html中超链接写法：
+<a href="{% url 'app_name:url_name' parameter %}"></a>
+其中app_name和url_name都是在urls.py中设置，不过是两个不同的urls.py:
+
+projectName->urls.py:
+include('appName.urls', namespace='app_name'),
+Django 2.0中改为：
+include(('appName.urls', 'appName'), namespace='app_name'),
+
+appName->urls.py:
+url(r'^$', views.functionName, name='url_name'),
+
+若没有使用include则不需要写'app_name:'。
+
+-------------------------------------------------------------------------------------------
+5、在django中使用form的post方法时，form里的第一句写上：
+{% csrf_token %}
+
+-------------------------------------------------------------------------------------------
+7、安装Django-MathJax可在网页显示数学公式：
+>> pip install Django-MathJax
+
+在setting.py中配置：
+在INSTALLED_APPS中添加 django_mathjax，在任意地方添加 MATHJAX_ENABLED = True。
+
+在模版templateName.html中引用：
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+        }
+    });
+</script>
+{% load mathjax %}
+{% mathjax_scripts %}
+使用方法：
+$formula$、\( formula \)、\[ formula \] 或者 $$ formula $$ 把公式包装起来，其中前两种方法使公式紧跟文章，后两种都会另起一行且居中。
+具体公式的格式请上网搜索。
+
+-------------------------------------------------------------------------------------------
+9、母版页
+在同一个网站的不同页面中往往会有很多相同的地方，例如布局、导航、用户信息栏等，为了避免多次编写这些元素的代码，通常会把这些代码放入一个母版页中，所有页面都调用这个母版页，然后再添加各个页面不同的元素的代码。
+母版页代码materPage.html:
+<html>
+	<head>
+		{% block blockName1 %}{% endblock %}
+	</head>
+	<body>
+		{% block blockName2 %}{% endblock %}
+		...
+	</body>
+</html>
+
+子页代码childPage.html:
+{% extends 'masterPage.html' %}
+{% block blockName1 %}
+	...
+{% endblock %}
+{% block blockName2 %}
+	...
+{% endblock %}
+...
+
+-------------------------------------------------------------------------------------------
+10、添加COOKIES
+添加：
+from django.shortcuts import render_to_response
+response = render_to_response('templateName.html',{'param':paramValue,...})
+response.set_cookie('cookieName','cookieValue')
+return response
+
+查看：
+cookies = request.COOKIES['cookieName']
+
+-------------------------------------------------------------------------------------------
+14、<a>标签提交form
+<form id='form_id'>
+	<a onclick="document.getElementById('form_id').submit();">submit</a>
+</form>
+
+-------------------------------------------------------------------------------------------
+15、带参数的重定位
+HttpResponseRedirect(reverse('urlName', args=(para,)))
+
+-------------------------------------------------------------------------------------------
+16、ModelForm添加其他参数
+forms.py:
+class CourseForm(models.ModelForm):
+	class Meta:
+		model = Course
+		exclude = ('teacher', )
+
+views.py:
+course_form = CourseForm(request.POST)
+if course_form.is_valid():
+	course = course_form.save(commit=False)
+	course.teacher = request.user
+	course.save()
+
+-------------------------------------------------------------------------------------------
+17、DjangoUeditor富文本编辑器
+把DjangoUeditor文件夹放到extra_apps下。
+
+注册app和配置好media - settings.py：
+INSTALLED_APPS = [
+    'DjangoUeditor',
+]
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+
+配置url - urls.py：
+urlpatterns = [
+    path('ueditor/',include(('DjangoUeditor.urls', 'DjangoUeditor'), namespace='ueditor')),
+]
+urlpatterns += static(MEDIA_URL, document_root=MEDIA_ROOT)
+
+定义models类型 - models.py：
+from DjangoUeditor.models import UEditorField
+class Test(models.Model):
+	test = UEditorField(...)
+
+使用form表单进行传输 - forms.py：
+from DjangoUeditor.forms import UEditorField, UEditorModelForm
+class TestForm(forms.Form):
+    test = UEditorField('测试', width=600, height=300, ...)
+
+class TestModelForm(UEditorModelForm):
+	class Meta:
+		model = TestModel
+		fields = '__all__'
+
+在模版利用form显示编译器 - template.html：
+<head>
+	{{ test_form.media }} {# 把必须的头文件添加到前端 #}
+</head>
+<body>
+	<form>
+		{{ test_form.as_table }}
+		<button type='submit'>提交</button>
+	</form>
+</body>
+
+编辑器配置：
+https://www.cnblogs.com/zhangchengbing/p/6277005.html
+
+向xadmin添加Ueditor插件：
+extra_apps/xadmin/plugins -> 创建ueditor.py，添加代码：
+
+
+import xadmin
+from xadmin.views import BaseAdminPlugin, CreateAdminView, ModelFormAdminView, UpdateAdminView
+from DjangoUeditor.models import UEditorField
+from DjangoUeditor.widgets import UEditorWidget
+from django.conf import settings
+
+class XadminUEditorWidget(UEditorWidget):
+    def __init__(self,**kwargs):
+        self.ueditor_options=kwargs
+        self.Media.js = None
+        super(XadminUEditorWidget,self).__init__(kwargs)
+
+class UeditorPlugin(BaseAdminPlugin):
+
+    def get_field_style(self, attrs, db_field, style, **kwargs):
+        if style == 'ueditor':
+            if isinstance(db_field, UEditorField):
+                widget = db_field.formfield().widget
+                param = {}
+                param.update(widget.ueditor_settings)
+                param.update(widget.attrs)
+                return {'widget': XadminUEditorWidget(**param)}
+        return attrs
+
+    def block_extrahead(self, context, nodes):
+        js = '<script type="text/javascript" src="%s"></script>' % (settings.STATIC_URL + "ueditor/ueditor.config.js")         #自己的静态目录
+        js += '<script type="text/javascript" src="%s"></script>' % (settings.STATIC_URL + "ueditor/ueditor.all.min.js")   #自己的静态目录
+        nodes.append(js)
+
+xadmin.site.register_plugin(UeditorPlugin, UpdateAdminView)
+xadmin.site.register_plugin(UeditorPlugin, CreateAdminView)
+
+
+
+extra_apps/xadmin/plugins -> __init__.py在PLUGINS中添加'ueditor'
+
+在adminx.py中添加字段显示类型 - adminx.py：
+style_fields = {'field_name': 'ueditor'}
+
+
+-------------------------------------------------------------------------------------------
+修改文件上传路径和名称：
+路径 - models.py：
+def files_path(instance, filename):
+    return os.path.join("files", str(instance.id), filename)
+
+class NameModel(models.Model):
+	file = models.FileField(upload_to=files_path)
+
+# /media/files/filename
+
+命名:
+在apps/utils 下新建 storage.py 文件：
+from django.core.files.storage import FileSystemStorage
+
+class FileStorage(FileSystemStorage):
+    from django.conf import settings
+    def __init__(self, location=settings.MEDIA_ROOT, base_url=settings.MEDIA_URL):
+        # 初始化
+        super(FileStorage, self).__init__(location, base_url)
+
+    # 重写 _save方法
+    def _save(self, name, content):
+        # name为上传文件名称
+        import os, time, random
+        # 文件扩展名
+        ext = os.path.splitext(name)[-1]
+        # 文件目录
+        d = os.path.dirname(name)
+        # 定义文件名，年月日时分秒
+        fn = time.strftime('%Y%m%d%H%M%S')
+        # 重写合成文件名
+        name = os.path.join(d, fn + ext)
+        # 调用父类方法
+        return super(FileStorage, self)._save(name, content)
+
+models.py:
+from utils.storage import FileStorage
+class NameModel(models.Model):
+	file = models.FileField(storage=FileStorage())
+
+-------------------------------------------------------------------------------------------

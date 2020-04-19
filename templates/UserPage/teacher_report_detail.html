@@ -1,0 +1,73 @@
+{% extends 'UserPage/teacher_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+{% endblock %}
+
+{% block content %}
+	<div class="membcont">
+		<h3 class="mem-h3">作业报告</h3>
+		<div class="box demo2" style="width:820px;">
+			<span style="font-size:16px;color:blue;">{{ class_report.paper.title }}</span>
+			<span style="font-size:16px;color:blue;">平均分：{{ class_report.get_average|floatformat }} 分。</span>
+			<br/><br/>
+			<ul class="tab_menu" style="margin-left:30px;">
+				<li class="current">按题目</li>
+				<li>按学生</li>
+			</ul>
+			<div class="tab_box">
+				<div>
+{#                    {% for question in class_report.test %}#}
+{#                        {{ question.id }}#}
+{#                    {% endfor %}#}
+                    <div>
+                        <span style="font-size:16px;color:blue;">题目查询</span>&nbsp;&nbsp;
+                        <span style="font-size:16px;">&nbsp;&nbsp;错误率：≥</span>
+                        <input id="error_input" value="0" name="error" />
+                        <span style="font-size:16px;">%</span>
+                        <a><span class="star_zy" style="font-size:12px;">点击查找</span></a>&nbsp;&nbsp;
+                        <br/>
+                        <span style="font-size:16px;color:blue;">详细报告</span>&nbsp;&nbsp;
+                        {% for question_report in class_report.questionreport_set.all %}
+                        <div style="border:1px solid #000 ">
+                            <span style="font-size:10px;margin-left:10px;color:blue;">{{ question_report.question.type.name }}</span>
+                            <span style="font-size:10px;margin-left:10px;color:blue;">{{ question_report.question.get_difficulty_display }}</span><br/>
+                            <span>{{ forloop.counter }}、{{ question_report.question.question|safe }}</span><br/>
+                            <span  style="font-size:10px;color:pink;">错误率：{{ question_report.get_error_rate|floatformat:'2' }}%</span>
+                            <br/>
+                            <span  style="font-size:10px;color:pink;">答错名单：{% for userquestion in question_report.get_wrong_list %}{{ userquestion.user.username }}{% endfor %}</span>
+                        </div>
+                        {% endfor %}
+                    </div>
+				</div>
+
+				<div class="hide">
+                    <div>
+                        <span style="font-size:16px;color:blue;">分数查询</span>&nbsp;&nbsp;
+                        <input id="min_input" value="0" name="min" />
+                        <span style="font-size:16px;">≤&nbsp;分数&nbsp;≤</span>
+                        <input id="max_input" value="100" name="max" />
+                        <span style="font-size:16px;">学生姓名：</span>
+                        <input id="name_input" name="name" />
+                        <a><span class="star_zy" style="font-size:12px;">点击查找</span></a>&nbsp;&nbsp;
+                        <br/>
+                        <br/>
+                        <span style="font-size:16px;color:blue;">有 {{ student_reports.count }} 人，占 {{ percent }} %</span>&nbsp;&nbsp;
+                        <br/>
+                        <br/>
+                        <table>
+                        <tr><td width="80px;">排名</td><td width="120px;">姓名</td><td width="120px;">成绩</td><td width="400px;">出错知识点</td></tr>
+                        {% for student_report in student_reports %}
+                            <tr>
+                                <td>{{ forloop.counter }}</td>
+                                <td>{{ student_report.user.username }}</td>
+                                <td>{{ student_report.score|floatformat }}</td>
+                                <td>{% for knowledge in student_report.get_wrong_knowledges %}{{ knowledge.name }}&nbsp;{% endfor %}</td>
+                            </tr>
+                        {% endfor %}
+                        </table>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

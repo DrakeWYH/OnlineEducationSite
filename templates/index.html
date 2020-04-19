@@ -1,0 +1,345 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>智能化学习平台</title>
+{% load staticfiles %}
+<script src="{% static 'js/jquery-1.8.0.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/rev-setting-1.js' %}"></script>
+<script type="text/javascript" src="{% static 'rs-plugin/js/jquery.themepunch.revolution.min.js' %}"></script>
+<link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+<link rel="stylesheet" href="{% static 'css/tab.css' %}" media="screen">
+<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}" id="main-css">
+<!--课程选项卡-->
+<script type="text/javascript">
+function nTabs(thisObj,Num){
+	if(thisObj.className == "current")return;
+	var tabObj = thisObj.parentNode.id;
+	var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+	for(i=0; i <tabList.length; i++)
+		{
+		if (i == Num)
+		{
+		   thisObj.className = "current"; 
+		   document.getElementById(tabObj+"_Content"+i).style.display = "block";
+		}else{
+		   tabList[i].className = "normal"; 
+		   document.getElementById(tabObj+"_Content"+i).style.display = "none";
+		}
+		} 
+}
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<div class="head" id="fixed">
+	<div class="nav">
+    	<span class="navimg"><a href="{% url 'index' %}"><img border="0" src="{% static 'images/logo.png' %}"></a></span>
+               
+        <span class="massage">
+        	           
+            <a href="{% url 'register' %}" class="link2 he">注册</a>
+            <a href="{% url 'login' %}" class="link2 he">登录</a>
+{#            <a style="width:70px" class="link2 he ico" target="_blank">个人中心</a>          #}
+        </span>
+    </div>
+</div>
+   
+<div class="content">
+<div class="fullwidthbanner-container">
+		<div id="revolution-slider" style="max-height:500px !important; background:#46B0AC">
+			<ul>
+            	 <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="{% static 'images-slider/thumbs/thumb1.jpg' %}">
+					<!--  BACKGROUND IMAGE -->
+					<img src="{% static 'images-slider/wide2.jpg' %}" alt="" />
+
+					<!-- THE CAPTIONS IN THIS SLIDE -->
+					<div class="tp-caption sfl"
+						data-x="-130"
+						data-y="100"
+						data-speed="300"
+						data-start="300"
+						data-easing="easeOutBack">
+						<img src="{% static 'images-slider/rb.png' %}" alt="">
+					</div>
+
+					<div class="caption sfb"
+						data-x="0"
+						data-y="130"
+						data-speed="300"
+						data-start="800"
+						data-easing="easeOutExpo">
+						<h1>智能化学习平台全新上线</h1>
+					</div>
+
+					<div class="tp-caption med-white sfl"
+						data-x="0"
+						data-y="220"
+						data-speed="300"
+						data-start="1000"
+						data-easing="easeOutExpo" style="font-size:20px;">
+						请自备小板凳，围观！围观！
+					</div>
+
+					<div class="tp-caption small-white sfr"
+						data-x="0"
+						data-y="260"
+						data-speed="300"
+						data-start="1200"
+						data-easing="easeOutExpo">
+						<a class="btn btn-large btn-primary">在线测评</a>
+					</div>
+
+					<div class="tp-caption small-white lfb"
+						data-x="385"
+						data-y="90"
+						data-speed="1000"
+						data-start="1400"
+						data-easing="easeOutExpo">
+						<img src="{% static 'images-slider/slider-10.png' %}" alt="" />
+					</div>
+				</li>
+				 <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="{% static 'images-slider/thumbs/thumb1.jpg' %}">
+					<!--  BACKGROUND IMAGE -->
+					<img src="{% static 'images-slider/wide3.jpg' %}" alt="" />
+
+					<!-- THE CAPTIONS IN THIS SLIDE -->
+					<div class="tp-caption sfl"
+						data-x="-130"
+						data-y="150"
+						data-speed="300"
+						data-start="300"
+						data-easing="easeOutBack">
+						<img src="{% static 'images-slider/rb.png' %}" alt="">
+					</div>
+
+					<div class="tp-caption med-white lfl"
+						data-x="0"
+						data-y="200"
+						data-speed="300"
+						data-start="800"
+						data-easing="easeOutExpo" style="font-size:18px; line-height:25px;">
+						<p>我们一直致力于为努力的你搭建智能化的学习平台。</p>
+					</div>
+
+					<div class="tp-caption med-white lfl"
+						data-x="0"
+						data-y="150"
+						data-speed="300"
+						data-start="800"
+						data-easing="easeOutExpo" style="font-size:22px; line-height:30px;">
+						<h2 style="font-size:30px">在线测评与在线学习</h2>
+					</div>
+
+					<div class="tp-caption small-white lfr"
+						data-x="0"
+						data-y="280"
+						data-speed="300"
+						data-start="1600"
+						data-easing="easeOutExpo">
+						<a class="btn btn-large btn-primary">在线学习</a>
+					</div>
+
+
+					<div class="tp-caption lfb"
+						data-x="440"
+						data-y="90"
+						data-speed="1000"
+						data-start="2000"
+						data-easing="easeOutExpo"
+						data-endeasing="fade" style="left:700px"
+						>
+						<img src="{% static 'images-slider/guy.png' %}" alt="">
+					</div>
+									
+				</li>
+				
+				<!-- THE FIRST SLIDE -->
+				<li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-thumb="{% static 'images-slider/thumbs/thumb1.jpg' %}">
+					<!--  BACKGROUND IMAGE -->
+					<img src="{% static 'images-slider/wide1.jpg' %}" alt="" />
+
+					<!-- THE CAPTIONS IN THIS SLIDE -->
+					<div class="caption large_text sfb"
+						data-x="300"
+						data-y="207"
+						data-speed="300"
+						data-start="800"
+						data-easing="easeOutExpo">
+						<img src="{% static 'images-slider/our-features.png' %}" alt="">
+					</div>
+
+					<div class="tp-caption sfr"
+						data-x="220"
+						data-y="115"
+						data-speed="300"
+						data-start="1000"
+						data-easing="easeOutBack">
+						<img src="{% static 'images-slider/lu.png' %}" alt="">
+					</div>
+
+					<div class="tp-caption sfr"
+						data-x="-50"
+						data-y="110"
+						data-speed="300"
+						data-start="1200"
+						data-easing="easeOutBack">
+						<img src="{% static 'images-slider/clean.png' %}" alt="">
+					</div>
+
+
+					<div class="tp-caption sfr"
+						data-x="220"
+						data-y="285"
+						data-speed="300"
+						data-start="1800"
+						data-easing="easeOutBack">
+						<img src="{% static 'images-slider/lb.png' %}" alt="">
+					</div>
+
+					<div class="tp-caption sfr"
+						data-x="40"
+						data-y="360"
+						data-speed="300"
+						data-start="2000"
+						data-easing="easeOutBack">
+						<img src="{% static 'images-slider/responsive.png' %}" alt="">
+					</div>
+
+					<div class="tp-caption sfl"
+						data-x="625"
+						data-y="115"
+						data-speed="300"
+						data-start="2200"
+						data-easing="easeOutBack">
+						<img src="{% static 'images-slider/ru.png' %}" alt="">
+					</div>
+
+					<div class="tp-caption sfl"
+						data-x="730"
+						data-y="85"
+						data-speed="300"
+						data-start="2400"
+						data-easing="easeOutBack">
+						<img src="{% static 'images-slider/solid.png' %}" alt="">
+					</div>
+
+					<div class="tp-caption sfl"
+						data-x="625"
+						data-y="285"
+						data-speed="300"
+						data-start="3000"
+						data-easing="easeOutBack">
+						<img src="{% static 'images-slider/rb.png' %}" alt="">
+					</div>
+
+					<div class="tp-caption sfl"
+						data-x="730"
+						data-y="345"
+						data-speed="300"
+						data-start="3200"
+						data-easing="easeOutBack">
+						<img src="{% static 'images-slider/lightweight.png' %}" alt="">
+					</div>
+				</li>
+
+				
+			   
+			</ul>
+		</div>
+</div>
+
+
+
+<div class="td2">
+	<div class="tdcont">
+    	<span class="tdimg1"><img src="{% static 'images/ico5.jpg' %}" width="500"></span>
+        <span class="tdtext1">
+        	<h3 class="co1">智能在线测评</h3>
+            <p>智能化在线测评，学生可以通过具体题目，匹配相关知识点，了解自身掌握情况。</p><br/>
+        </span>
+        <div style="clear:both"></div>
+    </div>
+</div>
+<div class="td1">
+	<div class="tdcont np">
+    	<span class="tdimg" style="margin-top:80px"><img src="{% static 'images/ico6.jpg' %}" width="550"></span>
+        <span class="tdtext" style="margin-top:120px">
+        	<h3 class="co2">智能化在线学习</h3>
+            <p class="tex1">跟随课程同步练习，紧扣知识重点难点，点点精通。</p><br/>
+        </span>
+        <div style="clear:both"></div>
+    </div>
+</div>
+<div class="td2 np">
+	<div class="tdcont np">
+    	<span class="tdimg1 ni"><img src="{% static 'images/ico7.png' %}" width="300"></span>
+        <span class="tdtext1" style="margin-top:100px;">
+        	<h3 class="co3">智能化在线答疑</h3>
+            <p class="tex1">我们有智能化小黑知识点查询系统，有问必答。</p><br/>
+        </span>
+        <div style="clear:both"></div>
+    </div>
+</div>
+
+
+<div class="foot">
+<div class="fcontainer">
+
+      <div class="fmenu">
+	     <p><a href="#">关于我们</a> | <a href="#">联系我们</a> | <a href="#">帮助中心</a> | <a href="#">意见反馈</a> | <a href="#">加入我们</a></p>
+      </div>
+      <div class="copyright">      
+        <div><a href="/">智能化学习平台</a>所有&nbsp;粤ICP备XXXX号</div>
+      </div>
+    </div>
+</div>
+</div>
+
+<!--右侧浮动-->
+<div class="rmbar">
+	<span class="barico qq" style="position:relative">
+	<div  class="showqq">
+	   <p>官方客服QQ:<br>2860603805</p>
+	</div>
+	</span>
+	<span class="barico top" id="top">置顶</span>	
+</div>
+
+</body>
+</html>
+<script>
+function logmine(){
+	document.getElementById("lne").style.display="block";
+}
+function logclose(){
+	document.getElementById("lne").style.display="none";	
+}
+
+ /*右侧客服飘窗*/
+	$(".label_pa li").click(function() {
+		$(this).siblings("li").find("span").css("background-color", "#fff").css("color", "#666");
+		$(this).find("span").css("background", "#fb5e55").css("color", "#fff");
+	});
+	$(".em").hover(function() {
+		$(".showem").toggle();
+	});
+	$(".qq").hover(function() {
+		$(".showqq").toggle();
+	});
+	$(".wb").hover(function() {
+		$(".showwb").toggle();
+	});
+	$("#top").click(function() {
+		if (scroll == "off") return;
+		$("html,body").animate({
+			scrollTop: 0
+		},
+		600);
+	});
+</script>

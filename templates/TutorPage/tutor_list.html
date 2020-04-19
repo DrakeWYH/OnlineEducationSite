@@ -1,0 +1,57 @@
+{% extends 'masterPage.html' %}
+{% block title %}家教信息 - 在线教育网站{% endblock %}
+{% block head %}
+    {% load static %}
+{% endblock %}
+{% block content %}
+    <div>
+        <ul>
+            <li><a href="{% url 'index' %}">首页</a>></li>
+            <li>家教列表</li>
+        </ul>
+    </div><br/>
+    <div>
+        <h3>家教信息</h3><a href="{% url 'tutor_add' %}">我要发布</a>
+        <div>
+            <table>
+                <tr>
+                    <td>年级</td><td>科目</td><td style="width: 350px;">教师要求</td><td>发布时间</td>
+                </tr>
+                {% for tutor in tutors.object_list %}
+                <tr>
+                    <td><a href="{% url 'tutor_detail' tutor.id %}">{{ tutor.get_grade_display }}</a></td>
+                    <td><a href="{% url 'tutor_detail' tutor.id %}">{{ tutor.subject }}</a></td>
+                    <td><a href="{% url 'tutor_detail' tutor.id %}">{{ tutor.teacher_require }}</a></td>
+                    <td><a href="{% url 'tutor_detail' tutor.id %}">{{ tutor.add_time }}</a></td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <div class="pagination">
+            <ul>
+                {% if tutors.has_previous %}
+                    <li><a href="?{{ tutors.previous_page_number.querystring }}">前一页</a></li>
+                {% else %}
+                    <li><span>前一页</span></li>
+                {% endif %}
+                {% for page in tutors.pages %}
+                    {% if page %}
+                        {% ifequal page tutors.number %}
+                            <li><span>{{ page }}</span></li>
+                        {% else %}
+                            <li><a href="?{{ page.querystring }}">{{ page }}</a></li>
+                        {% endifequal %}
+                    {% else %}
+                        <li>...</li>
+                    {% endif %}
+                {% endfor %}
+                {% if tutors.has_next %}
+                    <li><a href="?{{ tutors.next_page_number.querystring }}">下一页</a></li>
+                {% else %}
+                    <li><span>下一页</span></li>
+                {% endif %}
+            </ul>
+
+        </div>
+    </div>
+{% endblock %}

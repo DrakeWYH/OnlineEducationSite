@@ -1,0 +1,89 @@
+模版是指html框架，在其中留有待插入数据的位置。
+
+1、创建模版：在appName文件夹下创建文件夹templates(不可变)，并在其中放入模版html文件，为防止不同app中有相同模版名称而调用混乱，新建一个以app名命名的文件夹保存html文件，包含关系为：
+templates->appName->templateName.html
+
+2、在views中写函数返回：
+return render(request, 'appName/templateName.html', {'title':'This is a title.', 'content':'This is content.'})
+
+3、在模版html中调用后台传递的参数：
+<body>
+	<h1>{{ title }}</h1>
+	<p>{{ content }}</p>
+</body>
+
+
+4、还可以调用对象的属性和无参数函数：
+template:
+<body>
+	<h1>{{ article.title }}</h1>
+	<p>{{ article.get_like_count }}</p>
+</body>
+
+views:
+return render(request, 'appName/templateName.html', {'article':article}) #article是一个含有title属性和get_like_count无参数函数的对象。
+
+5、模版中还可以加入逻辑语句：
+{% for x in xs %}
+...
+{% endfor %}
+
+{% if xx %}
+...
+{% elif xx %}
+...
+{% else %}
+...
+{% endif %}
+
+循环中能调用循环计数变量：
+{% for x in xs %}
+	{{ forloop.counter }}
+{% endfor %}
+
+6、除了后台传递的参数变量外，还能调用request全局变量，例如：
+{{ request.user.username }}                          # 已登录用户的用户名。
+{{ request.POST.user_id }}                           # 提交表单中user_id项。
+{{ request.META.HTTP_REFERER }}                      # 上一页网址。
+{% if request.user.is_authenticated %}{% endif %}    # 判断是否登陆
+-------------------------------------------------------------------------------------------
+
+Django模版在传递数据时可以使用过滤器filter来修改数据的值、显示方式等，十分便捷。
+
+1、safe，可以正确识别html代码并生成html元素。
+views.py:
+code = '<input type="button">我是按钮</input>'
+
+templateName.html:
+<body>
+	{{code|safe}}
+</body>
+
+2、lower，字母小写。
+{{ letter|lower }}
+
+3、add：num，数字加。
+{{ number|add:1 }}
+
+4、slice，截取字数。
+{{ article|slice:'num' }}
+
+-------------------------------------------------------------------------------------------
+自定义filter：
+由于filter种类有限，因此经常需要自己设计filter以满足需要。
+
+在app目录下创建文件夹templatetags(名字不能变)，在里面新建__init__.py、myfilter.py(名称可选)，其中__init__.py不动，所有自定义filter都在myfilter.py中设计。
+
+在myfilter.py中设计：
+from django import template
+register = template.Library()
+@register.filter(name='filterName')			#name可不写，则filter名称默认为函数名。
+def filterName(object, parameter):			#parameter最多1个，object为调用此filter的对象。
+	...
+	return ...
+
+在模版templateName.html中调用：
+{% load myfilter %}
+...
+{{ object|filterName }}				<!--无参数-->
+{{ object|filterName:parameter }}	<!--有参数-->

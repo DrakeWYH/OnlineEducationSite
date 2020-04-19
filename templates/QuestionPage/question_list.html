@@ -1,0 +1,123 @@
+{% extends 'masterPage.html' %}
+{% block title %}题目列表 - 在线教育网站{% endblock %}
+{% block head %}
+    {% load static %}
+    {% load mathjax %}
+    {% mathjax_scripts %}
+{% endblock %}
+{% block content %}
+    <div>
+        <div>
+            <ul>
+                <li><a href="{% url 'index' %}">首页</a>></li>
+                <li>题库列表</li>
+            </ul>
+        </div><br/>
+        <div>
+            <h3>题目列表</h3>
+            <div>
+                <table>
+                    <tr>
+                        <td>科目：</td>
+                        <td>
+                            {% for subject in subject_list %}
+                                <a {% if subject.num != request.GET.s %}href="{% url 'question:question_list' %}?s={{ subject.num }}&e=1"{% endif %}>{{ subject.name }}</a>
+                            {% endfor %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>教材版本：</td>
+                        <td>
+                            {% for edition in edition_list %}
+                                <a {% if edition.id|stringformat:"i" != request.GET.e %}href="{% url 'question:question_list' %}?s={{ subject_search }}&e={{ edition.id }}"{% endif %}>{{ edition.name }}</a>
+                            {% endfor %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>课本：</td>
+                        <td>
+                            <a {% if cur_book != '-1' %}href="{% url 'question:question_list' %}?s={{ subject_search }}&e={{ cur_edition }}"{% endif %}>全部</a>
+                            {% for book in book_list %}
+                                <a {% if book.id|stringformat:"i" != request.GET.b %}href="{% url 'question:question_list' %}?s={{ subject_search }}&e={{ cur_edition }}&b={{ book.id }}"{% endif %}>{{ book.name }}</a>
+                                {% if forloop.counter == 12 %}<br/>{% endif %}
+                            {% endfor %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>题型：</td>
+                        <td>
+                            <a {% if request.GET.t != '-1' and request.GET.t != None %}href="{% url 'question:question_list' %}?s={{ subject_search }}&e={{ cur_edition }}&b={{ cur_book }}"{% endif %}>全部</a>
+                            {% for type in type_list %}
+                                <a {% if type.num != request.GET.t %}href="{% url 'question:question_list' %}?s={{ subject_search }}&e={{ cur_edition }}&b={{ cur_book }}&ch={{ cur_chapter }}&se={{ cur_section }}&le={{ cur_lesson }}&t={{ type.num }}"{% endif %}>{{ type.name }}</a>
+                            {% endfor %}
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <form method="get" action="{% url 'question:question_list' %}">
+{#                {% csrf_token %}#}
+                <input type="search" placeholder="题目.." name="c" value="{{ request.GET.c }}">
+                <input type="submit" value="查找" />
+            </form>
+        </div>
+        <div style="width:23%;float:left;">
+            目录：
+            {% for chapter in chapter_list %}
+                <p><a href="{% url 'question:question_list' %}?s={{ subject_search }}&e={{ cur_edition }}&b={{ cur_book }}&ch={{ chapter.id }}">第{{ chapter.num }}章  {{ chapter.name }}</a></p>
+                {% for section in chapter.section_set.all %}
+                    <p>--<a href="{% url 'question:question_list' %}?s={{ subject_search }}&e={{ cur_edition }}&b={{ cur_book }}&ch={{ chapter.id }}&se={{ section.id }}">{{ section.get_num }}{{ section.name }}</a> </p>
+                    {% for lesson in section.lesson_set.all %}
+                        <p>----<a href="{% url 'question:question_list' %}?s={{ subject_search }}&e={{ cur_edition }}&b={{ cur_book }}&ch={{ chapter.id }}&se={{ section.id }}&le={{ lesson.id }}">{{ lesson.get_num }}{{ lesson.name }}</a> </p>
+                    {% endfor %}
+                {% endfor %}
+            {% endfor %}
+        </div>
+        <div style="width:75%;float:left;">
+            {% for question in questions.object_list %}
+                <div style="border:1px dashed black;margin:5px;">
+                    <div>{{ question.question|safe }}</div>
+                    {% if question.type.num == '0' %}
+                        <table style="width: 500px;">
+                            <tr>
+                                {% for option in question.get_options %}
+                                    <td>{{ option|safe }}</td>
+                                    {% if forloop.counter == 2 %}
+                                        </tr><tr>
+                                    {% endif %}
+                                {% endfor %}
+                            </tr>
+                        </table>
+                    {% endif %}
+                    <input type="button" onclick="location.href='{% url 'question:question' question.id %}'" value="详细解答"><br/>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="pagination">
+            <ul>
+                {% if questions.has_previous %}
+                    <li><a href="?{{ questions.previous_page_number.querystring }}">前一页</a></li>
+                {% else %}
+                    <li><span>前一页</span></li>
+                {% endif %}
+                {% for page in questions.pages %}
+                    {% if page %}
+                        {% ifequal page questions.number %}
+                            <li><span>{{ page }}</span></li>
+                        {% else %}
+                            <li><a href="?{{ page.querystring }}">{{ page }}</a></li>
+                        {% endifequal %}
+                    {% else %}
+                        <li>...</li>
+                    {% endif %}
+                {% endfor %}
+                {% if questions.has_next %}
+                    <li><a href="?{{ questions.next_page_number.querystring }}">下一页</a></li>
+                {% else %}
+                    <li><span>下一页</span></li>
+                {% endif %}
+            </ul>
+
+        </div>
+    </div>
+{% endblock %}

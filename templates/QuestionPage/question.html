@@ -1,0 +1,59 @@
+{% extends 'masterPage.html' %}
+{% block title %}题目 - 在线教育网站{% endblock %}
+{% block head %}
+    {% load static %}
+    {% load mathjax %}
+    {% mathjax_scripts %}
+{% endblock %}
+{% block content %}
+    <div>
+        <ul>
+            <li><a href="{% url 'index' %}">首页</a>></li>
+            <li><a href="{% url 'question:question_list' %}">题库列表</a>></li>
+            <li>题目详细</li>
+        </ul>
+    </div><br/>
+
+
+    <div>
+        {{ question.question|safe }}
+        {% if question.type.name == '选择题' %}
+            {% for option in question.get_options %}
+                <p>{{ option|safe }}</p>
+            {% endfor %}
+        {% endif %}
+        <br/>
+        答案：{{ question.answer|safe }}
+        <br/>
+        分析：{{ question.analysis|safe }}
+        <p><a href="{% url 'question:question_list' %}">返回</a></p>
+    </div>
+
+
+    <div>
+        <p>相关题目：</p>
+        {% for q in related_question %}
+            <div style="border:1px dashed black;margin:5px;">
+                <div>{{ q.question|safe }}</div>
+                {% if q.type.num == '0' %}
+                    <table style="width: 500px;">
+                        <tr>
+                            {% for option in q.get_options %}
+                                <td>{{ option|safe }}</td>
+                                {% if forloop.counter == 2 %}
+                                    </tr><tr>
+                                {% endif %}
+                            {% endfor %}
+                        </tr>
+                    </table>
+                {% endif %}
+                <input type="button" onclick="location.href='{% url 'question:question' q.id %}'" value="详细解答"><br/>
+            </div>
+        {% endfor %}
+    </div>
+    <div>
+        {% for k in knowledge %}
+            {{ k.name }}
+        {% endfor %}
+    </div>
+{% endblock %}

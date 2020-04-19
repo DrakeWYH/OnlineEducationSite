@@ -1,0 +1,91 @@
+{% extends 'masterPage.html' %}
+{% block title %}发布家教 - 在线教育网站{% endblock %}
+{% block head %}
+    {% load static %}
+{% endblock %}
+{% block content %}
+    <div>
+        <h3>发布家教</h3>
+        <form method="post" action="{% url 'tutor_add' %}">
+            {% csrf_token %}
+            <table>
+                <tr>
+                    <td>联系人：</td><td><input name="name" value="{{ tutor_form.name.value|default_if_none:'' }}" placeholder="例如：李先生、陈小姐。"></td><td>{{ tutor_form.errors.name }}</td>
+                </tr>
+                <tr>
+                    <td>学生性别：</td>
+                    <td>
+                        <select name="student_gender">
+                            <option value="male" selected="selected">男</option>
+                            <option value="female" {% if tutor_form.student_gender.value == 'female' %}selected="selected"{% endif %}>女</option>
+                        </select>
+                    </td><td>{{ tutor_form.errors.student_gender }}</td>
+                </tr>
+                <tr>
+                    <td>手机：</td><td><input name="mobile" value="{{ tutor_form.mobile.value|default_if_none:'' }}"></td><td>{{ tutor_form.errors.mobile }}</td>
+                </tr>
+                <tr>
+                    <td>地址：</td><td><input name="address" value="{{ tutor_form.address.value|default_if_none:'' }}" placeholder="大概地址，例如：xx小区、xx街道。" style="width:300px;"></td><td>{{ tutor_form.errors.address }}</td>
+                </tr>
+                <tr>
+                    <td>年级：</td>
+                    <td>
+                        <select name="grade">
+                            <option value='0'>学前</option>
+                            <option value='1' {% if tutor_form.grade.value == '1' %}selected="selected"{% endif %}>小学</option>
+                            <option value='2' {% if tutor_form.grade.value == '2' %}selected="selected"{% endif %}>初一</option>
+                            <option value='3' {% if tutor_form.grade.value == '3' %}selected="selected"{% endif %}>初二</option>
+                            <option value='4' {% if tutor_form.grade.value == '4' %}selected="selected"{% endif %}>初三</option>
+                            <option value='5' {% if tutor_form.grade.value == '5' %}selected="selected"{% endif %}>高一</option>
+                            <option value='6' {% if tutor_form.grade.value == '6' %}selected="selected"{% endif %}>高二</option>
+                            <option value='7' {% if tutor_form.grade.value == '7' %}selected="selected"{% endif %}>高三</option>
+                            <option value='8' {% if tutor_form.grade.value == '8' %}selected="selected"{% endif %}>其他</option>
+                        </select>
+                    </td><td>{{ tutor_form.errors.grade }}</td>
+                </tr>
+                <tr>
+                    <td>科目：</td>
+                    <td>
+                        <label><input type="checkbox" name="subject" value="1" {% if '1' in tutor_form.subject.value %}checked="checked"{% endif %}>语文</label>
+                        <label><input type="checkbox" name="subject" value="2" {% if '2' in tutor_form.subject.value %}checked="checked"{% endif %}>数学</label>
+                        <label><input type="checkbox" name="subject" value="3" {% if '3' in tutor_form.subject.value %}checked="checked"{% endif %}>英语</label>
+                        <label><input type="checkbox" name="subject" value="4" {% if '4' in tutor_form.subject.value %}checked="checked"{% endif %}>历史</label>
+                        <label><input type="checkbox" name="subject" value="5" {% if '5' in tutor_form.subject.value %}checked="checked"{% endif %}>地理</label><br/>
+                        <label><input type="checkbox" name="subject" value="6" {% if '6' in tutor_form.subject.value %}checked="checked"{% endif %}>政治</label>
+                        <label><input type="checkbox" name="subject" value="7" {% if '7' in tutor_form.subject.value %}checked="checked"{% endif %}>生物</label>
+                        <label><input type="checkbox" name="subject" value="8" {% if '8' in tutor_form.subject.value %}checked="checked"{% endif %}>物理</label>
+                        <label><input type="checkbox" name="subject" value="9" {% if '9' in tutor_form.subject.value %}checked="checked"{% endif %}>化学</label>
+                        <label><input type="checkbox" name="subject" value="0" {% if '0' in tutor_form.subject.value %}checked="checked"{% endif %}>其他</label>
+                    </td>
+                    <td>{{ tutor_form.errors.subject }}</td>
+                </tr>
+                <tr>
+                    <td>学生情况：</td><td><textarea style="width:300px;height:150px;" name="student_info" placeholder="学生基本情况，如成绩、状态、目标等。（选填）">{{ tutor_form.student_info.value|default_if_none:'' }}</textarea></td><td>{{ tutor_form.errors.student_info }}</td>
+                </tr>
+                <tr>
+                    <td>教师性别要求：</td>
+                    <td>
+                        <select name="teacher_gender">
+                            <option value="both">男女均可</option>
+                            <option value="male" {% if tutor_form.teacher_gender.value == 'male' %}selected="selected"{% endif %}>男</option>
+                            <option value="female" {% if tutor_form.teacher_gender.value == 'female' %}selected="selected"{% endif %}>女</option>
+                        </select>
+                    </td><td>{{ tutor_form.errors.teacher_gender }}</td>
+                </tr>
+                <tr>
+                    <td>教师条件要求：</td>
+                    <td><textarea style="width:300px;height:150px;" name="teacher_require" placeholder="教师要求，如年龄、身份、能力、证书等。（选填）">{{ tutor_form.teacher_require.value|default_if_none:'' }}</textarea></td><td>{{ tutor_form.errors.teacher_require }}</td>
+                </tr>
+                <tr>
+                    <td>薪酬：</td>
+                    <td><input name="pay" value="{{ tutor_form.pay.value|default_if_none:'' }}" placeholder="如40-50元/小时、面谈。"></td><td>{{ tutor_form.errors.pay }}</td>
+                </tr>
+                <tr>
+                    <td>验证码：</td><td>{{ tutor_form.captcha }}</td><td>{{ tutor_form.errors.captcha }}</td>
+                </tr>
+            </table>
+            <input type="submit" value="发布">
+            <input type="button" value="取消" onclick="location.href='{% url 'tutor_list' %}'">
+        </form>
+    </div>
+{% endblock %}

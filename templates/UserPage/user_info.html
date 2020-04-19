@@ -1,0 +1,42 @@
+{% extends 'masterPage.html' %}
+{% block title %}个人信息 - 在线教育网站{% endblock %}
+{% block head %}
+    {% load static %}
+{% endblock %}
+{% block content %}
+    <div>
+        <h2>用户个人信息</h2>
+        <table>
+            <tr>
+                <td><img width="100" height="100" src="{{ MEDIA_URL }}{{ request.user.image }}"></td>
+            </tr>
+            <tr>
+                <td>用户名：</td><td>{{ request.user.username|default_if_none:'' }}</td>
+            </tr>
+            <tr>
+                <td>邮箱：</td><td>{{ request.user.email|default_if_none:'' }}</td>
+            </tr>
+            <tr>
+                <td>性别：</td><td>{{ request.user.get_gender_display|default_if_none:'' }}</td>
+            </tr>
+            <tr>
+                <td>生日：</td><td>{{ request.user.birthday|default_if_none:'' }}</td>
+            </tr>
+            <tr>
+                <td>手机：</td><td>{{ request.user.mobile|default_if_none:'' }}</td>
+            </tr>
+            <tr>
+                <td>所在地：</td>
+                <td>{{ request.user.province|default_if_none:'' }},{{ request.user.city|default_if_none:'' }}</td>
+            </tr>
+            <tr>
+                <td>QQ：</td><td>{{ request.user.QQ|default_if_none:'' }}</td>
+            </tr>
+            <tr>
+                <td>自我介绍：</td><td>{{ request.user.desc|default_if_none:'这个人很懒，快来说点什么吧！' }}</td>
+            </tr>
+        </table>
+        <a href="{% url 'user_modify' %}">修改个人信息</a>
+        <a href="{% url 'password_change' %}">修改密码</a>
+    </div>
+{% endblock %}

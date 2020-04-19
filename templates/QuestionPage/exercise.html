@@ -1,0 +1,70 @@
+{% extends 'masterPage.html' %}
+{% block title %}练习 - 在线教育网站{% endblock %}
+{% block head %}
+    {% load static %}
+    {% load mathjax %}
+    {% mathjax_scripts %}
+    <script type="text/javascript" src="https://www.imooc.com/static/lib/jquery/1.9.1/jquery.js"></script>
+{% endblock %}
+{% block content %}
+    <div>
+        <ul>
+            <li><a href="{% url 'index' %}">首页</a>></li>
+            <li>练习</li>
+        </ul>
+    </div><br/>
+    <div>
+        <table border="1" cellspacing="0">
+            <tr>{% for num in range %}
+                <td style="width:50px;text-align: center;"><u id="td{{ forloop.counter|add:-1 }}" onclick="showQuestion({{ forloop.counter|add:-1 }});" style="color: blue;">{{ num|add:1 }}</u></td>
+
+            {% endfor %}</tr>
+            <tr>{% for num in range %}<td style="width:50px;height:40px;text-align: center;"><label id="label{{ num }}"></label></td>{% endfor %}</tr>
+            <script type="text/javascript">
+                function showQuestion(i)
+                {
+                    {% for num in range %}
+                        $('#label{{ num }}').html($('input[name="answer{{ num }}"]:checked').val());
+                        if(i == {{ num }})
+                        {
+                            $('#div{{ num }}').removeAttr('hidden');
+                        }
+                        else
+                        {
+                            $('#div{{ num }}').attr('hidden','hidden');
+                        }
+                    {% endfor %}
+                }
+            </script>
+        </table>
+        <form method="post" action="{% url 'question:exercise_result' %}">
+            {% csrf_token %}
+            <input hidden="hidden" name="count" value="{{ questions.count }}">
+            {% for question in questions %}
+                <div id="div{{ forloop.counter|add:-1 }}" {% if forloop.counter != 1 %}hidden="hidden"{% endif %}>
+                    <table>
+                        <input hidden="hidden" name="question{{ forloop.counter|add:-1 }}" value="{{ question.id }}">
+                        <tr><td>{{ forloop.counter }}、{{ question.question|safe }}</td></tr>
+                        {% if question.type.name == '选择题' %}
+                            {% for option in question.get_options %}
+                                <tr><td><label><input type="radio" name="answer{{ forloop.parentloop.counter|add:-1 }}" value="{{ option|safe|slice:'1' }}">{{ option|safe }}</input></label></td></tr>
+                            {% endfor %}
+                        {% endif %}
+                        <tr><td>
+                            {% if forloop.counter == questions.count %}
+                                <input type="submit" value="提交">
+                            {% else %}
+                                <input type="button" value="下一题" id="button{{ forloop.counter|add:-1 }}">
+                                <script type="text/javascript">$('#button{{ forloop.counter|add:-1 }}').click(function () {
+                                    $('#div{{ forloop.counter|add:-1 }}').attr('hidden','hidden');
+                                    $('#div{{ forloop.counter }}').removeAttr('hidden');
+                                    $('#label{{ forloop.counter|add:-1 }}').html($('input[name="answer{{ forloop.counter|add:-1 }}"]:checked').val());
+                                })</script>
+                            {% endif %}
+                        </td></tr>
+                    </table>
+                </div>
+            {% endfor %}
+        </form>
+    </div>
+{% endblock %}

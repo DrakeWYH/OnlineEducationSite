@@ -1,0 +1,71 @@
+{% extends 'UserPage/teacher_master_page.html' %}
+{% block head %}
+    {% load staticfiles %}
+
+{% endblock %}
+
+{% block content %}
+    <div class="membcont">
+        <h3 class="mem-h3">布置作业</h3>
+        <div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+            <table>
+                <tr>
+                    <td align="center" width="100">
+                        <span style="font-size:16px;">{{ homework.title }}</span>
+                    </td>
+                    <td align="center" width="200">
+                        <span><a class="blue" style="font-size:8px;">{% for class in homework.classes.all %}{{ class.school }}{{ class.grade.name }}{{ class.class_name }}&nbsp;{% endfor %}</a></span> &nbsp;&nbsp;
+                    </td>
+                    <td align="center" width="200">
+                        <span><a class="blue" style="font-size:8px;">{{ homework.add_time }}</a></span> &nbsp;&nbsp;
+                    </td>
+                    <td align="center" width="200">
+                        <span style="font-size:12px;color:red;">{{ homework.get_status_display }}</span> &nbsp;&nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    {% if homework.status == 'wait' %}
+                    <td align="center" width="200">
+                        <a href="{% url 'teacher_release_paper' homework.id %}"><span class="star_zy" style="font-size:12px;">发布</span></a>
+                    </td>
+                    <td align="center" width="200">
+                        <a href="{% url 'teacher_design_homework' homework.id %}"><span class="star_zy" style="font-size:12px;">修改</span></a>
+                    </td>
+                    {% endif %}
+                    <td align="center" width="200">
+                        <a href="{% url 'teacher_homework' %}"><span class="star_zy" style="font-size:12px;">返回</span></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br/>
+        <hr />
+        <div style="margin-left:40px; margin-right:20px;margin-top:10px;">
+            {% for question in homework.questions.all %}
+            <div style="border:1px solid #000 ">
+                <span style="font-size:10px;margin-left:10px;color:blue;">{{ question.type.name }}</span>
+                <span style="font-size:10px;margin-left:10px;color:blue;">{{ question.get_difficulty_display }}</span>
+                <br/>
+                    {{ question.question|safe }}
+                <br/>
+                {% if question.type.name == '选择题' %}
+                    {% for option in question.get_options %}
+                        <p>{{ option|safe }}</p>
+                    {% endfor %}
+                {% endif %}
+                ------------------------------------------------------------------------------
+                <br/>
+                答案：{{ question.answer|safe }}
+                <br/>
+                分析：{{ question.analysis|safe }}
+                <br/>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{#    <script type="text/javascript">#}
+{#        $(document).ready(function(){#}
+{#            alert(document.cookie);#}
+{#        });#}
+{#    </script>#}
+{% endblock %}

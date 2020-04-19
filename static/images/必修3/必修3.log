@@ -1,0 +1,2794 @@
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.6.15)  17 AUG 2018 11:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**必修3.tex
+(./必修3.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/02/24 3.9q The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/02/24 3.9q Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def))
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen104
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Info: Redefining \not on input line 1043.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/mathdots/mathdots.sty
+Package: mathdots 2014/06/11 v0.9 Improve and add various macros for dots in ma
+th.
+\MDo@unit=\dimen113
+\MDo@dotsbox=\box28
+\MDoprekern=\muskip11
+\MDopostkern=\muskip12
+\MDodotkern=\muskip13
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/kpfonts.sty
+Package: kpfonts  2010/08/20 v3.31
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+Package textcomp Info: Changing ? sub-encoding to TS1/0 on input line 80.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+Invalid UTF-8 byte or sequence at line 157 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 157 replaced by U+FFFD.
+\c@mv@rm=\count100
+\c@mv@boldrm=\count101
+\c@mv@sf=\count102
+\c@mv@boldsf=\count103
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/txr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/bx/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `rm'
+(Font)                  OT1/txr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldrm'
+(Font)                  OT1/txr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `sf'
+(Font)                  OT1/txr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldsf'
+(Font)                  OT1/txr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 355.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `rm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/m/n on input line 357.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldrm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 358.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `sf'
+(Font)                  OT1/jkp/m/n --> OT1/jkpss/m/n on input line 359.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldsf'
+(Font)                  OT1/jkp/m/n --> OT1/jkpss/b/n on input line 360.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 364.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 365.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `rm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/m/n on input line 366.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `boldrm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 367.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `sf'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/m/n on input line 368.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `boldsf'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 369.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/txr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/txr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `rm'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldrm'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `sf'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldsf'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/jkp/b/n --> OT1/jkp/b/n on input line 379.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `rm'
+(Font)                  OT1/jkp/b/n --> OT1/jkp/b/n on input line 381.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldrm'
+(Font)                  OT1/jkp/b/n --> OT1/jkp/b/n on input line 382.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `sf'
+(Font)                  OT1/jkp/b/n --> OT1/jkpss/b/n on input line 383.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldsf'
+(Font)                  OT1/jkp/b/n --> OT1/jkpss/b/n on input line 384.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/txr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/bx/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `rm'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldrm'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `sf'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldsf'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/jkp/m/it --> OT1/jkp/b/it on input line 391.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `rm'
+(Font)                  OT1/jkp/m/it --> OT1/jkp/m/it on input line 393.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldrm'
+(Font)                  OT1/jkp/m/it --> OT1/jkp/b/it on input line 394.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `sf'
+(Font)                  OT1/jkp/m/it --> OT1/jkpss/m/it on input line 395.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldsf'
+(Font)                  OT1/jkp/m/it --> OT1/jkpss/b/it on input line 396.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/txss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/b/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `rm'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldrm'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `sf'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldsf'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/b/n on input line 402.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `rm'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/m/n on input line 403.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldrm'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/b/n on input line 404.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `sf'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/m/n on input line 405.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldsf'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/b/n on input line 406.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/txtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/b/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `rm'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldrm'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `sf'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldsf'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/b/n on input line 411.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `rm'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/m/n on input line 412.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldrm'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/b/n on input line 413.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `sf'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/m/n on input line 414.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldsf'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/b/n on input line 415.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/txmi/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/bx/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `rm'
+(Font)                  OML/txmi/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldrm'
+(Font)                  OML/txmi/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `sf'
+(Font)                  OML/txmi/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldsf'
+(Font)                  OML/txmi/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/jkp/m/it --> OML/jkp/bx/it on input line 424.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `rm'
+(Font)                  OML/jkp/m/it --> OML/jkp/m/it on input line 426.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldrm'
+(Font)                  OML/jkp/m/it --> OML/jkp/bx/it on input line 427.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `sf'
+(Font)                  OML/jkp/m/it --> OML/jkpss/m/it on input line 428.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldsf'
+(Font)                  OML/jkp/m/it --> OML/jkpss/bx/it on input line 429.
+LaTeX Font Info:    Redeclaring symbol font `lettersA' on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `normal'
+(Font)                  U/txmia/m/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/bx/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `rm'
+(Font)                  U/txmia/m/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `boldrm'
+(Font)                  U/txmia/m/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `sf'
+(Font)                  U/txmia/m/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `boldsf'
+(Font)                  U/txmia/m/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/jkpmia/m/it --> U/jkpmia/bx/it on input line 439.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `rm'
+(Font)                  U/jkpmia/m/it --> U/jkpmia/m/it on input line 441.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `boldrm'
+(Font)                  U/jkpmia/m/it --> U/jkpmia/bx/it on input line 442.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `sf'
+(Font)                  U/jkpmia/m/it --> U/jkpssmia/m/it on input line 443.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `boldsf'
+(Font)                  U/jkpmia/m/it --> U/jkpssmia/bx/it on input line 444.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/txsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/bx/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `rm'
+(Font)                  OMS/txsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldrm'
+(Font)                  OMS/txsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `sf'
+(Font)                  OMS/txsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldsf'
+(Font)                  OMS/txsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/bx/n on input line 457.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `rm'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/m/n on input line 459.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldrm'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/bx/n on input line 460.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `sf'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/m/n on input line 461.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldsf'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/bx/n on input line 462.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/txsya/m/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/bx/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `rm'
+(Font)                  U/txsya/m/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldrm'
+(Font)                  U/txsya/m/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `sf'
+(Font)                  U/txsya/m/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldsf'
+(Font)                  U/txsya/m/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/bx/n on input line 476.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `rm'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/m/n on input line 477.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldrm'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/bx/n on input line 478.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `sf'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/m/n on input line 479.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldsf'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/bx/n on input line 480.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/txsyb/m/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/bx/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `rm'
+(Font)                  U/txsyb/m/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldrm'
+(Font)                  U/txsyb/m/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `sf'
+(Font)                  U/txsyb/m/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldsf'
+(Font)                  U/txsyb/m/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/jkpsyb/m/n --> U/jkpsyb/bx/n on input line 529.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `rm'
+(Font)                  U/jkpsyb/m/n --> U/jkpsyb/m/n on input line 530.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldrm'
+(Font)                  U/jkpsyb/m/n --> U/jkpsyb/bx/n on input line 531.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `sf'
+(Font)                  U/jkpsyb/m/n --> U/jkpsssyb/m/n on input line 532.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldsf'
+(Font)                  U/jkpsyb/m/n --> U/jkpsssyb/bx/n on input line 533.
+LaTeX Font Info:    Redeclaring symbol font `symbolsC' on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `normal'
+(Font)                  U/txsyc/m/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/bx/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `rm'
+(Font)                  U/txsyc/m/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `boldrm'
+(Font)                  U/txsyc/m/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `sf'
+(Font)                  U/txsyc/m/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `boldsf'
+(Font)                  U/txsyc/m/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/bx/n on input line 549.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `rm'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/m/n on input line 551.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `boldrm'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/bx/n on input line 552.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `sf'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/m/n on input line 553.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `boldsf'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/bx/n on input line 554.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `bold'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/bx/n on input line 583.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `rm'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/m/n on input line 585.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `boldrm'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/bx/n on input line 586.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `sf'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/m/n on input line 587.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `boldsf'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/bx/n on input line 588.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/txex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/bx/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `rm'
+(Font)                  OMX/txex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldrm'
+(Font)                  OMX/txex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `sf'
+(Font)                  OMX/txex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldsf'
+(Font)                  OMX/txex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/jkp/m/n --> OMX/jkp/bx/n on input line 599.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `rm'
+(Font)                  OMX/jkp/m/n --> OMX/jkp/m/n on input line 601.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldrm'
+(Font)                  OMX/jkp/m/n --> OMX/jkp/bx/n on input line 602.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `sf'
+(Font)                  OMX/jkp/m/n --> OMX/jkpss/m/n on input line 603.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldsf'
+(Font)                  OMX/jkp/m/n --> OMX/jkpss/bx/n on input line 604.
+LaTeX Font Info:    Redeclaring symbol font `largesymbolsA' on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `normal'
+
+(Font)                  U/txexa/m/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/bx/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `rm'
+(Font)                  U/txexa/m/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldrm'
+
+(Font)                  U/txexa/m/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `sf'
+(Font)                  U/txexa/m/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldsf'
+
+(Font)                  U/txexa/m/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 615.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `rm'
+(Font)                  U/jkpexa/m/n --> U/jkpexa/m/n on input line 617.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldrm'
+
+(Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 618.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `sf'
+(Font)                  U/jkpexa/m/n --> U/jkpexa/m/n on input line 619.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldsf'
+
+(Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 620.
+LaTeX Font Info:    Redeclaring math symbol \n@tch@r on input line 1578.
+LaTeX Info: Redefining \not on input line 1580.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/ctex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2016/01/19 v6377 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2016/01/19 v6377 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/01/01 v6339 L3 Bootstrap code
+L3 Module: l3names 2015/12/21 v6328 L3 Namespace for primitives
+L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
+L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
+L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
+L3 Module: l3str 2016/01/03 v6357 L3 Strings
+L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
+L3 Module: l3int 2016/01/05 v6366 L3 Integers
+\c_max_int=\count104
+\l_tmpa_int=\count105
+\l_tmpb_int=\count106
+\g_tmpa_int=\count107
+\g_tmpb_int=\count108
+L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
+L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
+\g__prg_map_int=\count109
+L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
+L3 Module: l3token 2015/11/11 v6249 L3 Experimental token manipulation
+L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
+L3 Module: l3msg 2015/09/28 v6113 L3 Messages
+L3 Module: l3file 2015/12/03 v6317 L3 File and I/O operations
+\l_iow_line_count_int=\count110
+\l__iow_target_count_int=\count111
+\l__iow_current_line_int=\count112
+\l__iow_current_word_int=\count113
+\l__iow_current_indentation_int=\count114
+L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
+\c_zero_dim=\dimen116
+\c_max_dim=\dimen117
+\l_tmpa_dim=\dimen118
+\l_tmpb_dim=\dimen119
+\g_tmpa_dim=\dimen120
+\g_tmpb_dim=\dimen121
+\c_zero_skip=\skip46
+\c_max_skip=\skip47
+\l_tmpa_skip=\skip48
+\l_tmpb_skip=\skip49
+\g_tmpa_skip=\skip50
+\g_tmpb_skip=\skip51
+\c_zero_muskip=\muskip14
+\c_max_muskip=\muskip15
+\l_tmpa_muskip=\muskip16
+\l_tmpb_muskip=\muskip17
+\g_tmpa_muskip=\muskip18
+\g_tmpb_muskip=\muskip19
+L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
+\g__keyval_level_int=\count115
+\l_keys_choice_int=\count116
+L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
+\c__fp_leading_shift_int=\count117
+\c__fp_middle_shift_int=\count118
+\c__fp_trailing_shift_int=\count119
+\c__fp_big_leading_shift_int=\count120
+\c__fp_big_middle_shift_int=\count121
+\c__fp_big_trailing_shift_int=\count122
+\c__fp_Bigg_leading_shift_int=\count123
+\c__fp_Bigg_middle_shift_int=\count124
+\c__fp_Bigg_trailing_shift_int=\count125
+L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
+\c_empty_box=\box29
+\l_tmpa_box=\box30
+\l_tmpb_box=\box31
+\g_tmpa_box=\box32
+\g_tmpb_box=\box33
+L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
+\l__coffin_internal_box=\box34
+\l__coffin_internal_dim=\dimen122
+\l__coffin_offset_x_dim=\dimen123
+\l__coffin_offset_y_dim=\dimen124
+\l__coffin_x_dim=\dimen125
+\l__coffin_y_dim=\dimen126
+\l__coffin_x_prime_dim=\dimen127
+\l__coffin_y_prime_dim=\dimen128
+\c_empty_coffin=\box35
+\l__coffin_aligned_coffin=\box36
+\l__coffin_aligned_internal_coffin=\box37
+\l_tmpa_coffin=\box38
+\l_tmpb_coffin=\box39
+\l__coffin_display_coffin=\box40
+\l__coffin_display_coord_coffin=\box41
+\l__coffin_display_pole_coffin=\box42
+\l__coffin_display_offset_dim=\dimen129
+\l__coffin_display_x_dim=\dimen130
+\l__coffin_display_y_dim=\dimen131
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2016/01/14 v6376 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen132
+\l__box_bottom_dim=\dimen133
+\l__box_left_dim=\dimen134
+\l__box_right_dim=\dimen135
+\l__box_top_new_dim=\dimen136
+\l__box_bottom_new_dim=\dimen137
+\l__box_left_new_dim=\dimen138
+\l__box_right_new_dim=\dimen139
+\l__box_internal_box=\box43
+\l__coffin_bounding_shift_dim=\dimen140
+\l__coffin_left_corner_dim=\dimen141
+\l__coffin_right_corner_dim=\dimen142
+\l__coffin_bottom_corner_dim=\dimen143
+\l__coffin_top_corner_dim=\dimen144
+\l__coffin_scaled_total_height_dim=\dimen145
+\l__coffin_scaled_width_dim=\dimen146
+L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+File: l3xdvidpfmx.def 2015/11/11 v6250 L3 Experimental driver: xdvipdfmx
+))
+Package: ctex 2016/02/02 v2.3 Chinese adapter in LaTeX (CTEX)
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count126
+\l__xparse_m_args_int=\count127
+\l__xparse_mandatory_args_int=\count128
+\l__xparse_processor_int=\count129
+\l__xparse_v_nesting_int=\count130
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2016/01/19 v6377 LaTeX2e option processing using LaTeX3 keys
+)
+\g__file_internal_ior=\read1
+
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2016/02/02 v2.3 Document and package hooks (CTEX)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/ctexpatch.sty
+Package: ctexpatch 2016/02/02 v2.3 Patching commands (CTEX)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\l__ctex_tmp_int=\count131
+\l__ctex_tmp_dim=\dimen147
+\l__ctex_tmp_box=\box44
+
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+File: ctexopts.cfg 2016/02/02 v2.3 Option configuration file (CTEX)
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ctexset with sig. '' on line 364.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTEXsetup with sig. '+o>{\TrimSpaces }m' on line 370.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTEXoptions with sig. '+o' on line 376.
+.................................................
+
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+File: ctex-engine-xetex.def 2016/02/02 v2.3 XeLaTeX adapter (CTEX)
+
+(/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+Package: xeCJK 2016/02/10 v3.3.4 Typesetting CJK scripts with XeLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2016/01/19 v6377 L3 Experimental prototype document function
+s
+\l__xtemplate_tmp_dim=\dimen148
+\l__xtemplate_tmp_int=\count132
+\l__xtemplate_tmp_muskip=\muskip20
+\l__xtemplate_tmp_skip=\skip52
+)
+\l__xeCJK_tmp_int=\count133
+\l__xeCJK_tmp_box=\box45
+\l__xeCJK_tmp_dim=\dimen149
+\l__xeCJK_tmp_skip=\skip53
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKShipoutHook with sig. '' on line 151.
+.................................................
+\g__xeCJK_spacefactor_int=\count134
+\l__xeCJK_begin_int=\count135
+\l__xeCJK_end_int=\count136
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \makexeCJKactive with sig. '' on line 380.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \makexeCJKinactive with sig. '' on line 381.
+.................................................
+\c__xeCJK_CJK_class_int=\XeTeXcharclass1
+\c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
+\c__xeCJK_FullRight_class_int=\XeTeXcharclass3
+\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass4
+\c__xeCJK_HalfRight_class_int=\XeTeXcharclass5
+\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
+\c__xeCJK_CM_class_int=\XeTeXcharclass7
+\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKDeclareCharClass with sig. 's>{\TrimSpaces }mm' on
+. line 555.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__xeCJK_set_char_class_aux:Nnw with sig.
+. 'm>{\SplitArgument {1}{->}}m' on line 572.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \normalspacedchars with sig. 'm' on line 617.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKResetPunctClass with sig. '' on line 624.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKResetCharClass with sig. '' on line 632.
+.................................................
+\g__xeCJK_node_int=\count137
+\c__xeCJK_CJK_node_dim=\dimen150
+\c__xeCJK_CJK-space_node_dim=\dimen151
+\c__xeCJK_default_node_dim=\dimen152
+\c__xeCJK_default-space_node_dim=\dimen153
+\c__xeCJK_CJK-widow_node_dim=\dimen154
+\c__xeCJK_normalspace_node_dim=\dimen155
+\l__xeCJK_ccglue_skip=\skip54
+\l__xeCJK_ecglue_skip=\skip55
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKnobreak with sig. '' on line 1409.
+.................................................
+\l__xeCJK_widow_penalty_int=\count138
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKDeclareSubCJKBlock with sig. 's>{\TrimSpaces
+. }m>{\TrimSpaces }m' on line 1605.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKCancelSubCJKBlock with sig. 'sm' on line 1616.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKRestoreSubCJKBlock with sig. 'sm' on line 1625.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKsetwidth with sig. 'smm' on line 1723.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKsetkern with sig. 'mmm' on line 1727.
+.................................................
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'xeCJK/punctuation' taking \c_zero  argument(s) on
+. line 1828.
+.................................................
+\l__xeCJK_fixed_punct_width_dim=\dimen156
+\l__xeCJK_mixed_punct_width_dim=\dimen157
+\l__xeCJK_middle_punct_width_dim=\dimen158
+\l__xeCJK_fixed_margin_width_dim=\dimen159
+\l__xeCJK_mixed_margin_width_dim=\dimen160
+\l__xeCJK_middle_margin_width_dim=\dimen161
+\l__xeCJK_bound_punct_width_dim=\dimen162
+\l__xeCJK_bound_margin_width_dim=\dimen163
+\l__xeCJK_margin_minimum_dim=\dimen164
+\l__xeCJK_kerning_total_width_dim=\dimen165
+\l__xeCJK_same_align_margin_dim=\dimen166
+\l__xeCJK_different_align_margin_dim=\dimen167
+\l__xeCJK_kerning_margin_width_dim=\dimen168
+\l__xeCJK_kerning_margin_minimum_dim=\dimen169
+\l__xeCJK_bound_dim=\dimen170
+\l__xeCJK_reverse_bound_dim=\dimen171
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKDeclarePunctStyle with sig. '>{\TrimSpaces }mm' on
+. line 2313.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKEditPunctStyle with sig. '>{\TrimSpaces }mm' on line
+. 2326.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setCJKfallbackfamilyfont with sig. 'mO{}m' on line 2414.
+.................................................
+\g__xeCJK_family_int=\count139
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CJKfamily with sig. 't+t-m' on line 2838.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__xeCJK_gobble_CJKfamily:wn with sig. 't+t-m' on line
+. 2852.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setCJKmainfont with sig. 'O{}m' on line 2902.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setCJKsansfont with sig. 'O{}m' on line 2908.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setCJKmonofont with sig. 'O{}m' on line 2913.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setCJKfamilyfont with sig. 'mO{}m' on line 2920.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newCJKfontfamily with sig. 'omO{}m' on line 2926.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CJKfontspec with sig. 'O{}m' on line 2931.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultCJKfontfeatures with sig. 'm' on line 2954.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addCJKfontfeatures with sig. 'sO{}m' on line 2960.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setCJKmathfont with sig. 'O{}m' on line 3130.
+.................................................
+\l__xeCJK_verb_case_int=\count140
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKVerbAddon with sig. '' on line 3283.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKOffVerbAddon with sig. '' on line 3287.
+.................................................
+\l__xeCJK_verb_exspace_skip=\skip56
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
+X
+\l_fontspec_script_int=\count141
+\l_fontspec_language_int=\count142
+\l_fontspec_strnum_int=\count143
+\l__fontspec_tmpa_dim=\dimen172
+\l__fontspec_tmpb_dim=\dimen173
+\l__fontspec_tmpc_dim=\dimen174
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1enc.def
+File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU1+lmr on input line 105.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmr.fd
+File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+(/usr/share/texmf/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmss.fd
+File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+\tipaTiiicode=\count144
+\tipasavetokens=\toks21
+\tipachecktokens=\toks22
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__fontspec_post_arg:w with sig. 'mmO{}' on line 353.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fontspec with sig. 'om' on line 355.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmainfont with sig. 'om' on line 365.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setsansfont with sig. 'om' on line 375.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmonofont with sig. 'om' on line 385.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathrm with sig. 'om' on line 399.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setboldmathrm with sig. 'om' on line 407.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathsf with sig. 'om' on line 415.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathtt with sig. 'om' on line 423.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfamily with sig. 'mom' on line 437.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontface with sig. 'mom' on line 453.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultfontfeatures with sig. 't+om' on line 467.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeatures with sig. 'm' on line 529.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfeature with sig. 'mm' on line 540.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newAATfeature with sig. 'mmmm' on line 548.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newopentypefeature with sig. 'mmm' on line 556.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeature with sig. 'mm' on line 577.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 586.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontscript with sig. 'mm' on line 590.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontlanguage with sig. 'mm' on line 594.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 599.
+.................................................
+\l__fontspec_tmp_int=\count145
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 2705.
+LaTeX Info: Redefining \slshape on input line 2710.
+LaTeX Info: Redefining \scshape on input line 2715.
+LaTeX Info: Redefining \upshape on input line 2720.
+\l__fontspec_em_int=\count146
+\l__fontspec_emdef_int=\count147
+LaTeX Info: Redefining \em on input line 2736.
+LaTeX Info: Redefining \emph on input line 2742.
+LaTeX Info: Redefining \- on input line 2746.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \oldstylenums with sig. 'm' on line 2841.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \liningnums with sig. 'm' on line 2845.
+.................................................
+))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xunicode-addon.sty
+Package: xunicode-addon 2016/02/10 v3.3.4 addon file for xunicode
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \ReloadXunicode with sig. 'm' on line 87.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \DeclareUTFmathsymbols with sig. 'm' on line 132.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \UseMathAsText with sig. '' on line 141.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \UndeclareUTFcharacter with sig. 'O{\UTFencname }mm' on
+. line 176.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \UndeclareUTFcomposite with sig. 'O{\UTFencname }mmm' on
+. line 183.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \DeclareUTFcharacter with sig. 'O{\UTFencname }mm' on
+. line 210.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUTFSymbol with sig. 'mO{\UTFencname }m' on line
+. 236.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUTFCommand with sig. 'mO{\UTFencname }m' on line
+. 238.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \DeclareUTFcomposite with sig. 'O{\UTFencname }mmm' on
+. line 281.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUTFCompositeCommand with sig. 'mO{\UTFencname }mm'
+. on line 294.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUTFCompositeSymbol with sig. 'mO{\UTFencname }mm'
+. on line 299.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUTFComposite with sig. 'mO{\UTFencname }' on line
+. 301.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUTFEncodedAccent with sig. 'mO{\UTFencname }mm' on
+. line 303.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUTFEncodedAccents with sig. 'mO{\UTFencname }mm' on
+. line 305.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUTFEncodedSymbol with sig. 'mO{\UTFencname }mm' on
+. line 307.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUTFEncodedCircle with sig. 'mO{\UTFencname }mm' on
+. line 309.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \DeclareEncodedCompositeCharacter with sig. 'mmmm' on
+. line 311.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \DeclareEncodedCompositeAccents with sig. 'mmmm' on line
+. 313.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUTFDoubleEncodedAccent with sig. 'mO{\UTFencname
+. }mm' on line 315.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUTFDoubleEncodedSymbol with sig. 'mO{\UTFencname
+. }mm' on line 317.
+.................................................
+\l__xunadd_tmp_coffin=\box46
+\l__xunadd_circle_coffin=\box47
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \settextcircledratio with sig. 'm' on line 468.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \AtBeginUTFCommand with sig. 'sO{}+m' on line 537.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \AtEndUTFCommand with sig. 'sO{}+m' on line 547.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUTFTIPACommand with sig. 'O{\UTFencname }m' on line
+. 579.
+.................................................
+)
+(/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+*** Reloading Xunicode for encoding 'EU1' ***
+) (/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xunicode-extra.def
+File: xunicode-extra.def 2016/02/10 v3.3.4 extra definition for xunicode
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKsetup with sig. '+m' on line 3588.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKsetemboldenfactor with sig. 'm' on line 3590.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKsetslantfactor with sig. 'm' on line 3592.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \punctstyle with sig. 'm' on line 3593.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKplainchr with sig. '' on line 3594.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CJKsetecglue with sig. 'm' on line 3595.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CJKspace with sig. '' on line 3597.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CJKnospace with sig. '' on line 3598.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKallowbreakbetweenpuncts with sig. '' on line 3600.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKnobreakbetweenpuncts with sig. '' on line 3602.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKenablefallback with sig. '' on line 3604.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKdisablefallback with sig. '' on line 3606.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKsetcharclass with sig. 'mmm' on line 3611.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \nobreakspace with sig. '' on line 3730.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \fontfamily with sig. 'm' on line 3776.
+.................................................
+
+(/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+File: xeCJK.cfg 2016/02/10 v3.3.4 Configuration file for xeCJK package
+))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
+Package: xeCJKfntef 2016/02/10 v3.3.4 xeCJK font effect
+
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box48
+\UL@hyphenbox=\box49
+\UL@skip=\skip57
+\UL@hook=\toks23
+\UL@height=\dimen175
+\UL@pe=\count148
+\UL@pixel=\dimen176
+\ULC@box=\box50
+Package: ulem 2012/05/18
+\ULdepth=\dimen177
+)
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+(/usr/share/texmf/tex/latex/CJK/CJKfntef.sty
+Package: CJKfntef 2015/04/18 4.8.4
+\CJK@fntefSkip=\skip58
+\CJK@nest=\count149
+\CJK@fntefDimen=\dimen178
+\CJK@underdotBox=\box51
+\CJK@ULbox=\box52
+\CJK@underanyskip=\dimen179
+)
+\l__xeCJK_space_skip=\skip59
+\c__xeCJK_ulem-left_node_dim=\dimen180
+\c__xeCJK_null_box=\box53
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xeCJKfntefon with sig. 'st-so' on line 590.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \CJKunderline with sig. 'st-so' on line 609.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \varCJKunderline with sig. '' on line 611.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \CJKunderwave with sig. 'st-so' on line 621.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \CJKunderdblline with sig. 'st-so' on line 645.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \CJKsout with sig. 'st-so' on line 664.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \CJKxout with sig. 'st-so' on line 681.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \CJKunderanyline with sig. 'st-somm' on line 702.
+.................................................
+\l__xeCJK_fntef_box=\box54
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \CJKunderanysymbol with sig. 'ommm' on line 874.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \CJKunderdot with sig. 'om' on line 883.
+.................................................
+\l__xeCJK_under_symbol_box=\box55
+.................................................
+. LaTeX info: "xparse/redefine-environment"
+. 
+. Redefining environment 'CJKfilltwosides' with sig. 'O{c}m' on line 977.
+.................................................
+\c__xeCJK_filll_skip=\skip60
+)
+\ccwd=\dimen181
+\l__ctex_ccglue_skip=\skip61
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTEXsetfont with sig. '' on line 404.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ziju with sig. 'm' on line 476.
+.................................................
+\l__ctex_ziju_dim=\dimen182
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTEXindent with sig. '' on line 517.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTEXnoindent with sig. '' on line 523.
+.................................................
+
+(/usr/share/texlive/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+Package: zhnumber 2016/02/02 v2.3 Typesetting numbers with Chinese glyphs
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhnumber with sig. '+o+m' on line 45.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhnumberwithoptions with sig. '+m+m' on line 52.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhnum with sig. '+o+m' on line 106.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhnumwithoptions with sig. '+m+m' on line 113.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhdigits with sig. '+s+o+m' on line 291.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhdigitswithoptions with sig. '+m+m+m' on line 298.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhdate with sig. '+s+m' on line 357.
+.................................................
+\l__zhnum_scale_int=\count150
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhnumExtendScaleMap with sig. '>{\TrimSpaces }+o+m' on
+. line 467.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhnumsetup with sig. '+m' on line 898.
+.................................................
+
+(/usr/share/texlive/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+File: zhnumber-utf8.cfg 2016/02/02 v2.3 Chinese numerals with UTF8 encoding
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTEXnumber with sig. 'mm' on line 538.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTEXdigits with sig. 'mm' on line 540.
+.................................................
+
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
+File: ctex-scheme-chinese.def 2016/02/02 v2.3 Chinese scheme for generic (CTEX)
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+File: ctex-name-utf8.cfg 2016/02/02 v2.3 Caption with encoding UTF8 (CTEX)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zihao with sig. 'm' on line 619.
+.................................................
+
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/ctex-c5size.clo
+File: ctex-c5size.clo 2016/02/02 v2.3 c5size option (CTEX)
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTeX with sig. '' on line 723.
+.................................................
+
+(/usr/share/texlive/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def
+File: ctex-fontset-fandol.def 2016/02/02 v2.3 Fandol fonts definition (CTEX)
+
+*************************************************
+* fontspec warning: "script-not-exist"
+* 
+* Font 'FandolSong-Regular' does not contain script 'CJK'.
+*************************************************
+\g__fontspec_family_FandolSong-Regular_int=\count151
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FandolSong-Regular(0)' created for font 'FandolSong-Regular'
+. with options
+. [Script={CJK},Extension={.otf},BoldFont={FandolSong-Bold},ItalicFont={FandolK
+ai-Regular}].
+. 
+. This font family consists of the following NFSS series/shapes:
+. - 'normal' (m/n) with NFSS spec.: <->"[FandolSong-Regular.otf]/OT:"
+. - 'small caps'  (m/sc) with NFSS spec.: - 'bold' (b/n) with NFSS spec.:
+. <->"[FandolSong-Bold.otf]/OT:"
+. - 'bold small caps'  (b/sc) with NFSS spec.: - 'italic' (m/it) with NFSS
+. spec.: <->"[FandolKai-Regular.otf]/OT:"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \songti with sig. '' on line 97.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \heiti with sig. '' on line 98.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fangsong with sig. '' on line 99.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kaishu with sig. '' on line 100.
+.................................................
+)) (/usr/share/texlive/texmf-dist/tex/latex/ctex/config/ctex.cfg
+File: ctex.cfg 2016/02/02 v2.3 Configuration file (CTEX)
+) (./必修3.aux)
+\openout1 = `必修3.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 15.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 15.
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omljkp.fd
+File: omljkp.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 15.
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omsjkp.fd
+File: omsjkp.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 15.
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omxjkp.fd
+File: omxjkp.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 15.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
+File: ujkpexa.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 15.
+
+(/usr/share/texmf/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 15.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 15.
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+LaTeX Font Info:    Try loading font information for OT1+jkp on input line 34.
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
+File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
+)
+LaTeX Font Info:    Try loading font information for U+jkpsya on input line 34.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
+File: ujkpsya.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 34.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
+File: ujkpsyb.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 34.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 34.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
+File: ujkpmia.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 34.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
+File: ujkpsyc.fd 2006/08/15 v1.0
+)
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+ [1
+
+]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+ [2]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text!
+
+Overfull \hbox (77.49164pt too wide) in paragraph at lines 175--176
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 第 三 步\EU1/lmr/m/n/10.53937 ,_________
+_____________________________________\EU1/FandolSong-Regular(0)/m/n/10.53937 ；|
+ 
+ []
+
+[3]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman7-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman5-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman7-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman5-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman7-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman5-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+File: image3.eps Graphic file (type eps)
+ <image3.eps> [4]
+Overfull \hbox (103.97354pt too wide) in paragraph at lines 249--250
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 解 析：|  由 上 至 下 三 个 碟 子 用 \EU1/lmr/m/i
+t/10.53937 a\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 b\EU1/lmr/m/n/10.5393
+7 ,\EU1/lmr/m/it/10.53937 c \EU1/FandolSong-Regular(0)/m/n/10.53937 表 示\EU1/lmr
+/m/n/10.53937 , \EU1/FandolSong-Regular(0)/m/n/10.53937 移 动 过 程 如 下：| \EU1/lmr/
+m/it/10.53937 a$[]$A\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 b$[]$C\EU1/lm
+r/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 a$[]$C\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/
+it/10.53937 c$[]$A\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 a$[]$B\EU1/lmr/
+m/n/10.53937 ,\EU1/lmr/m/it/10.53937 b$[]$A\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it
+/10.53937 a$[]$A\EU1/lmr/m/n/10.53937 ,
+ []
+
+[5]
+File: image4.eps Graphic file (type eps)
+ <image4.eps>
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+File: image5.eps Graphic file (type eps)
+ <image5.eps> [6]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+File: image6.eps Graphic file (type eps)
+ <image6.eps> [7]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+File: image7.eps Graphic file (type eps)
+ <image7.eps>
+File: image8.eps Graphic file (type eps)
+ <image8.eps>
+[8]
+File: image9.eps Graphic file (type eps)
+ <image9.eps>
+File: image10.eps Graphic file (type eps)
+ <image10.eps> [9]
+File: image11.eps Graphic file (type eps)
+ <image11.eps>
+File: image12.eps Graphic file (type eps)
+ <image12.eps> [10]
+File: image13.eps Graphic file (type eps)
+
+<image13.eps> [11]
+File: image14.eps Graphic file (type eps)
+ <image14.eps> [12]
+File: image15.eps Graphic file (type eps)
+ <image15.eps> [13]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+File: image16.eps Graphic file (type eps)
+ <image16.eps>
+File: image17.eps Graphic file (type eps)
+
+<image17.eps> [14]
+Missing character: There is no Ⅲ in font [lmroman10-regular]:mapping=tex-text!
+File: image18.eps Graphic file (type eps)
+ <image18.eps>
+Overfull \hbox (67.56364pt too wide) in paragraph at lines 661--662
+\EU1/FandolSong-Regular(0)/m/n/10.53937 环 的 情 况 是：| \EU1/lmr/m/it/10.53937 a\EU
+1/lmr/m/n/10.53937 =-2,\EU1/lmr/m/it/10.53937 b\EU1/lmr/m/n/10.53937 =6,\EU1/lm
+r/m/it/10.53937 a\EU1/lmr/m/n/10.53937 =4,\EU1/lmr/m/it/10.53937 s\EU1/lmr/m/n/
+10.53937 =10,\EU1/lmr/m/it/10.53937 n\EU1/lmr/m/n/10.53937 =2, \EU1/FandolSong-
+Regular(0)/m/n/10.53937 执 行 第 三 次 循 环 的 情 况 是：| \EU1/lmr/m/it/10.53937 a\EU1/lm
+r/m/n/10.53937 =2,\EU1/lmr/m/it/10.53937 b\EU1/lmr/m/n/10.53937 =4,\EU1/lmr/m/i
+t/10.53937 a\EU1/lmr/m/n/10.53937 =6,\EU1/lmr/m/it/10.53937 s\EU1/lmr/m/n/10.53
+937 =16,\EU1/lmr/m/it/10.53937 n\EU1/lmr/m/n/10.53937 =3,
+ []
+
+File: image19.eps Graphic file (type eps)
+<image19.eps> [15]
+File: image20.eps Graphic file (type eps)
+ <image20.eps> [16]
+File: image21.eps Graphic file (type eps)
+ <image21.eps>
+File: image22.eps Graphic file (type eps)
+ <image22.eps> [17]
+File: image23.eps Graphic file (type eps)
+
+<image23.eps> [18]
+File: image24.eps Graphic file (type eps)
+ <image24.eps>
+File: image25.eps Graphic file (type eps)
+ <image25.eps> [19]
+File: image26.eps Graphic file (type eps)
+ <image26.eps> [20]
+Overfull \hbox (93.05832pt too wide) in paragraph at lines 802--803
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 题 目：|  某 高 中 男 子 体 育 小 组 的 \EU1/lmr/m
+/n/10.53937 50 \EU1/FandolSong-Regular(0)/m/n/10.53937 米 短 跑 成 绩 \EU1/lmr/m/n/1
+0.53937 (\EU1/FandolSong-Regular(0)/m/n/10.53937 单 位：| \EU1/lmr/m/n/10.53937 s)
+ \EU1/FandolSong-Regular(0)/m/n/10.53937 如 下：| \EU1/lmr/m/n/10.53937 6.4,6.5,7.
+0,6.8,7.1,7.3,6.9,7.4,7.5.
+ []
+
+File: image27.eps Graphic file (type eps)
+<image27.eps>
+File: image28.eps Graphic file (type eps)
+ <image28.eps> [21]
+File: image29.eps Graphic file (type eps)
+ <image29.eps>
+File: image30.eps Graphic file (type eps)
+ <image30.eps> [22]
+File: image31.eps Graphic file (type eps)
+
+<image31.eps> [23]
+File: image32.eps Graphic file (type eps)
+ <image32.eps>
+File: image33.eps Graphic file (type eps)
+ <image33.eps>
+Overfull \hbox (35.04965pt too wide) in paragraph at lines 916--917
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 解 析：|  由 赋 值 语 句 \EU1/lmr/m/n/10.5393
+7 a=2,b=3,c=4,a=b,b=c+2,c=b+4 \EU1/FandolSong-Regular(0)/m/n/10.53937 知\EU1/lmr
+/m/n/10.53937 , \EU1/FandolSong-Regular(0)/m/n/10.53937 赋 值 后\EU1/lmr/m/n/10.53
+937 ,a=3,b=6,c=10,
+ []
+
+File: image34.eps Graphic file (type eps)
+<image34.eps> [24]
+File: image35.eps Graphic file (type eps)
+ <image35.eps>
+File: image36.eps Graphic file (type eps)
+ <image36.eps> [25]
+File: image37.eps Graphic file (type eps)
+ <image37.eps>
+File: image38.eps Graphic file (type eps)
+
+<image38.eps> [26]
+File: image39.eps Graphic file (type eps)
+ <image39.eps>
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+
+Overfull \hbox (66.33044pt too wide) in paragraph at lines 1002--1003
+[]\EU1/lmr/m/n/10.53937 _________________________________________________. 
+ []
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+[27]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+File: image40.eps Graphic file (type eps)
+ <image40.eps>
+File: image41.eps Graphic file (type eps)
+ <image41.eps>
+File: image42.eps Graphic file (type eps)
+ <image42.eps> [28]
+File: image43.eps Graphic file (type eps)
+ <image43.eps>
+File: image44.eps Graphic file (type eps)
+
+<image44.eps> [29]
+File: image45.eps Graphic file (type eps)
+ <image45.eps>
+File: image46.eps Graphic file (type eps)
+ <image46.eps> [30]
+File: image47.eps Graphic file (type eps)
+ <image47.eps> [31]
+File: image48.eps Graphic file (type eps)
+
+<image48.eps>
+File: image49.eps Graphic file (type eps)
+ <image49.eps> [32]
+File: image50.eps Graphic file (type eps)
+ <image50.eps> [33]
+File: image51.eps Graphic file (type eps)
+ <image51.eps> [34]
+File: image52.eps Graphic file (type eps)
+
+<image52.eps>
+File: image53.eps Graphic file (type eps)
+ <image53.eps>
+File: image54.eps Graphic file (type eps)
+ <image54.eps> [35]
+File: image56.eps Graphic file (type eps)
+ <image56.eps>
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+File: image57.eps Graphic file (type eps)
+ <image57.eps>
+[36]
+File: image58.eps Graphic file (type eps)
+ <image58.eps>
+File: image59.eps Graphic file (type eps)
+ <image59.eps> [37]
+File: image60.eps Graphic file (type eps)
+ <image60.eps> [38]
+File: image61.eps Graphic file (type eps)
+ <image61.eps>
+File: image62.eps Graphic file (type eps)
+
+<image62.eps> [39]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+File: image63.eps Graphic file (type eps)
+ <image63.eps>
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+ [40]
+File: image64.eps Graphic file (type eps)
+ <image64.eps>
+File: image65.eps Graphic file (type eps)
+ <image65.eps> [41]
+File: image66.eps Graphic file (type eps)
+
+<image66.eps>
+File: image67.eps Graphic file (type eps)
+ <image67.eps> [42]
+File: image68.eps Graphic file (type eps)
+ <image68.eps>
+File: image69.eps Graphic file (type eps)
+ <image69.eps> [43]
+File: image70.eps Graphic file (type eps)
+
+<image70.eps>
+Overfull \hbox (9.61815pt too wide) in paragraph at lines 1498--1499
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 解 析：|  当 \EU1/lmr/m/n/10.53937 i=1 \E
+U1/FandolSong-Regular(0)/m/n/10.53937 时\EU1/lmr/m/n/10.53937 ,S=0$[]$2+1=1,i=1+
+1=2\EU1/FandolSong-Regular(0)/m/n/10.53937 ；|  当 \EU1/lmr/m/n/10.53937 i=2 \EU1
+/FandolSong-Regular(0)/m/n/10.53937 时\EU1/lmr/m/n/10.53937 ,S=1$[]$2+1=3,i=2+1=
+3\EU1/FandolSong-Regular(0)/m/n/10.53937 ；|
+ []
+
+[44]
+File: image71.eps Graphic file (type eps)
+ <image71.eps>
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+File: image72.eps Graphic file (type eps)
+ <image72.eps>
+File: image73.eps Graphic file (type eps)
+ <image73.eps> [45]
+Overfull \hbox (163.86177pt too wide) in paragraph at lines 1538--1539
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 题 目：|  某 中 学 男 子 体 育 组 的 百 米 赛 跑 的 成 
+绩 \EU1/lmr/m/n/10.53937 (\EU1/FandolSong-Regular(0)/m/n/10.53937 单 位：|  秒\EU1/l
+mr/m/n/10.53937 ) \EU1/FandolSong-Regular(0)/m/n/10.53937 如 下：| \EU1/lmr/m/n/10
+.53937 12.1,13.2,12.7,12.8,12.5,12.4,12.7,11.5,11.6,11.7.
+ []
+
+File: image74.eps Graphic file (type eps)
+<image74.eps>
+File: image75.eps Graphic file (type eps)
+ <image75.eps> [46] [47]
+File: image114.eps Graphic file (type eps)
+ <image114.eps>
+Overfull \hbox (37.42734pt too wide) in paragraph at lines 1617--1618
+[][] 
+ []
+
+
+Overfull \hbox (20.48419pt too wide) in paragraph at lines 1625--1626
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 解 析：| \EU1/lmr/m/n/10.53937 (2$[]$\EU
+1/lmr/m/it/10.53937 F\EU1/lmr/m/n/10.53937 +1)$[]$4 \EU1/FandolSong-Regular(0)/
+m/n/10.53937 用 十 进 制 可 以 表 示 为 \EU1/lmr/m/n/10.53937 (2$[]$15+1)$[]$4=124, \EU1
+/FandolSong-Regular(0)/m/n/10.53937 而 \EU1/lmr/m/n/10.53937 124=16$[]$7+12,
+ []
+
+[48]
+Overfull \hbox (11.23071pt too wide) in paragraph at lines 1635--1636
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 题 目：|  用 更 相 减 损 术 求 \EU1/lmr/m/n/10.
+53937 36 \EU1/FandolSong-Regular(0)/m/n/10.53937 与 \EU1/lmr/m/n/10.53937 134 \E
+U1/FandolSong-Regular(0)/m/n/10.53937 的 最 大 公 约 数\EU1/lmr/m/n/10.53937 , \EU1/F
+andolSong-Regular(0)/m/n/10.53937 第 一 步 应 为 \EU1/lmr/m/n/10.53937 ________\EU1/
+FandolSong-Regular(0)/m/n/10.53937 ．| 
+ []
+
+[49]
+File: image76.eps Graphic file (type eps)
+ <image76.eps> [50]
+File: image77.eps Graphic file (type eps)
+ <image77.eps>
+File: image78.eps Graphic file (type eps)
+ <image78.eps> [51] [52]
+File: image79.eps Graphic file (type eps)
+ <image79.eps>
+Overfull \hbox (8.51376pt too wide) in paragraph at lines 1852--1853
+[][] 
+ []
+
+[53]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+ [54]
+Overfull \hbox (4.43625pt too wide) in paragraph at lines 1942--1943
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 解 析：|  第 一 步\EU1/lmr/m/n/10.53937 , \
+EU1/FandolSong-Regular(0)/m/n/10.53937 将 \EU1/lmr/m/n/10.53937 120 \EU1/FandolS
+ong-Regular(0)/m/n/10.53937 名 服 药 者 重 新 进 行 编 号\EU1/lmr/m/n/10.53937 , \EU1/Fan
+dolSong-Regular(0)/m/n/10.53937 分 别 为 \EU1/lmr/m/n/10.53937 001,002,003,$[] $,1
+20\EU1/FandolSong-Regular(0)/m/n/10.53937 ；| 
+ []
+
+
+Overfull \hbox (108.54066pt too wide) in paragraph at lines 1946--1947
+\EU1/FandolSong-Regular(0)/m/n/10.53937 数 跳 过 去 不 读\EU1/lmr/m/n/10.53937 , \EU1
+/FandolSong-Regular(0)/m/n/10.53937 前 面 已 经 读 过 的 也 跳 过 去 不 读\EU1/lmr/m/n/10.53
+937 , \EU1/FandolSong-Regular(0)/m/n/10.53937 依 次 可 得 到 \EU1/lmr/m/n/10.53937 0
+74,100,094,052,080,003,105,107,083,092\EU1/FandolSong-Regular(0)/m/n/10.53937 ；
+| 
+ []
+
+[55]
+Overfull \hbox (13.92879pt too wide) in paragraph at lines 1968--1969
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 解 析：|  找 到 第 \EU1/lmr/m/n/10.53937 9 
+\EU1/FandolSong-Regular(0)/m/n/10.53937 行 第 \EU1/lmr/m/n/10.53937 9 \EU1/Fandol
+Song-Regular(0)/m/n/10.53937 列 数 开 始 向 右 读\EU1/lmr/m/n/10.53937 , \EU1/FandolSo
+ng-Regular(0)/m/n/10.53937 符 合 条 件 的 是 \EU1/lmr/m/n/10.53937 29,64,56,07,52,42,
+44,
+ []
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+[56] [57]
+Overfull \hbox (15.68884pt too wide) in paragraph at lines 2090--2091
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 解 析：|  因 为 样 本 容 量 为 \EU1/lmr/m/n/10.
+53937 5, \EU1/FandolSong-Regular(0)/m/n/10.53937 所 以 样 本 间 隔 为 \EU1/lmr/m/n/10.
+53937 60$[]$5=12, \EU1/FandolSong-Regular(0)/m/n/10.53937 因 为 编 号 为 \EU1/lmr/m/
+n/10.53937 4,a,28,b,52
+ []
+
+[58]
+Overfull \hbox (15.99452pt too wide) in paragraph at lines 2124--2125
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 则 对 应 的 号 码 数 \EU1/lmr/m/n/10.53937 x
+=8+25(n-1), \EU1/FandolSong-Regular(0)/m/n/10.53937 当 \EU1/lmr/m/n/10.53937 n=3
+2 \EU1/FandolSong-Regular(0)/m/n/10.53937 时\EU1/lmr/m/n/10.53937 ,x \EU1/Fandol
+Song-Regular(0)/m/n/10.53937 取 最 大 值 为 \EU1/lmr/m/n/10.53937 x=8+25$[]$31=783. 
+
+ []
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+[59]
+Overfull \hbox (125.22417pt too wide) detected at line 2161
+\OT1/jkp/m/n/10.53937 66\OML/jkp/m/it/10.53937 ; \OT1/jkp/m/n/10.53937 166\OML/
+jkp/m/it/10.53937 ; \OT1/jkp/m/n/10.53937 266\OML/jkp/m/it/10.53937 ; \OT1/jkp/
+m/n/10.53937 366\OML/jkp/m/it/10.53937 ; \OT1/jkp/m/n/10.53937 466\OML/jkp/m/it
+/10.53937 ; \OT1/jkp/m/n/10.53937 566\OML/jkp/m/it/10.53937 ; \OT1/jkp/m/n/10.5
+3937 666\OML/jkp/m/it/10.53937 ; \OT1/jkp/m/n/10.53937 766\OML/jkp/m/it/10.5393
+7 ; \OT1/jkp/m/n/10.53937 866\OML/jkp/m/it/10.53937 ; \OT1/jkp/m/n/10.53937 966
+\OML/jkp/m/it/10.53937 ; \OT1/jkp/m/n/10.53937 1066\OML/jkp/m/it/10.53937 ; \OT
+1/jkp/m/n/10.53937 1166\OML/jkp/m/it/10.53937 ; \OT1/jkp/m/n/10.53937 1266\OML/
+jkp/m/it/10.53937 ; \OT1/jkp/m/n/10.53937 1366\OML/jkp/m/it/10.53937 ; \OT1/jkp
+/m/n/10.53937 1466\OML/jkp/m/it/10.53937 ; \OT1/jkp/m/n/10.53937 1566\OML/jkp/m
+/it/10.53937 ; \OT1/jkp/m/n/10.53937 1666\OML/jkp/m/it/10.53937 ; \OT1/jkp/m/n/
+10.53937 1766\OML/jkp/m/it/10.53937 ; \OT1/jkp/m/n/10.53937 1866\OML/jkp/m/it/1
+0.53937 ; \OT1/jkp/m/n/10.53937 1966\OML/jkp/m/it/10.53937 :
+ []
+
+Missing character: There is no Ⅰ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no Ⅱ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no Ⅲ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no Ⅰ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no Ⅱ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no Ⅲ in font [lmroman10-regular]:mapping=tex-text!
+[60]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ⑤ in font [lmroman10-regular]:mapping=tex-text!
+ [61]
+File: image115.eps Graphic file (type eps)
+ <image115.eps> [62] [63]
+File: image116.eps Graphic file (type eps)
+ <image116.eps> [64]
+Overfull \hbox (42.28668pt too wide) in paragraph at lines 2373--2374
+[][]$\EU1/lmr/m/n/10.53937 200=16(\EU1/FandolSong-Regular(0)/m/n/10.53937 人\EU1
+/lmr/m/n/10.53937 ),A \EU1/FandolSong-Regular(0)/m/n/10.53937 型 的 $[][]$\EU1/lm
+r/m/n/10.53937 125=10(\EU1/FandolSong-Regular(0)/m/n/10.53937 人\EU1/lmr/m/n/10.
+53937 ),B \EU1/FandolSong-Regular(0)/m/n/10.53937 型 的 $[][]$\EU1/lmr/m/n/10.539
+37 125=10(\EU1/FandolSong-Regular(0)/m/n/10.53937 人\EU1/lmr/m/n/10.53937 ),AB \
+EU1/FandolSong-Regular(0)/m/n/10.53937 型 的 $[][]$\EU1/lmr/m/n/10.53937 50=4(\EU
+1/FandolSong-Regular(0)/m/n/10.53937 人\EU1/lmr/m/n/10.53937 )\EU1/FandolSong-Re
+gular(0)/m/n/10.53937 ．| 
+ []
+
+[65] [66]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+ [67]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+
+Overfull \hbox (60.3263pt too wide) in paragraph at lines 2474--2475
+\EU1/FandolSong-Regular(0)/m/n/10.53937 开 始\EU1/lmr/m/n/10.53937 , \EU1/FandolS
+ong-Regular(0)/m/n/10.53937 每 隔 \EU1/lmr/m/n/10.53937 62 \EU1/FandolSong-Regula
+r(0)/m/n/10.53937 个 抽 取 一 个\EU1/lmr/m/n/10.53937 , \EU1/FandolSong-Regular(0)/m
+/n/10.53937 这 样 得 到 容 量 为 \EU1/lmr/m/n/10.53937 64 \EU1/FandolSong-Regular(0)/m
+/n/10.53937 的 样 本：| \EU1/lmr/m/n/10.53937 23,85,147,209,271,333,395,457,$[] $,3
+
+ []
+
+File: image82.eps Graphic file (type eps)
+<image82.eps> [68]
+File: image83.eps Graphic file (type eps)
+ <image83.eps> [69]
+File: image84.eps Graphic file (type eps)
+ <image84.eps> [70]
+File: image85.eps Graphic file (type eps)
+ <image85.eps>
+Overfull \hbox (41.44707pt too wide) in paragraph at lines 2584--2585
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 解 析：|  由 题 意 知\EU1/lmr/m/n/10.53937 ,
+ \EU1/FandolSong-Regular(0)/m/n/10.53937 棉 花 纤 维 的 长 度 小 于 \EU1/lmr/m/n/10.5393
+7 20 mm \EU1/FandolSong-Regular(0)/m/n/10.53937 的 频 率 为 \EU1/lmr/m/n/10.53937 (
+0.01+0.01+0.04)$[]$5=0.3,
+ []
+
+File: image86.eps Graphic file (type eps)
+<image86.eps>
+File: image87.eps Graphic file (type eps)
+ <image87.eps> [71]
+File: image88.eps Graphic file (type eps)
+ <image88.eps>
+Missing character: There is no 样 in font jkpmn7t!
+Missing character: There is no 本 in font jkpmn7t!
+Missing character: There is no 容 in font jkpmn7t!
+Missing character: There is no 量 in font jkpmn7t!
+Missing character: There is no 第 in font jkpmn7t!
+Missing character: There is no 二 in font jkpmn7t!
+Missing character: There is no 小 in font jkpmn7t!
+Missing character: There is no 组 in font jkpmn7t!
+Missing character: There is no 频 in font jkpmn7t!
+Missing character: There is no 率 in font jkpmn7t!
+ [72]
+File: image89.eps Graphic file (type eps)
+ <image89.eps>
+Missing character: There is no 组 in font jkpmn7t!
+Missing character: There is no 距 in font jkpmn7t!
+File: image90.eps Graphic file (type eps)
+
+<image90.eps> [73]
+File: image91.eps Graphic file (type eps)
+ <image91.eps> [74]
+Overfull \hbox (6.26645pt too wide) in paragraph at lines 2715--2716
+[]|\EU1/FandolSong-Regular(0)/m/n/10.53937 （\EU1/lmr/m/n/10.53937 2\EU1/FandolS
+ong-Regular(0)/m/n/10.53937 ）|  因 为 月 用 电 量 在 \EU1/lmr/m/n/10.53937 (200,250] \
+EU1/FandolSong-Regular(0)/m/n/10.53937 度 的 频 率 为 \EU1/lmr/m/n/10.53937 50\EU1/l
+mr/m/it/10.53937 x\EU1/lmr/m/n/10.53937 =1-(0.006 0+0.003 6+0.002
+ []
+
+File: image117.eps Graphic file (type eps)
+<image117.eps> [75]
+File: image93.eps Graphic file (type eps)
+ <image93.eps>
+Overfull \hbox (144.3271pt too wide) in paragraph at lines 2786--2787
+[]\EU1/lmr/m/n/10.53937 45 |\EU1/FandolSong-Regular(0)/m/n/10.53937 ·| \EU1/lmr
+/m/it/10.53937 f$[][]$\EU1/lmr/m/n/10.53937 +55 |\EU1/FandolSong-Regular(0)/m/n
+/10.53937 ·| \EU1/lmr/m/it/10.53937 f$[][]$\EU1/lmr/m/n/10.53937 +65 |\EU1/Fand
+olSong-Regular(0)/m/n/10.53937 ·| \EU1/lmr/m/it/10.53937 f$[][]$\EU1/lmr/m/n/10
+.53937 +75 |\EU1/FandolSong-Regular(0)/m/n/10.53937 ·| \EU1/lmr/m/it/10.53937 f
+$[][]$\EU1/lmr/m/n/10.53937 +85 |\EU1/FandolSong-Regular(0)/m/n/10.53937 ·| \EU
+1/lmr/m/it/10.53937 f$[][]$\EU1/lmr/m/n/10.53937 +95 |\EU1/FandolSong-Regular(0
+)/m/n/10.53937 ·| \EU1/lmr/m/it/10.53937 f$[][]$\EU1/lmr/m/n/10.53937 =45$[]$0.
+1+55$[]$0.15+65$[]$0.15+75$[]$0.3+85$[]$0.25+95$[]$0.05=71, 
+ []
+
+[76]
+File: image118.eps Graphic file (type eps)
+ <image118.eps> [77]
+File: image94.eps Graphic file (type eps)
+ <image94.eps>
+File: image119.eps Graphic file (type eps)
+ <image119.eps> [78]
+Overfull \hbox (2.84949pt too wide) in paragraph at lines 2900--2901
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 又 由 于 方 差 为 \EU1/lmr/m/n/10.53937 2, 
+\EU1/FandolSong-Regular(0)/m/n/10.53937 则 \EU1/lmr/m/n/10.53937 [(\EU1/lmr/m/it
+/10.53937 x\EU1/lmr/m/n/10.53937 -10)$[][]$+(\EU1/lmr/m/it/10.53937 y\EU1/lmr/m
+/n/10.53937 -10)$[][]$+(10-10)$[][]$+(11-10)$[][]$+(9-10)$[][]$]$[][]$=2, 
+ []
+
+File: image120.eps Graphic file (type eps)
+<image120.eps> [79]
+File: image95.eps Graphic file (type eps)
+ <image95.eps>
+File: image121.eps Graphic file (type eps)
+ <image121.eps>
+Overfull \hbox (9.50223pt too wide) in paragraph at lines 2954--2955
+\EU1/lmr/m/n/10.53937 5,20,40,25. \EU1/FandolSong-Regular(0)/m/n/10.53937 所 以 数
+ 学 成 绩 在 \EU1/lmr/m/n/10.53937 [50,90) \EU1/FandolSong-Regular(0)/m/n/10.53937 
+之 外 的 人 数 有 \EU1/lmr/m/n/10.53937 100-(5+20+40+25)=10(\EU1/FandolSong-Regular(0
+)/m/n/10.53937 人\EU1/lmr/m/n/10.53937 )\EU1/FandolSong-Regular(0)/m/n/10.53937 
+．| 
+ []
+
+[80]
+File: image96.eps Graphic file (type eps)
+ <image96.eps>
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+File: image97.eps Graphic file (type eps)
+ <image97.eps> [81]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+ [82]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+ [83]
+Missing character: There is no Ⅲ in font [lmroman10-regular]:mapping=tex-text!
+File: image98.eps Graphic file (type eps)
+ <image98.eps> [84] [85]
+File: image122.eps Graphic file (type eps)
+
+<image122.eps>
+Overfull \hbox (37.42972pt too wide) in paragraph at lines 3229--3230
+[][] 
+ []
+
+[86]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+LaTeX Font Info:    Try loading font information for OT1+jkptt on input line 33
+03.
+ (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ot1jkptt.fd
+File: ot1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for OT1/jkptt.
+) [87]
+Overfull \hbox (45.12875pt too wide) in paragraph at lines 3319--3320
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 解 析：（\EU1/lmr/m/n/10.53937 1\EU1/Fand
+olSong-Regular(0)/m/n/10.53937 ）|  这 个 试 验 的 所 有 可 能 结 果$\OT1/jkp/m/it/10.53937
+ 
+$\EU1/lmr/m/n/10.53937 =$[]$(\EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10.5393
+7 ,\EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.5393
+7 a$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 b\EU1/lmr/m/n/10.53937 )
+,(\EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 b
+\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10.53937 ,\
+EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 b\
+EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10.53937 ),(\E
+U1/lmr/m/it/10.53937 b\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 a$[][]$\EU1
+/lmr/m/n/10.53937 )$[]$\EU1/FandolSong-Regular(0)/m/n/10.53937 ．| 
+ []
+
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+
+Overfull \hbox (108.65659pt too wide) in paragraph at lines 3323--3324
+[]|\EU1/FandolSong-Regular(0)/m/n/10.53937 （\EU1/lmr/m/n/10.53937 3\EU1/FandolS
+ong-Regular(0)/m/n/10.53937 ）| \EU1/lmr/m/n/10.53937 ① \EU1/FandolSong-Regular(
+0)/m/n/10.53937 这 个 试 验 的 所 有 可 能 结 果$\OT1/jkp/m/it/10.53937 
+$\EU1/lmr/m/n/10.53937 =$[]$(\EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10.5393
+7 ,\EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.5393
+7 a$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10.5
+3937 ),(\EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.5
+3937 b\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10.53
+937 ,\EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53
+937 a$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10
+.53937 ),(\EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10
+.53937 b\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 b\EU1/lmr/m/n/10.53937 
+,\EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 
+b\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 a$[][]$\EU1/lmr/m/n/10.53937 ),(
+\EU1/lmr/m/it/10.53937 b\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 b\EU1/lmr
+/m/n/10.53937 )$[]$\EU1/FandolSong-Regular(0)/m/n/10.53937 ．| 
+ []
+
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+File: image123.eps Graphic file (type eps)
+<image123.eps> [88]
+File: image99.eps Graphic file (type eps)
+ <image99.eps> [89] [90] [91] [92]
+File: image100.eps Graphic file (type eps)
+ <image100.eps> [93]
+Overfull \hbox (2.43604pt too wide) in paragraph at lines 3598--3599
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 题 目：|  从 一 批 产 品 中 取 出 三 件 产 品\EU1/lm
+r/m/n/10.53937 , \EU1/FandolSong-Regular(0)/m/n/10.53937 设 \EU1/lmr/m/it/10.539
+37 A\EU1/lmr/m/n/10.53937 =“\EU1/FandolSong-Regular(0)/m/n/10.53937 三 件 产 品 全 不
+ 是 次 品\EU1/lmr/m/n/10.53937 ”,\EU1/lmr/m/it/10.53937 B\EU1/lmr/m/n/10.53937 =“\
+EU1/FandolSong-Regular(0)/m/n/10.53937 三
+ []
+
+[94] [95]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ③ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ④ in font [lmroman10-regular]:mapping=tex-text!
+ [96]
+File: image124.eps Graphic file (type eps)
+ <image124.eps> [97]
+File: image101.eps Graphic file (type eps)
+ <image101.eps>
+Overfull \hbox (1.05222pt too wide) in paragraph at lines 3786--3787
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 故 \EU1/lmr/m/it/10.53937 P\EU1/lmr/m/
+n/10.53937 (\EU1/lmr/m/it/10.53937 A$[]$B\EU1/lmr/m/n/10.53937 )=\EU1/lmr/m/it/
+10.53937 P\EU1/lmr/m/n/10.53937 (\EU1/lmr/m/it/10.53937 A$[][]$$[]$A$[][]$$[]$A
+$[][]$$[]$A$[][]$\EU1/lmr/m/n/10.53937 )=\EU1/lmr/m/it/10.53937 P\EU1/lmr/m/n/1
+0.53937 (\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 )+\EU1/lmr/m/it/10
+.53937 P\EU1/lmr/m/n/10.53937 (\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53
+937 )+\EU1/lmr/m/it/10.53937 P\EU1/lmr/m/n/10.53937 (\EU1/lmr/m/it/10.53937 A$[
+][]$\EU1/lmr/m/n/10.53937 )+\EU1/lmr/m/it/10.53937 P\EU1/lmr/m/n/10.53937 (\EU1
+/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 )=$[] \OT1/jkp/m/n/10.53937 + [
+] +
+ []
+
+[98]
+File: image125.eps Graphic file (type eps)
+ <image125.eps>
+Overfull \hbox (1.29152pt too wide) in paragraph at lines 3818--3819
+[][] 
+ []
+
+[99]
+Overfull \hbox (18.76367pt too wide) in paragraph at lines 3882--3883
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 题 目：| \EU1/lmr/m/n/10.53937 (\EU1/Fan
+dolSong-Regular(0)/m/n/10.53937 阜 阳 高 一 检 测\EU1/lmr/m/n/10.53937 ) \EU1/FandolS
+ong-Regular(0)/m/n/10.53937 设 \EU1/lmr/m/it/10.53937 a \EU1/FandolSong-Regular(
+0)/m/n/10.53937 是 抛 掷 一 枚 骰 子 得 到 的 点 数\EU1/lmr/m/n/10.53937 , \EU1/FandolSong-
+Regular(0)/m/n/10.53937 则 方 程 \EU1/lmr/m/it/10.53937 x$[][]$\EU1/lmr/m/n/10.539
+37 +\EU1/lmr/m/it/10.53937 ax\EU1/lmr/m/n/10.53937 +2=0
+ []
+
+[100]
+Overfull \hbox (1.70398pt too wide) in paragraph at lines 3932--3933
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 设 袋 中 红 球 用 \EU1/lmr/m/it/10.53937 a 
+\EU1/FandolSong-Regular(0)/m/n/10.53937 表 示\EU1/lmr/m/n/10.53937 ,2 \EU1/Fandol
+Song-Regular(0)/m/n/10.53937 个 白 球 分 别 用 \EU1/lmr/m/it/10.53937 b$[][]$\EU1/lmr
+/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 b$[][]$ \EU1/FandolSong-Regular(0)/m/n/10
+.53937 表 示\EU1/lmr/m/n/10.53937 ,3 \EU1/FandolSong-Regular(0)/m/n/10.53937 个 黑 
+球 分 别 用 \EU1/lmr/m/it/10.53937 c$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.5
+3937 c$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 c$[][]$
+ []
+
+
+Overfull \hbox (313.188pt too wide) in paragraph at lines 3932--3933
+\EU1/FandolSong-Regular(0)/m/n/10.53937 表 示\EU1/lmr/m/n/10.53937 , \EU1/FandolS
+ong-Regular(0)/m/n/10.53937 则 从 袋 中 任 取 两 球 所 含 基 本 事 件 为：| \EU1/lmr/m/n/10.539
+37 (\EU1/lmr/m/it/10.53937 a\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 b$[][
+]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 a\EU1/lmr/m/n/10.53937 ,\EU1/
+lmr/m/it/10.53937 b$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 a\EU1/
+lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 c$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/l
+mr/m/it/10.53937 a\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 c$[][]$\EU1/lmr
+/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 a\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/1
+0.53937 c$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 b$[][]$\EU1/lmr/
+m/n/10.53937 ,\EU1/lmr/m/it/10.53937 b$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m
+/it/10.53937 b$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 c$[][]$\EU1/l
+mr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 b$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lm
+r/m/it/10.53937 c$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 b$[][]$\
+EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 c$[][]$\EU1/lmr/m/n/10.53937 ),(\E
+U1/lmr/m/it/10.53937 b$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 c$[][
+]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 b$[][]$\EU1/lmr/m/n/10.53937 
+,\EU1/lmr/m/it/10.53937 c$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 
+b$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 c$[][]$\EU1/lmr/m/n/10.539
+37 ),(\EU1/lmr/m/it/10.53937 c$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.539
+37 c$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 c$[][]$\EU1/lmr/m/n/1
+0.53937 ,\EU1/lmr/m/it/10.53937 c$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/1
+0.53937 c$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 c$[][]$\EU1/lmr/m/
+n/10.53937 ),
+ []
+
+[101]
+Overfull \hbox (327.56989pt too wide) in paragraph at lines 3982--3983
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 解 析：（\EU1/lmr/m/n/10.53937 1\EU1/Fand
+olSong-Regular(0)/m/n/10.53937 ）|  从 这 \EU1/lmr/m/n/10.53937 6 \EU1/FandolSong-
+Regular(0)/m/n/10.53937 家 企 业 中 选 出 \EU1/lmr/m/n/10.53937 2 \EU1/FandolSong-Reg
+ular(0)/m/n/10.53937 家 的 选 法 有 \EU1/lmr/m/n/10.53937 (\EU1/lmr/m/it/10.53937 A\
+EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 B\EU1/lmr/m/n/10.53937 ),(\EU1/lmr
+/m/it/10.53937 A\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 C\EU1/lmr/m/n/10.
+53937 ),(\EU1/lmr/m/it/10.53937 A\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 
+D\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 A\EU1/lmr/m/n/10.53937 ,\EU1/l
+mr/m/it/10.53937 E\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 A\EU1/lmr/m/n
+/10.53937 ,\EU1/lmr/m/it/10.53937 F\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53
+937 B\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 C\EU1/lmr/m/n/10.53937 ),(\E
+U1/lmr/m/it/10.53937 B\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 D\EU1/lmr/m
+/n/10.53937 ),(\EU1/lmr/m/it/10.53937 B\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.
+53937 E\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 B\EU1/lmr/m/n/10.53937 ,
+\EU1/lmr/m/it/10.53937 F\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 C\EU1/l
+mr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 D\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it
+/10.53937 C\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 E\EU1/lmr/m/n/10.53937
+ ),(\EU1/lmr/m/it/10.53937 C\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 F\EU1
+/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 D\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/
+it/10.53937 E\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 D\EU1/lmr/m/n/10.5
+3937 ,\EU1/lmr/m/it/10.53937 F\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 E
+\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 F\EU1/lmr/m/n/10.53937 ),
+ []
+
+
+Overfull \hbox (186.2685pt too wide) in paragraph at lines 3984--3985
+[]|\EU1/FandolSong-Regular(0)/m/n/10.53937 （\EU1/lmr/m/n/10.53937 2\EU1/FandolS
+ong-Regular(0)/m/n/10.53937 ）|  在 中 标 的 企 业 中\EU1/lmr/m/n/10.53937 , \EU1/Fando
+lSong-Regular(0)/m/n/10.53937 至 少 有 一 家 来 自 福 建 省 的 选 法 有 \EU1/lmr/m/n/10.53937
+ (\EU1/lmr/m/it/10.53937 A\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 B\EU1/l
+mr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 A\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it
+/10.53937 C\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 B\EU1/lmr/m/n/10.539
+37 ,\EU1/lmr/m/it/10.53937 C\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 B\E
+U1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 D\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/
+m/it/10.53937 B\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 E\EU1/lmr/m/n/10.5
+3937 ),(\EU1/lmr/m/it/10.53937 B\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 F
+\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 C\EU1/lmr/m/n/10.53937 ,\EU1/lm
+r/m/it/10.53937 D\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 C\EU1/lmr/m/n/
+10.53937 ,\EU1/lmr/m/it/10.53937 E\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.539
+37 C\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 F\EU1/lmr/m/n/10.53937 ),
+ []
+
+[102]
+Missing character: There is no Ⅲ in font [lmroman10-regular]:mapping=tex-text!
+
+Overfull \hbox (210.07683pt too wide) in paragraph at lines 4014--4015
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 解 析：|  根 据 题 意 可 以 知 道\EU1/lmr/m/n/10
+.53937 , \EU1/FandolSong-Regular(0)/m/n/10.53937 所 输 入 密 码 所 有 可 能 发 生 的 情 况 如 
+下：| \EU1/lmr/m/it/10.53937 M\EU1/lmr/m/n/10.53937 1,\EU1/lmr/m/it/10.53937 M\EU
+1/lmr/m/n/10.53937 2,\EU1/lmr/m/it/10.53937 M\EU1/lmr/m/n/10.53937 3,\EU1/lmr/m
+/it/10.53937 M\EU1/lmr/m/n/10.53937 4,\EU1/lmr/m/it/10.53937 M\EU1/lmr/m/n/10.5
+3937 5,\EU1/lmr/m/it/10.53937 I\EU1/lmr/m/n/10.53937 1,\EU1/lmr/m/it/10.53937 I
+\EU1/lmr/m/n/10.53937 2,\EU1/lmr/m/it/10.53937 I\EU1/lmr/m/n/10.53937 3,\EU1/lm
+r/m/it/10.53937 I\EU1/lmr/m/n/10.53937 4,\EU1/lmr/m/it/10.53937 I\EU1/lmr/m/n/1
+0.53937 5,\EU1/lmr/m/it/10.53937 N\EU1/lmr/m/n/10.53937 1,\EU1/lmr/m/it/10.5393
+7 N\EU1/lmr/m/n/10.53937 2,\EU1/lmr/m/it/10.53937 N\EU1/lmr/m/n/10.53937 3,\EU1
+/lmr/m/it/10.53937 N\EU1/lmr/m/n/10.53937 4,\EU1/lmr/m/it/10.53937 N\EU1/lmr/m/
+n/10.53937 5
+ []
+
+[103]
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+Missing character: There is no ① in font [lmroman10-regular]:mapping=tex-text!
+
+Overfull \hbox (230.26495pt too wide) in paragraph at lines 4046--4047
+\EU1/lmr/m/n/10.53937 (\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 ,\EU
+1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 A$[]
+[]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 )
+,(\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 A
+$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53
+937 ,\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53
+937 A$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10
+.53937 ),(\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10
+.53937 A$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m
+/n/10.53937 ,\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/
+it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lm
+r/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr
+/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 A$[][]$\E
+U1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 ),(\EU
+1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 A$[][]
+$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 ,
+\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 A
+$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.5393
+7 ),(\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 ,\EU1/lmr/m/it/10.5393
+7 A$[][]$\EU1/lmr/m/n/10.53937 ),(\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10
+.53937 ,\EU1/lmr/m/it/10.53937 A$[][]$\EU1/lmr/m/n/10.53937 ),
+ []
+
+Missing character: There is no ② in font [lmroman10-regular]:mapping=tex-text!
+[104] [105]
+Overfull \hbox (54.33669pt too wide) in paragraph at lines 4152--4153
+\EU1/FandolSong-Regular(0)/m/n/10.53937 组 随 机 数\EU1/lmr/m/n/10.53937 , \EU1/Fan
+dolSong-Regular(0)/m/n/10.53937 在 \EU1/lmr/m/n/10.53937 20 \EU1/FandolSong-Regu
+lar(0)/m/n/10.53937 组 随 机 数 中 表 示 三 天 中 恰 有 两 天 下 雨 的 有：| \EU1/lmr/m/n/10.53937
+ 191,271,932,812,631,393,137,
+ []
+
+[106]
+Overfull \hbox (4.56982pt too wide) in paragraph at lines 4180--4181
+\EU1/FandolSong-Regular(0)/m/n/10.53937 的 和 是 \EU1/lmr/m/n/10.53937 6 \EU1/Fand
+olSong-Regular(0)/m/n/10.53937 的 倍 数 的 概 率 时\EU1/lmr/m/n/10.53937 , \EU1/Fandol
+Song-Regular(0)/m/n/10.53937 用 \EU1/lmr/m/n/10.53937 1,2,3,4,5,6 \EU1/FandolSon
+g-Regular(0)/m/n/10.53937 分 别 表 示 朝 上 面 的 点 数 是 \EU1/lmr/m/n/10.53937 1,2,3,4,5
+,6.
+ []
+
+
+Overfull \hbox (7.03944pt too wide) in paragraph at lines 4200--4201
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 解 析：|  方 法 一 　 可 以 把 \EU1/lmr/m/n/10.
+53937 25 \EU1/FandolSong-Regular(0)/m/n/10.53937 个 大 小 形 状 相 同 的 小 球 分 别 标 上 \E
+U1/lmr/m/n/10.53937 1,2,3,$[] $,24,25,
+ []
+
+[107]
+Overfull \hbox (6.31932pt too wide) in paragraph at lines 4225--4226
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 解 析：|  由 随 机 模 拟 产 生 的 随 机 数 可 知\EU1/
+lmr/m/n/10.53937 , \EU1/FandolSong-Regular(0)/m/n/10.53937 直 到 第 二 次 停 止 的 有 \E
+U1/lmr/m/n/10.53937 13,43,23,13,13
+ []
+
+[108] [109]
+File: image104.eps Graphic file (type eps)
+ <image104.eps>
+File: image105.eps Graphic file (type eps)
+ <image105.eps> [110]
+Overfull \hbox (3.87775pt too wide) in paragraph at lines 4364--4365
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 题 目：|  在 区 间 \EU1/lmr/m/n/10.53937 [-
+1,2] \EU1/FandolSong-Regular(0)/m/n/10.53937 上 随 机 取 一 个 数 \EU1/lmr/m/it/10.539
+37 x\EU1/lmr/m/n/10.53937 , \EU1/FandolSong-Regular(0)/m/n/10.53937 则 \EU1/lmr/
+m/it/10.53937 x$[]$\EU1/lmr/m/n/10.53937 [0,1] \EU1/FandolSong-Regular(0)/m/n/1
+0.53937 的 概 率 为 \EU1/lmr/m/n/10.53937 ________\EU1/FandolSong-Regular(0)/m/n/10
+.53937 ．| 
+ []
+
+File: image106.eps Graphic file (type eps)
+<image106.eps> [111] [112]
+Overfull \hbox (62.94748pt too wide) in paragraph at lines 4436--4437
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 解 析：|  根 据 题 意：|  安 全 飞 行 的 区 域 为 棱 长
+ 为 \EU1/lmr/m/n/10.53937 1 \EU1/FandolSong-Regular(0)/m/n/10.53937 的 正 方 体\EU1/
+lmr/m/n/10.53937 ,$[]\OML/jkp/m/it/10.53937 P \OT1/jkp/m/n/10.53937 = [] =
+ []
+
+File: image107.eps Graphic file (type eps)
+<image107.eps> [113]
+Overfull \hbox (78.48676pt too wide) in paragraph at lines 4481--4482
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 因 为 事 件 \EU1/lmr/m/n/10.53937 “\EU1/l
+mr/m/it/10.53937 a$[][]$$[]$\EU1/lmr/m/n/10.53937 4\EU1/lmr/m/it/10.53937 b\EU1
+/lmr/m/n/10.53937 ” \EU1/FandolSong-Regular(0)/m/n/10.53937 包 含 \EU1/lmr/m/n/10
+.53937 (0,0),(1,0),(2,0),(2,1),(3,0),(3,1),(3,2),(4,0),(4,1),(4,2),(4,3),(4,4),
+
+ []
+
+[114]
+File: image108.eps Graphic file (type eps)
+ <image108.eps> [115]
+Overfull \hbox (24.1432pt too wide) in paragraph at lines 4569--4570
+[]\EU1/FandolSong-Regular(0)/m/n/10.53937 题 目：|  已 知 \EU1/lmr/m/it/10.53937 b$[
+][]$ \EU1/FandolSong-Regular(0)/m/n/10.53937 是 \EU1/lmr/m/n/10.53937 [0,1] \EU1
+/FandolSong-Regular(0)/m/n/10.53937 上 的 均 匀 随 机 数\EU1/lmr/m/n/10.53937 ,\EU1/lm
+r/m/it/10.53937 b\EU1/lmr/m/n/10.53937 =6(\EU1/lmr/m/it/10.53937 b$[][]$\EU1/lm
+r/m/n/10.53937 -0.5), \EU1/FandolSong-Regular(0)/m/n/10.53937 则 \EU1/lmr/m/it/1
+0.53937 b \EU1/FandolSong-Regular(0)/m/n/10.53937 是 区 间 \EU1/lmr/m/n/10.53937 _
+_______
+ []
+
+File: image109.eps Graphic file (type eps)
+<image109.eps>
+Overfull \hbox (10.11452pt too wide) in paragraph at lines 4583--4584
+\EU1/lmr/m/it/10.53937 AB\EU1/lmr/m/n/10.53937 =2\EU1/lmr/m/it/10.53937 BC\EU1/
+lmr/m/n/10.53937 , \EU1/FandolSong-Regular(0)/m/n/10.53937 向 半 圆 内 任 投 一 点 \EU1
+/lmr/m/it/10.53937 P\EU1/lmr/m/n/10.53937 , \EU1/FandolSong-Regular(0)/m/n/10.5
+3937 则 点 \EU1/lmr/m/it/10.53937 P \EU1/FandolSong-Regular(0)/m/n/10.53937 落 在 长
+ 方 形 内 的 概 率 为 \EU1/lmr/m/n/10.53937 ________\EU1/FandolSong-Regular(0)/m/n/10.
+53937 ．| 
+ []
+
+File: image110.eps Graphic file (type eps)
+<image110.eps> [116]
+File: image111.eps Graphic file (type eps)
+ <image111.eps>
+File: image112.eps Graphic file (type eps)
+ <image112.eps> [117] [118]
+File: image113.eps Graphic file (type eps)
+ <image113.eps>
+[119] (./必修3.aux) ) 
+Here is how much of TeX's memory you used:
+ 21870 strings out of 493638
+ 434735 string characters out of 6146796
+ 403591 words of memory out of 5000000
+ 24937 multiletter control sequences out of 15000+600000
+ 20054 words of font info for 69 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 53i,11n,77p,10409b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 必修3.pdf (119 pages).
